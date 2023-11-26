@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f15d687b-b8b6-4f06-a769-73b3bdd09095" name="Changes" comment="Added files">
-      <change afterPath="$PROJECT_DIR$/src/mathematicsmod2/AbsoluteValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mathematicsmod2/ComputePower.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mathematicsmod2/Divisors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mathematicsmod2/PrimeFactors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mathematicsmod2/PrimeNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mathematicsmod2/SieveOfErasthonesis.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +104,23 @@
       <option name="project" value="LOCAL" />
       <updated>1700902417688</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added files">
+      <option name="closed" value="true" />
+      <created>1701013744573</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1701013744573</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added files">
+      <option name="closed" value="true" />
+      <created>1701013786572</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1701013786572</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
