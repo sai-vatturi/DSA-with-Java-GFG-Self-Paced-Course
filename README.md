@@ -33,7 +33,7 @@ Welcome to my coding journey repository! 🤗 Here, i will be posting my daily l
 - Learnt Fundamental Mathematical concepts used in coding for DSA.
 - Concepts Understood: AP, GP, Quadratic Eqns, Mean and Median, Prime Numbers, Factorials, LCM and HCF, Factorials, Pemutations and Combinations, Palindrome Nummbers
 
-**Notes:** [[GoogleDrive]](https://drive.google.com/file/d/1cBAbMRAD-FfJev1gSnIPqjF3904gHo-Z/view?usp=sharing)
+**Notes:** [[GoogleDrive]](https://drive.google.com/file/d/1dXeT1aA5F7kY5UygScABVhwh9921gIjM/view?usp=sharing)
 
 ## Join the DSA Learning Quest 🌟
 Want to take up the challenge and be part of the adventure? Fork this repository and start sharing your DSA journey! ✨  Your companionship would make this journey even more enchanting! 🚀✨ Let's build a fellowship of coding wizards and make this journey a legendary one! 🧙‍♀️💻
