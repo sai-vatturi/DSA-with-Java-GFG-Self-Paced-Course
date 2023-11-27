@@ -26,6 +26,8 @@ Welcome to my coding journey repository! 🤗 Here, i will be posting my daily l
 - Understood the importance of Asymptotic Notations & Best (Big Omega), Average (Big Theta) , Worst Cases (Big O)
 - Learnt analysing time and space complexity of recursive functions using Recursion Tree Method
 - Expored analysis of Common Loops and understood difference between Auxiliary Space and Space Complexity
+- 
+**Notes:** [[GoogleDrive]](https://drive.google.com/file/d/1cBAbMRAD-FfJev1gSnIPqjF3904gHo-Z/view?usp=drive_link)
 
 ### Day 2: [26-11-2023] [Mathematics]
 **Topics Learnt**
