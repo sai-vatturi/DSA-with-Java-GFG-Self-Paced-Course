@@ -10,6 +10,7 @@ public class DigitsInFactorial {
         System.out.println(digitsInFactorial(fact));
     }
 
+    // Geeks for Geeks Solution
     public static int digitsInFactorial(int n){
         if(n==0){
             return 0;
