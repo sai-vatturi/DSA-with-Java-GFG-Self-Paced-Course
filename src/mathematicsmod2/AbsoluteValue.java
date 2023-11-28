@@ -7,6 +7,9 @@ public class AbsoluteValue {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a number: ");
         int num = sc.nextInt();
+
+        // Basically converting a negative value to positive value
+
         if(num < 0){
             System.out.println(num * -1);
         }
