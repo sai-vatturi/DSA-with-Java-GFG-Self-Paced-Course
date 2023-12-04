@@ -33,7 +33,6 @@ Welcome to my coding journey repository! 🤗 Here, i will be posting my daily l
 - Understood the importance of Asymptotic Notations & Best (Big Omega), Average (Big Theta) , Worst Cases (Big O)
 - Learnt analysing time and space complexity of recursive functions using Recursion Tree Method
 - Expored analysis of Common Loops and understood difference between Auxiliary Space and Space Complexity
-- 
 **Notes:** [[GoogleDrive]](https://drive.google.com/file/d/1cBAbMRAD-FfJev1gSnIPqjF3904gHo-Z/view?usp=drive_link)
 
 ### Day 2: [26-11-2023] [Mathematics]
@@ -44,7 +43,11 @@ Welcome to my coding journey repository! 🤗 Here, i will be posting my daily l
 
 **Notes:** [[GoogleDrive]](https://drive.google.com/file/d/1dXeT1aA5F7kY5UygScABVhwh9921gIjM/view?usp=sharing)
 
-### Day 4: [04-12-2023]
+### Day 3: [04-12-2023] [Java Programs]
+**Topics Learnt**
+- Learn the Datatypes in Java
+- Understood code debugging to fix errors
+- Practiced Basic Java Programs
 
 ## Join the DSA Learning Quest 🌟
 Want to take up the challenge and be part of the adventure? Fork this repository and start sharing your DSA journey! ✨  Your companionship would make this journey even more enchanting! 🚀✨ Let's build a fellowship of coding wizards and make this journey a legendary one! 🧙‍♀️💻
