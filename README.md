@@ -3,15 +3,22 @@
 ## Hey there! 👋
 
 
-Welcome to my coding journey repository! 🤗 Here, i will be posting my daily learning progress 🗓️ and adventures 🕹️ with Data Structures and Algothims . I've been doing DSA from Dr. Sandeep Jain Sir's 🛐 Geeks for Geeks Self-Paced Course. 💙 Join me on this exciting journey 🗾 and conquer the unravel algorithmic mysteries! 🙌🏻
+Welcome to my coding journey repository! 🤗 Here, i will be posting my daily learning progress 🗓️ and adventures 🕹️ with Data Structures and Algothims . I've been doing DSA from Dr. Sandeep Jain Sir's 🛐 Geeks for Geeks Self-Paced Course and Kunal Kushawaha's Youtube Channl. 💙 Join me on this exciting journey 🗾 and conquer the unravel algorithmic mysteries! 🙌🏻
 
-## Course Overview
+## Courses Overview
 ### 🎓 Course Highlights:
-**Course Name:** Geeks for Geeks Self-paced Course on Data Structures and Algorithms
+**Course Name 1:** Geeks for Geeks Self-paced Course on Data Structures and Algorithms
 
 **Platform:** [GeeksforGeeks](https://www.geeksforgeeks.org)
 
 **Course Link:**  [DSA Self Paced - GeeksforGeeks](https://www.geeksforgeeks.org/courses/dsa-self-paced)
+
+**Course Name 2:** Kunal Kushawaha's Java,DSA, Interview Playlist
+
+**Platform:** [KunalKushawaha](https://www.youtube.com/@KunalKushwaha/featured)
+
+**Course Link:**  [Java + DSA Playlist](https://www.youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ)
+
 
 ## Folder Structure:
 ### 📁 Repository file path overview:
@@ -37,7 +44,7 @@ Welcome to my coding journey repository! 🤗 Here, i will be posting my daily l
 
 **Notes:** [[GoogleDrive]](https://drive.google.com/file/d/1dXeT1aA5F7kY5UygScABVhwh9921gIjM/view?usp=sharing)
 
-### Day 3: [27-11-2023]
+### Day 4: [04-12-2023]
 
 ## Join the DSA Learning Quest 🌟
 Want to take up the challenge and be part of the adventure? Fork this repository and start sharing your DSA journey! ✨  Your companionship would make this journey even more enchanting! 🚀✨ Let's build a fellowship of coding wizards and make this journey a legendary one! 🧙‍♀️💻
