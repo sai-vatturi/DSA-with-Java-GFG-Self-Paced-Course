@@ -44,7 +44,7 @@ Welcome to my coding journey repository! 🤗 Here, i will be posting my daily l
 
 **Notes:** [[GoogleDrive]](https://drive.google.com/file/d/1dXeT1aA5F7kY5UygScABVhwh9921gIjM/view?usp=sharing)
 
-### Day 3: [27-11-2023]
+### Day 4: [04-12-2023]
 
 ## Join the DSA Learning Quest 🌟
 Want to take up the challenge and be part of the adventure? Fork this repository and start sharing your DSA journey! ✨  Your companionship would make this journey even more enchanting! 🚀✨ Let's build a fellowship of coding wizards and make this journey a legendary one! 🧙‍♀️💻
