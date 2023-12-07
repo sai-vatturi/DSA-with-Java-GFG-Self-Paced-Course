@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f15d687b-b8b6-4f06-a769-73b3bdd09095" name="Changes" comment="GCD Problem">
-      <change afterPath="$PROJECT_DIR$/src/javakunalas2/EvenOdd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunalas2/Greeting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunalas2/SimpleInterest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunalas2/Fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunalas2/INRtoUSD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunalas2/MaximumNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunalas2/SimpleCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,9 +65,9 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SimpleInterest">
-    <configuration name="EvenOdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunalas2.EvenOdd" />
+  <component name="RunManager" selected="Application.Fibonacci">
+    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javakunalas2.Fibonacci" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
@@ -78,8 +79,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Greeting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunalas2.Greeting" />
+    <configuration name="INRtoUSD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javakunalas2.INRtoUSD" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
@@ -91,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lcm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunalas1.Lcm" />
+    <configuration name="MaximumNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javakunalas2.MaximumNumber" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javakunalas1.*" />
+          <option name="PATTERN" value="javakunalas2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunalas1.NumberSum" />
+    <configuration name="SimpleCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javakunalas2.SimpleCalculator" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javakunalas1.*" />
+          <option name="PATTERN" value="javakunalas2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Fibonacci" />
+        <item itemvalue="Application.INRtoUSD" />
+        <item itemvalue="Application.MaximumNumber" />
+        <item itemvalue="Application.SimpleCalculator" />
         <item itemvalue="Application.SimpleInterest" />
-        <item itemvalue="Application.Greeting" />
-        <item itemvalue="Application.EvenOdd" />
-        <item itemvalue="Application.NumberSum" />
-        <item itemvalue="Application.Lcm" />
       </list>
     </recent_temporary>
   </component>
@@ -277,7 +278,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701879441394</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="GCD Problem">
+      <option name="closed" value="true" />
+      <created>1701965704337</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1701965704337</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
