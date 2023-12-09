@@ -1,4 +1,4 @@
-package javakunalas3;
+package javakunalas3.easy;
 
 
 import java.util.Scanner;

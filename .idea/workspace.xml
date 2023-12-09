@@ -5,20 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f15d687b-b8b6-4f06-a769-73b3bdd09095" name="Changes" comment="completed 2nd">
-      <change afterPath="$PROJECT_DIR$/src/javakunalas3/AreaOfCircle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunalas3/AreaOfEquilateralTri.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunalas3/AreaOfIsoscelesTri.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunalas3/AreaOfParallelogram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunalas3/AreaOfRectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunalas3/AreaOfRhombus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunalas3/AreaOfTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunalas3/LargestTillX.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunalas3/PerimeterOfCircle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunalas3/PerimeterOfEquilateralTri.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunalas3/PerimeterOfRectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunalas3/PrintFactors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunalas3/SunTillX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunalas4/intermediate/Factorial.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javakunalas3/AreaOfCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalas3/easy/AreaOfCircle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javakunalas3/AreaOfEquilateralTri.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalas3/easy/AreaOfEquilateralTri.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javakunalas3/AreaOfIsoscelesTri.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalas3/easy/AreaOfIsoscelesTri.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javakunalas3/AreaOfParallelogram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalas3/easy/AreaOfParallelogram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javakunalas3/AreaOfRectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalas3/easy/AreaOfRectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javakunalas3/AreaOfRhombus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalas3/easy/AreaOfRhombus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javakunalas3/AreaOfTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalas3/easy/AreaOfTriangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javakunalas3/LargestTillX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalas3/easy/LargestTillX.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javakunalas3/PerimeterOfCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalas3/easy/PerimeterOfCircle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javakunalas3/PerimeterOfEquilateralTri.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalas3/easy/PerimeterOfEquilateralTri.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javakunalas3/PerimeterOfRectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalas3/easy/PerimeterOfRectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javakunalas3/PrintFactors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalas3/easy/PrintFactors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javakunalas3/SunTillX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalas3/easy/SunTillX.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +46,7 @@
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
-        <option name="accountId" value="543a1a8f-6b32-4695-a8d0-ead69c24f876" />
+        <option name="accountId" value="de2ae8a2-7cf1-46b0-830b-2cdf14bc3810" />
         <option name="url" value="https://github.com/sai-vatturi/DSA-with-Java-GFG-Self-Paced-Course" />
       </UrlAndAccount>
     </option>
@@ -67,24 +68,30 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.Factorial.executor": "Run",
+    "Application.LargestTillX.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/xsainav/GitHub/DSA-with-Java-GFG-Self-Paced-Course/DSA-with-Java-GFG-Self-Paced-Course",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "editor.preferences.fonts.default",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.LargestTillX">
-    <configuration name="AreaOfEquilateralTri" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunalas3.AreaOfEquilateralTri" />
+  <component name="RunManager" selected="Application.Factorial">
+    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javakunalas4.intermediate.Factorial" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javakunalas3.*" />
+          <option name="PATTERN" value="javakunalas4.intermediate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Factorial" />
         <item itemvalue="Application.LargestTillX" />
         <item itemvalue="Application.SunTillX" />
         <item itemvalue="Application.PrintFactors" />
         <item itemvalue="Application.PerimeterOfCircle" />
-        <item itemvalue="Application.AreaOfEquilateralTri" />
       </list>
     </recent_temporary>
   </component>
@@ -170,6 +177,7 @@
       <option name="presentableId" value="Default" />
       <updated>1700892823212</updated>
       <workItem from="1702053043091" duration="91000" />
+      <workItem from="1702137951799" duration="976000" />
     </task>
     <task id="LOCAL-00001" summary="Added files">
       <option name="closed" value="true" />
@@ -323,7 +331,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702009041747</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="completed 2nd">
+      <option name="closed" value="true" />
+      <created>1702138100553</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1702138100553</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
