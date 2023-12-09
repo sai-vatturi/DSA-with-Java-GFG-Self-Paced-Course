@@ -15,16 +15,16 @@ public class Factorial {
         if(n<=1){
             return 1;
         }
-        return n* findFactorial(n-1);
+        return n * findFactorial(n-1);
     }
 
     public static int getFactorial(int n){
-        int num = n;
-        while(n>1){
-            num = num * n;
+        int factorial = 1;
+        while(n > 1){
+            factorial *= n;
             n--;
         }
-        return num;
+        return factorial;
     }
 
 }
