@@ -22,5 +22,3 @@ public class ElectricityBill {
         System.out.println("The electricity bill for " +units+ " is : " + billToPay);
     }
 }
-    }
-}
