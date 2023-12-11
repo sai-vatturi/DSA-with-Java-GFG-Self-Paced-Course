@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f15d687b-b8b6-4f06-a769-73b3bdd09095" name="Changes" comment="completed 2nd">
-      <change afterPath="$PROJECT_DIR$/src/javakunalas4/intermediate/ElectricityBill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunalas4/intermediate/NCRnpr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunalas4/intermediate/ReverseString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +58,8 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.Factorial.executor": "Run",
     "Application.LargestTillX.executor": "Run",
+    "Application.NCRnpr.executor": "Run",
+    "Application.ReverseString.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -71,7 +75,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Factorial">
+  <component name="RunManager" selected="Application.ReverseString">
     <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javakunalas4.intermediate.Factorial" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
@@ -98,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PerimeterOfCircle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunalas3.PerimeterOfCircle" />
+    <configuration name="NCRnpr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javakunalas4.intermediate.NCRnpr" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javakunalas3.*" />
+          <option name="PATTERN" value="javakunalas4.intermediate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintFactors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunalas3.PrintFactors" />
+    <configuration name="ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javakunalas4.intermediate.ReverseString" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javakunalas3.*" />
+          <option name="PATTERN" value="javakunalas4.intermediate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseString" />
+        <item itemvalue="Application.NCRnpr" />
         <item itemvalue="Application.Factorial" />
         <item itemvalue="Application.LargestTillX" />
         <item itemvalue="Application.SunTillX" />
-        <item itemvalue="Application.PrintFactors" />
-        <item itemvalue="Application.PerimeterOfCircle" />
       </list>
     </recent_temporary>
   </component>
@@ -164,6 +168,7 @@
       <updated>1700892823212</updated>
       <workItem from="1702053043091" duration="91000" />
       <workItem from="1702137951799" duration="1508000" />
+      <workItem from="1702225933123" duration="3778000" />
     </task>
     <task id="LOCAL-00001" summary="Added files">
       <option name="closed" value="true" />
@@ -341,7 +346,31 @@
       <option name="project" value="LOCAL" />
       <updated>1702139384410</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="completed 2nd">
+      <option name="closed" value="true" />
+      <created>1702225977954</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1702225977954</updated>
+    </task>
+    <task id="LOCAL-00024" summary="completed 2nd">
+      <option name="closed" value="true" />
+      <created>1702225997938</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1702225997938</updated>
+    </task>
+    <task id="LOCAL-00025" summary="completed 2nd">
+      <option name="closed" value="true" />
+      <created>1702226013104</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1702226013104</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
