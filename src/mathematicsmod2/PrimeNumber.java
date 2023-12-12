@@ -1,5 +1,8 @@
 package mathematicsmod2;
 import java.util.Scanner;
+
+import static mathematicsmod2.PrimeFactors.primeFactors;
+
 public class PrimeNumber {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -8,6 +11,7 @@ public class PrimeNumber {
         System.out.println(isPrime(a));
         System.out.println(isPrimeNumber(a));
         System.out.println(isPrimeNum(a));
+        primeFactors(5);
     }
 
     // Naive Method

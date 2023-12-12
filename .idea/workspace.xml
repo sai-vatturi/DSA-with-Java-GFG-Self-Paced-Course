@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f15d687b-b8b6-4f06-a769-73b3bdd09095" name="Changes" comment="completed 2nd">
-      <change afterPath="$PROJECT_DIR$/src/javakunalas4/intermediate/NCRnpr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunalas4/intermediate/ReverseString.java" afterDir="false" />
+    <list default="true" id="f15d687b-b8b6-4f06-a769-73b3bdd09095" name="Changes" comment="completed conditions loops">
+      <change afterPath="$PROJECT_DIR$/src/javakunalas4/MaxMinTwoNumbers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javakunalas4/intermediate/ElectricityBill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalas32/intermediate/ElectricityBill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javakunalas4/intermediate/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalas32/intermediate/Factorial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javakunalas4/intermediate/NCRnpr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalas32/intermediate/NCRnpr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javakunalas4/intermediate/ReverseString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalas32/intermediate/ReverseString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mathematicsmod2/PrimeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mathematicsmod2/PrimeNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +62,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.Factorial.executor": "Run",
     "Application.LargestTillX.executor": "Run",
+    "Application.MaxMinTwoNumbers.executor": "Run",
     "Application.NCRnpr.executor": "Run",
     "Application.ReverseString.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -75,7 +80,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ReverseString">
+  <component name="RunManager" selected="Application.MaxMinTwoNumbers">
     <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javakunalas4.intermediate.Factorial" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
@@ -95,6 +100,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="javakunalas3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaxMinTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javakunalas4.MaxMinTwoNumbers" />
+      <module name="DSA-with-Java-GFG-Self-Paced-Course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javakunalas4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,26 +146,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SunTillX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunalas3.SunTillX" />
-      <module name="DSA-with-Java-GFG-Self-Paced-Course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="javakunalas3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxMinTwoNumbers" />
         <item itemvalue="Application.ReverseString" />
         <item itemvalue="Application.NCRnpr" />
         <item itemvalue="Application.Factorial" />
         <item itemvalue="Application.LargestTillX" />
-        <item itemvalue="Application.SunTillX" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +173,10 @@
       <updated>1700892823212</updated>
       <workItem from="1702053043091" duration="91000" />
       <workItem from="1702137951799" duration="1508000" />
-      <workItem from="1702225933123" duration="3778000" />
+      <workItem from="1702225933123" duration="4415000" />
+      <workItem from="1702273135540" duration="162000" />
+      <workItem from="1702297592352" duration="21000" />
+      <workItem from="1702394871212" duration="1779000" />
     </task>
     <task id="LOCAL-00001" summary="Added files">
       <option name="closed" value="true" />
@@ -370,7 +378,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702226013104</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="completed conditions loops">
+      <option name="closed" value="true" />
+      <created>1702270998137</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1702270998137</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -393,6 +409,7 @@
     <MESSAGE value="GCD Problem" />
     <MESSAGE value="New Problems" />
     <MESSAGE value="completed 2nd" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed 2nd" />
+    <MESSAGE value="completed conditions loops" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed conditions loops" />
   </component>
 </project>

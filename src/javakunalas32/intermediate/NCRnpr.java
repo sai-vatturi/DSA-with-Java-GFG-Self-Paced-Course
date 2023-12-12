@@ -1,4 +1,4 @@
-package javakunalas4.intermediate;
+package javakunalas32.intermediate;
 
 import java.util.Scanner;
 
