@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f15d687b-b8b6-4f06-a769-73b3bdd09095" name="Changes" comment="completed conditions loops">
-      <change afterPath="$PROJECT_DIR$/src/javakunalas4/MaxMinTwoNumbers.java" afterDir="false" />
+    <list default="true" id="f15d687b-b8b6-4f06-a769-73b3bdd09095" name="Changes" comment="Functions Program">
+      <change afterPath="$PROJECT_DIR$/src/javakunalas4/Factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunalas4/OddEven.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunalas4/OptimizedPrime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunalas4/Palindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunalas4/PrintPrimes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunalas4/VoteVerify.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javakunalas4/intermediate/ElectricityBill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalas32/intermediate/ElectricityBill.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javakunalas4/intermediate/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalas32/intermediate/Factorial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javakunalas4/intermediate/NCRnpr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalas32/intermediate/NCRnpr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javakunalas4/intermediate/ReverseString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalas32/intermediate/ReverseString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mathematicsmod2/PrimeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mathematicsmod2/PrimeNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +64,12 @@
     "Application.LargestTillX.executor": "Run",
     "Application.MaxMinTwoNumbers.executor": "Run",
     "Application.NCRnpr.executor": "Run",
+    "Application.OddEven.executor": "Run",
+    "Application.OptimizedPrime.executor": "Run",
     "Application.ReverseString.executor": "Run",
+    "Application.VoteVerify.executor": "Run",
+    "Application.findFactorial.executor": "Run",
+    "Application.printPrimes.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -80,35 +85,9 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MaxMinTwoNumbers">
+  <component name="RunManager" selected="Application.Palindrome">
     <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunalas4.intermediate.Factorial" />
-      <module name="DSA-with-Java-GFG-Self-Paced-Course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="javakunalas4.intermediate.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LargestTillX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunalas3.LargestTillX" />
-      <module name="DSA-with-Java-GFG-Self-Paced-Course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="javakunalas3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MaxMinTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunalas4.MaxMinTwoNumbers" />
+      <option name="MAIN_CLASS_NAME" value="javakunalas4.Factorial" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
@@ -120,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NCRnpr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunalas4.intermediate.NCRnpr" />
+    <configuration name="OptimizedPrime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javakunalas4.OptimizedPrime" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javakunalas4.intermediate.*" />
+          <option name="PATTERN" value="javakunalas4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,12 +112,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunalas4.intermediate.ReverseString" />
+    <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javakunalas4.Palindrome" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javakunalas4.intermediate.*" />
+          <option name="PATTERN" value="javakunalas4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrintPrimes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javakunalas4.PrintPrimes" />
+      <module name="DSA-with-Java-GFG-Self-Paced-Course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javakunalas4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VoteVerify" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javakunalas4.VoteVerify" />
+      <module name="DSA-with-Java-GFG-Self-Paced-Course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javakunalas4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MaxMinTwoNumbers" />
-        <item itemvalue="Application.ReverseString" />
-        <item itemvalue="Application.NCRnpr" />
-        <item itemvalue="Application.Factorial" />
-        <item itemvalue="Application.LargestTillX" />
+        <item itemvalue="Application.Palindrome" />
+        <item itemvalue="Application.PrintPrimes" />
+        <item itemvalue="Application.findFactorial" />
+        <item itemvalue="Application.OptimizedPrime" />
+        <item itemvalue="Application.VoteVerify" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +181,8 @@
       <workItem from="1702225933123" duration="4415000" />
       <workItem from="1702273135540" duration="162000" />
       <workItem from="1702297592352" duration="21000" />
-      <workItem from="1702394871212" duration="1779000" />
+      <workItem from="1702394871212" duration="1846000" />
+      <workItem from="1702443849058" duration="3664000" />
     </task>
     <task id="LOCAL-00001" summary="Added files">
       <option name="closed" value="true" />
@@ -386,7 +392,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702270998137</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Functions Program">
+      <option name="closed" value="true" />
+      <created>1702396722710</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1702396722710</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -410,6 +424,7 @@
     <MESSAGE value="New Problems" />
     <MESSAGE value="completed 2nd" />
     <MESSAGE value="completed conditions loops" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed conditions loops" />
+    <MESSAGE value="Functions Program" />
+    <option name="LAST_COMMIT_MESSAGE" value="Functions Program" />
   </component>
 </project>
