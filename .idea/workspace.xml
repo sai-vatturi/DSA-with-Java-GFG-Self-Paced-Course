@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f15d687b-b8b6-4f06-a769-73b3bdd09095" name="Changes" comment="Functions Program">
-      <change afterPath="$PROJECT_DIR$/src/javakunalas4/Factorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunalas4/OddEven.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunalas4/OptimizedPrime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunalas4/Palindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunalas4/PrintPrimes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunalas4/VoteVerify.java" afterDir="false" />
+    <list default="true" id="f15d687b-b8b6-4f06-a769-73b3bdd09095" name="Changes" comment="Completed Functions">
+      <change afterPath="$PROJECT_DIR$/src/javakunal/arrays/BasicArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunal/arrays/BasicArrayInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunal/arrays/BasicArrayStringInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunal/arrays/TwoDArrays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,13 +58,18 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.BasicArray.executor": "Run",
+    "Application.BasicArrayInput.executor": "Run",
+    "Application.BasicArrayStringInput.executor": "Run",
     "Application.Factorial.executor": "Run",
     "Application.LargestTillX.executor": "Run",
     "Application.MaxMinTwoNumbers.executor": "Run",
     "Application.NCRnpr.executor": "Run",
     "Application.OddEven.executor": "Run",
     "Application.OptimizedPrime.executor": "Run",
+    "Application.Palindrome.executor": "Run",
     "Application.ReverseString.executor": "Run",
+    "Application.TwoDArrays.executor": "Run",
     "Application.VoteVerify.executor": "Run",
     "Application.findFactorial.executor": "Run",
     "Application.printPrimes.executor": "Run",
@@ -85,13 +88,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Palindrome">
-    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunalas4.Factorial" />
+  <component name="RunManager" selected="Application.TwoDArrays">
+    <configuration name="BasicArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javakunal.arrays.BasicArray" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javakunalas4.*" />
+          <option name="PATTERN" value="javakunal.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +102,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OptimizedPrime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunalas4.OptimizedPrime" />
+    <configuration name="BasicArrayInput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javakunal.arrays.BasicArrayInput" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javakunalas4.*" />
+          <option name="PATTERN" value="javakunal.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BasicArrayStringInput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javakunal.arrays.BasicArrayStringInput" />
+      <module name="DSA-with-Java-GFG-Self-Paced-Course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javakunal.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,25 +141,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintPrimes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunalas4.PrintPrimes" />
+    <configuration name="TwoDArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javakunal.arrays.TwoDArrays" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javakunalas4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VoteVerify" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunalas4.VoteVerify" />
-      <module name="DSA-with-Java-GFG-Self-Paced-Course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="javakunalas4.*" />
+          <option name="PATTERN" value="javakunal.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TwoDArrays" />
+        <item itemvalue="Application.BasicArrayStringInput" />
+        <item itemvalue="Application.BasicArrayInput" />
+        <item itemvalue="Application.BasicArray" />
         <item itemvalue="Application.Palindrome" />
-        <item itemvalue="Application.PrintPrimes" />
-        <item itemvalue="Application.findFactorial" />
-        <item itemvalue="Application.OptimizedPrime" />
-        <item itemvalue="Application.VoteVerify" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +185,8 @@
       <workItem from="1702273135540" duration="162000" />
       <workItem from="1702297592352" duration="21000" />
       <workItem from="1702394871212" duration="1846000" />
-      <workItem from="1702443849058" duration="3664000" />
+      <workItem from="1702443849058" duration="3911000" />
+      <workItem from="1702535340659" duration="1468000" />
     </task>
     <task id="LOCAL-00001" summary="Added files">
       <option name="closed" value="true" />
@@ -400,7 +404,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702396722710</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Completed Functions">
+      <option name="closed" value="true" />
+      <created>1702448803553</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1702448803553</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -425,6 +437,7 @@
     <MESSAGE value="completed 2nd" />
     <MESSAGE value="completed conditions loops" />
     <MESSAGE value="Functions Program" />
-    <option name="LAST_COMMIT_MESSAGE" value="Functions Program" />
+    <MESSAGE value="Completed Functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed Functions" />
   </component>
 </project>
