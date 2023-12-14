@@ -18,7 +18,7 @@ public class TwoDArrays {
 //        }
         // Adding data to first array
         for(int i = 0; i < matrixArray1.length; i++){
-            for(int j =  0; j < 3; j++){
+            for(int j =  0; j < matrixArray1[i].length; j++){
                 matrixArray1[i][j] = sc.nextInt();
             }
         }

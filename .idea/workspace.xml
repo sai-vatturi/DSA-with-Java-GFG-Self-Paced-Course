@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f15d687b-b8b6-4f06-a769-73b3bdd09095" name="Changes" comment="Completed Functions">
-      <change afterPath="$PROJECT_DIR$/src/javakunal/arrays/BasicArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunal/arrays/BasicArrayInput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunal/arrays/BasicArrayStringInput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunal/arrays/TwoDArrays.java" afterDir="false" />
+    <list default="true" id="f15d687b-b8b6-4f06-a769-73b3bdd09095" name="Changes" comment="Arrays Lectures">
+      <change afterPath="$PROJECT_DIR$/src/javakunal/arrays/DynamicArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunal/arrays/MaxInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunal/arrays/ReversingArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunal/arrays/SwappingValuesInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunal/arrays/TwoDDynamicArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunal/arrays/UserInputDynamicArrays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javakunal/arrays/TwoDArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunal/arrays/TwoDArrays.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,15 +64,21 @@
     "Application.BasicArray.executor": "Run",
     "Application.BasicArrayInput.executor": "Run",
     "Application.BasicArrayStringInput.executor": "Run",
+    "Application.DynamicArrays.executor": "Run",
     "Application.Factorial.executor": "Run",
     "Application.LargestTillX.executor": "Run",
+    "Application.MaxInArray.executor": "Run",
     "Application.MaxMinTwoNumbers.executor": "Run",
     "Application.NCRnpr.executor": "Run",
     "Application.OddEven.executor": "Run",
     "Application.OptimizedPrime.executor": "Run",
     "Application.Palindrome.executor": "Run",
     "Application.ReverseString.executor": "Run",
+    "Application.ReversingArray.executor": "Run",
+    "Application.SwappingValuesInArray.executor": "Run",
     "Application.TwoDArrays.executor": "Run",
+    "Application.TwoDDynamicArray.executor": "Run",
+    "Application.UserInputDynamicArrays.executor": "Run",
     "Application.VoteVerify.executor": "Run",
     "Application.findFactorial.executor": "Run",
     "Application.printPrimes.executor": "Run",
@@ -88,9 +97,9 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TwoDArrays">
-    <configuration name="BasicArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunal.arrays.BasicArray" />
+  <component name="RunManager" selected="Application.MaxInArray">
+    <configuration name="MaxInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javakunal.arrays.MaxInArray" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
@@ -102,8 +111,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BasicArrayInput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunal.arrays.BasicArrayInput" />
+    <configuration name="ReversingArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javakunal.arrays.ReversingArray" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
@@ -115,8 +124,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BasicArrayStringInput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunal.arrays.BasicArrayStringInput" />
+    <configuration name="SwappingValuesInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javakunal.arrays.SwappingValuesInArray" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
@@ -128,12 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunalas4.Palindrome" />
+    <configuration name="TwoDDynamicArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javakunal.arrays.TwoDDynamicArray" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javakunalas4.*" />
+          <option name="PATTERN" value="javakunal.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,8 +150,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoDArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunal.arrays.TwoDArrays" />
+    <configuration name="UserInputDynamicArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javakunal.arrays.UserInputDynamicArrays" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
@@ -156,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TwoDArrays" />
-        <item itemvalue="Application.BasicArrayStringInput" />
-        <item itemvalue="Application.BasicArrayInput" />
-        <item itemvalue="Application.BasicArray" />
-        <item itemvalue="Application.Palindrome" />
+        <item itemvalue="Application.MaxInArray" />
+        <item itemvalue="Application.ReversingArray" />
+        <item itemvalue="Application.SwappingValuesInArray" />
+        <item itemvalue="Application.TwoDDynamicArray" />
+        <item itemvalue="Application.UserInputDynamicArrays" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +195,7 @@
       <workItem from="1702297592352" duration="21000" />
       <workItem from="1702394871212" duration="1846000" />
       <workItem from="1702443849058" duration="3911000" />
-      <workItem from="1702535340659" duration="1468000" />
+      <workItem from="1702535340659" duration="4574000" />
     </task>
     <task id="LOCAL-00001" summary="Added files">
       <option name="closed" value="true" />
@@ -412,7 +421,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702448803553</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Arrays Lectures">
+      <option name="closed" value="true" />
+      <created>1702536935853</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1702536935853</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -438,6 +455,7 @@
     <MESSAGE value="completed conditions loops" />
     <MESSAGE value="Functions Program" />
     <MESSAGE value="Completed Functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed Functions" />
+    <MESSAGE value="Arrays Lectures" />
+    <option name="LAST_COMMIT_MESSAGE" value="Arrays Lectures" />
   </component>
 </project>
