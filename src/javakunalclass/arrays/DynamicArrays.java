@@ -1,4 +1,4 @@
-package javakunal.arrays;
+package javakunalclass.arrays;
 
 import java.util.ArrayList;
 

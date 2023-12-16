@@ -4,15 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f15d687b-b8b6-4f06-a769-73b3bdd09095" name="Changes" comment="Arrays Lectures">
-      <change afterPath="$PROJECT_DIR$/src/javakunal/arrays/DynamicArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunal/arrays/MaxInArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunal/arrays/ReversingArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunal/arrays/SwappingValuesInArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunal/arrays/TwoDDynamicArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunal/arrays/UserInputDynamicArrays.java" afterDir="false" />
+    <list default="true" id="f15d687b-b8b6-4f06-a769-73b3bdd09095" name="Changes" comment="Arrays Lecture Problems Completed">
+      <change afterPath="$PROJECT_DIR$/src/javakunalclass/linearseach/FindMin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunalclass/linearseach/LinearSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunalclass/linearseach/LinearSearchInRange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunalclass/linearseach/LinearSearchString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunalclass/linearseach/SearchIn2DArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javakunal/arrays/TwoDArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunal/arrays/TwoDArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javakunal/arrays/BasicArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalclass/arrays/BasicArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javakunal/arrays/BasicArrayInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalclass/arrays/BasicArrayInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javakunal/arrays/BasicArrayStringInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalclass/arrays/BasicArrayStringInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javakunal/arrays/DynamicArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalclass/arrays/DynamicArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javakunal/arrays/MaxInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalclass/arrays/MaxInArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javakunal/arrays/ReversingArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalclass/arrays/ReversingArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javakunal/arrays/SwappingValuesInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalclass/arrays/SwappingValuesInArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javakunal/arrays/TwoDArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalclass/arrays/TwoDArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javakunal/arrays/TwoDDynamicArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalclass/arrays/TwoDDynamicArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javakunal/arrays/UserInputDynamicArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalclass/arrays/UserInputDynamicArrays.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +74,11 @@
     "Application.BasicArrayStringInput.executor": "Run",
     "Application.DynamicArrays.executor": "Run",
     "Application.Factorial.executor": "Run",
+    "Application.FindMin.executor": "Run",
     "Application.LargestTillX.executor": "Run",
+    "Application.LinearSearch.executor": "Run",
+    "Application.LinearSearchInRange.executor": "Run",
+    "Application.LinearSearchString.executor": "Run",
     "Application.MaxInArray.executor": "Run",
     "Application.MaxMinTwoNumbers.executor": "Run",
     "Application.NCRnpr.executor": "Run",
@@ -75,6 +87,7 @@
     "Application.Palindrome.executor": "Run",
     "Application.ReverseString.executor": "Run",
     "Application.ReversingArray.executor": "Run",
+    "Application.SearchIn2DArray.executor": "Run",
     "Application.SwappingValuesInArray.executor": "Run",
     "Application.TwoDArrays.executor": "Run",
     "Application.TwoDDynamicArray.executor": "Run",
@@ -93,17 +106,17 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "settings.editor.selected.configurable": "editor.preferences.appearance",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MaxInArray">
-    <configuration name="MaxInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunal.arrays.MaxInArray" />
+  <component name="RunManager" selected="Application.SearchIn2DArray">
+    <configuration name="FindMin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javakunalclass.linearseach.FindMin" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javakunal.arrays.*" />
+          <option name="PATTERN" value="javakunalclass.linearseach.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReversingArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunal.arrays.ReversingArray" />
+    <configuration name="LinearSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javakunalclass.linearseach.LinearSearch" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javakunal.arrays.*" />
+          <option name="PATTERN" value="javakunalclass.linearseach.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwappingValuesInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunal.arrays.SwappingValuesInArray" />
+    <configuration name="LinearSearchInRange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javakunalclass.linearseach.LinearSearchInRange" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javakunal.arrays.*" />
+          <option name="PATTERN" value="javakunalclass.linearseach.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +150,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoDDynamicArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunal.arrays.TwoDDynamicArray" />
+    <configuration name="LinearSearchString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javakunalclass.linearseach.LinearSearchString" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javakunal.arrays.*" />
+          <option name="PATTERN" value="javakunalclass.linearseach.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,12 +163,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserInputDynamicArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunal.arrays.UserInputDynamicArrays" />
+    <configuration name="SearchIn2DArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javakunalclass.linearseach.SearchIn2DArray" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javakunal.arrays.*" />
+          <option name="PATTERN" value="javakunalclass.linearseach.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,11 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MaxInArray" />
-        <item itemvalue="Application.ReversingArray" />
-        <item itemvalue="Application.SwappingValuesInArray" />
-        <item itemvalue="Application.TwoDDynamicArray" />
-        <item itemvalue="Application.UserInputDynamicArrays" />
+        <item itemvalue="Application.SearchIn2DArray" />
+        <item itemvalue="Application.FindMin" />
+        <item itemvalue="Application.LinearSearchInRange" />
+        <item itemvalue="Application.LinearSearchString" />
+        <item itemvalue="Application.LinearSearch" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +208,11 @@
       <workItem from="1702297592352" duration="21000" />
       <workItem from="1702394871212" duration="1846000" />
       <workItem from="1702443849058" duration="3911000" />
-      <workItem from="1702535340659" duration="4574000" />
+      <workItem from="1702535340659" duration="5216000" />
+      <workItem from="1702550537495" duration="427000" />
+      <workItem from="1702551802445" duration="1229000" />
+      <workItem from="1702654075053" duration="640000" />
+      <workItem from="1702730367971" duration="3014000" />
     </task>
     <task id="LOCAL-00001" summary="Added files">
       <option name="closed" value="true" />
@@ -429,7 +446,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702536935853</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Arrays Lecture Problems Completed">
+      <option name="closed" value="true" />
+      <created>1702546971624</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1702546971624</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -456,6 +481,7 @@
     <MESSAGE value="Functions Program" />
     <MESSAGE value="Completed Functions" />
     <MESSAGE value="Arrays Lectures" />
-    <option name="LAST_COMMIT_MESSAGE" value="Arrays Lectures" />
+    <MESSAGE value="Arrays Lecture Problems Completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Arrays Lecture Problems Completed" />
   </component>
 </project>

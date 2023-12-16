@@ -1,4 +1,4 @@
-package javakunal.arrays;
+package javakunalclass.arrays;
 
 public class MaxInArray {
     public static void main(String[] args) {
