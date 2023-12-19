@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f15d687b-b8b6-4f06-a769-73b3bdd09095" name="Changes" comment="Linear Search Class Problems">
-      <change afterPath="$PROJECT_DIR$/src/javakunalclass/linearseach/MaxIn2DArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunal/oops/ExampleClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,6 +59,7 @@
     "Application.BasicArrayInput.executor": "Run",
     "Application.BasicArrayStringInput.executor": "Run",
     "Application.DynamicArrays.executor": "Run",
+    "Application.ExampleClass.executor": "Run",
     "Application.Factorial.executor": "Run",
     "Application.FindMin.executor": "Run",
     "Application.LargestTillX.executor": "Run",
@@ -97,7 +98,20 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MaxIn2DArray">
+  <component name="RunManager" selected="Application.ExampleClass">
+    <configuration name="ExampleClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javakunal.oops.ExampleClass" />
+      <module name="DSA-with-Java-GFG-Self-Paced-Course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javakunal.oops.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FindMin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javakunalclass.linearseach.FindMin" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
@@ -113,19 +127,6 @@
     </configuration>
     <configuration name="LinearSearchInRange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javakunalclass.linearseach.LinearSearchInRange" />
-      <module name="DSA-with-Java-GFG-Self-Paced-Course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="javakunalclass.linearseach.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LinearSearchString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunalclass.linearseach.LinearSearchString" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
@@ -165,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExampleClass" />
         <item itemvalue="Application.MaxIn2DArray" />
         <item itemvalue="Application.SearchIn2DArray" />
         <item itemvalue="Application.FindMin" />
         <item itemvalue="Application.LinearSearchInRange" />
-        <item itemvalue="Application.LinearSearchString" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +200,8 @@
       <workItem from="1702550537495" duration="427000" />
       <workItem from="1702551802445" duration="1229000" />
       <workItem from="1702654075053" duration="640000" />
-      <workItem from="1702730367971" duration="4033000" />
+      <workItem from="1702730367971" duration="4644000" />
+      <workItem from="1702965156393" duration="1323000" />
     </task>
     <task id="LOCAL-00001" summary="Added files">
       <option name="closed" value="true" />
@@ -449,7 +451,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702733461657</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Linear Search Class Problems">
+      <option name="closed" value="true" />
+      <created>1702739196499</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1702739196499</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
