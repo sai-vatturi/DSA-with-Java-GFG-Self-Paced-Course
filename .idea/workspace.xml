@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f15d687b-b8b6-4f06-a769-73b3bdd09095" name="Changes" comment="Linear Search Class Problems">
-      <change afterPath="$PROJECT_DIR$/src/javakunal/oops/ExampleClass.java" afterDir="false" />
+    <list default="true" id="f15d687b-b8b6-4f06-a769-73b3bdd09095" name="Changes" comment="Constructor Practice">
+      <change afterPath="$PROJECT_DIR$/src/javakunal/oops/GarbagaCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunal/oops/WrapperClasses.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,6 +82,7 @@
     "Application.TwoDDynamicArray.executor": "Run",
     "Application.UserInputDynamicArrays.executor": "Run",
     "Application.VoteVerify.executor": "Run",
+    "Application.WrapperClasses.executor": "Run",
     "Application.findFactorial.executor": "Run",
     "Application.printPrimes.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -98,7 +100,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ExampleClass">
+  <component name="RunManager" selected="Application.GarbagaCollection">
     <configuration name="ExampleClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javakunal.oops.ExampleClass" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
@@ -112,25 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindMin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunalclass.linearseach.FindMin" />
+    <configuration name="GarbagaCollection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javakunal.oops.GarbagaCollection" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javakunalclass.linearseach.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LinearSearchInRange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunalclass.linearseach.LinearSearchInRange" />
-      <module name="DSA-with-Java-GFG-Self-Paced-Course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="javakunalclass.linearseach.*" />
+          <option name="PATTERN" value="javakunal.oops.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,13 +153,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WrapperClasses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javakunal.oops.WrapperClasses" />
+      <module name="DSA-with-Java-GFG-Self-Paced-Course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javakunal.oops.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GarbagaCollection" />
+        <item itemvalue="Application.WrapperClasses" />
         <item itemvalue="Application.ExampleClass" />
         <item itemvalue="Application.MaxIn2DArray" />
         <item itemvalue="Application.SearchIn2DArray" />
-        <item itemvalue="Application.FindMin" />
-        <item itemvalue="Application.LinearSearchInRange" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +203,7 @@
       <workItem from="1702551802445" duration="1229000" />
       <workItem from="1702654075053" duration="640000" />
       <workItem from="1702730367971" duration="4644000" />
-      <workItem from="1702965156393" duration="1323000" />
+      <workItem from="1702965156393" duration="2306000" />
     </task>
     <task id="LOCAL-00001" summary="Added files">
       <option name="closed" value="true" />
@@ -459,7 +461,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702739196499</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Constructor Practice">
+      <option name="closed" value="true" />
+      <created>1702966548047</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1702966548047</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -488,6 +498,7 @@
     <MESSAGE value="Arrays Lectures" />
     <MESSAGE value="Arrays Lecture Problems Completed" />
     <MESSAGE value="Linear Search Class Problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="Linear Search Class Problems" />
+    <MESSAGE value="Constructor Practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="Constructor Practice" />
   </component>
 </project>
