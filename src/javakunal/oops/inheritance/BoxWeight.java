@@ -5,7 +5,12 @@ public class BoxWeight extends Box{
     BoxWeight(){
         this.weight = -1;
     }
-    BoxWeight(double weight){
+    BoxWeight(BoxWeight old){
+        super(old);
+        this.weight = old.weight;
+    }
+    BoxWeight(double side, double weight){
+        super(side);
         this.weight = weight;
     }
     BoxWeight(double l, double h, double w, double weight){

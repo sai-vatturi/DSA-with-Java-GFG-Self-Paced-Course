@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f15d687b-b8b6-4f06-a769-73b3bdd09095" name="Changes" comment="oop class 1 lecture practice">
-      <change afterPath="$PROJECT_DIR$/src/javakunal/oops/inheritance/Box.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunal/oops/inheritance/BoxWeight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunal/oops/inheritance/Main.java" afterDir="false" />
+    <list default="true" id="f15d687b-b8b6-4f06-a769-73b3bdd09095" name="Changes" comment="Inheritance">
+      <change afterPath="$PROJECT_DIR$/src/javakunal/oops/inheritance/BoxPrice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javakunal/oops/inheritance/BoxWeight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunal/oops/inheritance/BoxWeight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javakunal/oops/inheritance/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunal/oops/inheritance/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,7 +207,7 @@
       <workItem from="1702654075053" duration="640000" />
       <workItem from="1702730367971" duration="4644000" />
       <workItem from="1702965156393" duration="2608000" />
-      <workItem from="1704687377795" duration="1535000" />
+      <workItem from="1704687377795" duration="3206000" />
     </task>
     <task id="LOCAL-00001" summary="Added files">
       <option name="closed" value="true" />
@@ -481,7 +481,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702981487866</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Inheritance">
+      <option name="closed" value="true" />
+      <created>1704689070782</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1704689070782</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -512,6 +520,7 @@
     <MESSAGE value="Linear Search Class Problems" />
     <MESSAGE value="Constructor Practice" />
     <MESSAGE value="oop class 1 lecture practice" />
-    <option name="LAST_COMMIT_MESSAGE" value="oop class 1 lecture practice" />
+    <MESSAGE value="Inheritance" />
+    <option name="LAST_COMMIT_MESSAGE" value="Inheritance" />
   </component>
 </project>

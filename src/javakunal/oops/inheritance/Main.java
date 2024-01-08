@@ -10,5 +10,7 @@ public class Main {
         BoxWeight bw1 = new BoxWeight(1.2, 2.3, 4.4, 3.2);
         System.out.println(bw1.h + " " + bw1.l + " " + bw1.w + " " + bw1.weight);
 
+        BoxPrice bp1 = new BoxPrice(2, 40);
+        System.out.println(bp1.l);
     }
 }
