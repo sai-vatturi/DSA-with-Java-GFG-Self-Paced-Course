@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f15d687b-b8b6-4f06-a769-73b3bdd09095" name="Changes" comment="Constructor Practice">
-      <change afterPath="$PROJECT_DIR$/src/javakunal/oops/GarbagaCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunal/oops/WrapperClasses.java" afterDir="false" />
+    <list default="true" id="f15d687b-b8b6-4f06-a769-73b3bdd09095" name="Changes" comment="oop class 1 lecture practice">
+      <change afterPath="$PROJECT_DIR$/src/javakunal/oops/inheritance/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunal/oops/inheritance/BoxWeight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunal/oops/inheritance/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,10 +64,12 @@
     "Application.ExampleClass.executor": "Run",
     "Application.Factorial.executor": "Run",
     "Application.FindMin.executor": "Run",
+    "Application.GarbagaCollection.executor": "Run",
     "Application.LargestTillX.executor": "Run",
     "Application.LinearSearch.executor": "Run",
     "Application.LinearSearchInRange.executor": "Run",
     "Application.LinearSearchString.executor": "Run",
+    "Application.Main.executor": "Run",
     "Application.MaxIn2DArray.executor": "Run",
     "Application.MaxInArray.executor": "Run",
     "Application.MaxMinTwoNumbers.executor": "Run",
@@ -100,7 +103,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.GarbagaCollection">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="ExampleClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javakunal.oops.ExampleClass" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
@@ -127,12 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxIn2DArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunalclass.linearseach.MaxIn2DArray" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javakunal.oops.inheritance.Main" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javakunalclass.linearseach.*" />
+          <option name="PATTERN" value="javakunal.oops.inheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,8 +143,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchIn2DArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunalclass.linearseach.SearchIn2DArray" />
+    <configuration name="MaxIn2DArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javakunalclass.linearseach.MaxIn2DArray" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
@@ -168,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.GarbagaCollection" />
         <item itemvalue="Application.WrapperClasses" />
         <item itemvalue="Application.ExampleClass" />
         <item itemvalue="Application.MaxIn2DArray" />
-        <item itemvalue="Application.SearchIn2DArray" />
       </list>
     </recent_temporary>
   </component>
@@ -203,7 +206,8 @@
       <workItem from="1702551802445" duration="1229000" />
       <workItem from="1702654075053" duration="640000" />
       <workItem from="1702730367971" duration="4644000" />
-      <workItem from="1702965156393" duration="2306000" />
+      <workItem from="1702965156393" duration="2608000" />
+      <workItem from="1704687377795" duration="1535000" />
     </task>
     <task id="LOCAL-00001" summary="Added files">
       <option name="closed" value="true" />
@@ -469,7 +473,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702966548047</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="oop class 1 lecture practice">
+      <option name="closed" value="true" />
+      <created>1702981487866</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1702981487866</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -499,6 +511,7 @@
     <MESSAGE value="Arrays Lecture Problems Completed" />
     <MESSAGE value="Linear Search Class Problems" />
     <MESSAGE value="Constructor Practice" />
-    <option name="LAST_COMMIT_MESSAGE" value="Constructor Practice" />
+    <MESSAGE value="oop class 1 lecture practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="oop class 1 lecture practice" />
   </component>
 </project>
