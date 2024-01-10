@@ -12,5 +12,7 @@ public class Main {
 
         BoxPrice bp1 = new BoxPrice(2, 40);
         System.out.println(bp1.l);
+
+        Box.greeting();
     }
 }

@@ -26,6 +26,9 @@ public class Box {
         this.l = old.l;
         this.w = old.w;
     }
+    static void greeting(){
+        System.out.println("Hey, i am in box class. Greetings!");
+    }
     public void information(){
         System.out.println("The box is running!");
     }
