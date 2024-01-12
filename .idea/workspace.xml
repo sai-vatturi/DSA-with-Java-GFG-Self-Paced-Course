@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f15d687b-b8b6-4f06-a769-73b3bdd09095" name="Changes" comment="kunal lecture 3 complete">
-      <change afterPath="$PROJECT_DIR$/src/javakunal/oops/access/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunal/oops/access/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunal/oops/access/ObjectDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunal/oops/access/SubClass.java" afterDir="false" />
+    <list default="true" id="f15d687b-b8b6-4f06-a769-73b3bdd09095" name="Changes" comment="java kunal oops 4 lecture complete">
+      <change afterPath="$PROJECT_DIR$/src/javakunal/oops/abstractDemo/Daughter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunal/oops/abstractDemo/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunal/oops/abstractDemo/Parent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunal/oops/abstractDemo/Son.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,6 +90,7 @@
     "Application.VoteVerify.executor": "Run",
     "Application.WrapperClasses.executor": "Run",
     "Application.findFactorial.executor": "Run",
+    "Application.javakunal.oops.abstractDemo.Main.executor": "Run",
     "Application.javakunal.oops.access.Main.executor": "Run",
     "Application.javakunal.oops.polymorphism.Main.executor": "Run",
     "Application.printPrimes.executor": "Run",
@@ -108,7 +109,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ObjectDemo">
+  <component name="RunManager" selected="Application.javakunal.oops.abstractDemo.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javakunal.oops.inheritance.Main" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
@@ -148,6 +149,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="javakunal.oops.abstractDemo.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javakunal.oops.abstractDemo.Main" />
+      <module name="DSA-with-Java-GFG-Self-Paced-Course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javakunal.oops.abstractDemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="javakunal.oops.access.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javakunal.oops.access.Main" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
@@ -161,26 +175,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="javakunal.oops.polymorphism.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunal.oops.polymorphism.Main" />
-      <module name="DSA-with-Java-GFG-Self-Paced-Course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="javakunal.oops.polymorphism.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.javakunal.oops.abstractDemo.Main" />
         <item itemvalue="Application.ObjectDemo" />
         <item itemvalue="Application.SubClass" />
         <item itemvalue="Application.javakunal.oops.access.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.javakunal.oops.polymorphism.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -215,7 +216,7 @@
       <workItem from="1704687377795" duration="7137000" />
       <workItem from="1704793794530" duration="7000" />
       <workItem from="1704927019850" duration="3033000" />
-      <workItem from="1705021836165" duration="1064000" />
+      <workItem from="1705021836165" duration="2226000" />
     </task>
     <task id="LOCAL-00001" summary="Added files">
       <option name="closed" value="true" />
@@ -513,7 +514,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704930728508</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="java kunal oops 4 lecture complete">
+      <option name="closed" value="true" />
+      <created>1705023092288</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1705023092288</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -547,6 +556,7 @@
     <MESSAGE value="Inheritance" />
     <MESSAGE value="Done with Inheritance" />
     <MESSAGE value="kunal lecture 3 complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="kunal lecture 3 complete" />
+    <MESSAGE value="java kunal oops 4 lecture complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="java kunal oops 4 lecture complete" />
   </component>
 </project>
