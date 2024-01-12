@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f15d687b-b8b6-4f06-a769-73b3bdd09095" name="Changes" comment="Done with Inheritance">
-      <change afterPath="$PROJECT_DIR$/src/javakunal/oops/polymorphism/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunal/oops/polymorphism/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunal/oops/polymorphism/Shapes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunal/oops/polymorphism/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunal/oops/polymorphism/Triangle.java" afterDir="false" />
+    <list default="true" id="f15d687b-b8b6-4f06-a769-73b3bdd09095" name="Changes" comment="kunal lecture 3 complete">
+      <change afterPath="$PROJECT_DIR$/src/javakunal/oops/access/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunal/oops/access/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunal/oops/access/ObjectDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunal/oops/access/SubClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javakunal/oops/inheritance/Box.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunal/oops/inheritance/Box.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,83 +55,60 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.BasicArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BasicArrayInput.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BasicArrayStringInput.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DynamicArrays.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExampleClass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Factorial.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindMin.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GarbagaCollection.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LargestTillX.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LinearSearch.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LinearSearchInRange.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LinearSearchString.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaxIn2DArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaxInArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaxMinTwoNumbers.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NCRnpr.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OddEven.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OptimizedPrime.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Palindrome.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReverseString.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReversingArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SearchIn2DArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SwappingValuesInArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TwoDArrays.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TwoDDynamicArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UserInputDynamicArrays.executor&quot;: &quot;Run&quot;,
-    &quot;Application.VoteVerify.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WrapperClasses.executor&quot;: &quot;Run&quot;,
-    &quot;Application.findFactorial.executor&quot;: &quot;Run&quot;,
-    &quot;Application.javakunal.oops.polymorphism.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.printPrimes.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/xsainav/GitHub/DSA-with-Java-GFG-Self-Paced-Course/DSA-with-Java-GFG-Self-Paced-Course&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.appearance&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.BasicArray.executor": "Run",
+    "Application.BasicArrayInput.executor": "Run",
+    "Application.BasicArrayStringInput.executor": "Run",
+    "Application.DynamicArrays.executor": "Run",
+    "Application.ExampleClass.executor": "Run",
+    "Application.Factorial.executor": "Run",
+    "Application.FindMin.executor": "Run",
+    "Application.GarbagaCollection.executor": "Run",
+    "Application.LargestTillX.executor": "Run",
+    "Application.LinearSearch.executor": "Run",
+    "Application.LinearSearchInRange.executor": "Run",
+    "Application.LinearSearchString.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MaxIn2DArray.executor": "Run",
+    "Application.MaxInArray.executor": "Run",
+    "Application.MaxMinTwoNumbers.executor": "Run",
+    "Application.NCRnpr.executor": "Run",
+    "Application.ObjectDemo.executor": "Run",
+    "Application.OddEven.executor": "Run",
+    "Application.OptimizedPrime.executor": "Run",
+    "Application.Palindrome.executor": "Run",
+    "Application.ReverseString.executor": "Run",
+    "Application.ReversingArray.executor": "Run",
+    "Application.SearchIn2DArray.executor": "Run",
+    "Application.SubClass.executor": "Run",
+    "Application.SwappingValuesInArray.executor": "Run",
+    "Application.TwoDArrays.executor": "Run",
+    "Application.TwoDDynamicArray.executor": "Run",
+    "Application.UserInputDynamicArrays.executor": "Run",
+    "Application.VoteVerify.executor": "Run",
+    "Application.WrapperClasses.executor": "Run",
+    "Application.findFactorial.executor": "Run",
+    "Application.javakunal.oops.access.Main.executor": "Run",
+    "Application.javakunal.oops.polymorphism.Main.executor": "Run",
+    "Application.printPrimes.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/xsainav/GitHub/DSA-with-Java-GFG-Self-Paced-Course/DSA-with-Java-GFG-Self-Paced-Course",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.appearance",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="ExampleClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunal.oops.ExampleClass" />
-      <module name="DSA-with-Java-GFG-Self-Paced-Course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="javakunal.oops.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GarbagaCollection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunal.oops.GarbagaCollection" />
-      <module name="DSA-with-Java-GFG-Self-Paced-Course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="javakunal.oops.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}]]></component>
+  <component name="RunManager" selected="Application.ObjectDemo">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javakunal.oops.inheritance.Main" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
@@ -147,12 +122,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WrapperClasses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunal.oops.WrapperClasses" />
+    <configuration name="ObjectDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javakunal.oops.access.ObjectDemo" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javakunal.oops.*" />
+          <option name="PATTERN" value="javakunal.oops.access.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javakunal.oops.access.SubClass" />
+      <module name="DSA-with-Java-GFG-Self-Paced-Course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javakunal.oops.access.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="javakunal.oops.access.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javakunal.oops.access.Main" />
+      <module name="DSA-with-Java-GFG-Self-Paced-Course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javakunal.oops.access.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ObjectDemo" />
+        <item itemvalue="Application.SubClass" />
+        <item itemvalue="Application.javakunal.oops.access.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.javakunal.oops.polymorphism.Main" />
-        <item itemvalue="Application.GarbagaCollection" />
-        <item itemvalue="Application.WrapperClasses" />
-        <item itemvalue="Application.ExampleClass" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +214,8 @@
       <workItem from="1702965156393" duration="2608000" />
       <workItem from="1704687377795" duration="7137000" />
       <workItem from="1704793794530" duration="7000" />
-      <workItem from="1704927019850" duration="894000" />
+      <workItem from="1704927019850" duration="3033000" />
+      <workItem from="1705021836165" duration="1064000" />
     </task>
     <task id="LOCAL-00001" summary="Added files">
       <option name="closed" value="true" />
@@ -503,7 +505,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704691341885</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="kunal lecture 3 complete">
+      <option name="closed" value="true" />
+      <created>1704930728508</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1704930728508</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -536,6 +546,7 @@
     <MESSAGE value="oop class 1 lecture practice" />
     <MESSAGE value="Inheritance" />
     <MESSAGE value="Done with Inheritance" />
-    <option name="LAST_COMMIT_MESSAGE" value="Done with Inheritance" />
+    <MESSAGE value="kunal lecture 3 complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="kunal lecture 3 complete" />
   </component>
 </project>
