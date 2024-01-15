@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f15d687b-b8b6-4f06-a769-73b3bdd09095" name="Changes" comment="complete lecture 5">
-      <change afterPath="$PROJECT_DIR$/src/javakunal/oops/cloning/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunal/oops/cloning/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunal/oops/customarraylist/CustomArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunal/oops/customarraylist/CustomGenArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunal/oops/customarraylist/LambdaExpressions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunal/oops/customarraylist/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunal/oops/exceptionhandling/Main.java" afterDir="false" />
+    <list default="true" id="f15d687b-b8b6-4f06-a769-73b3bdd09095" name="Changes" comment="complete lecture 6">
+      <change afterPath="$PROJECT_DIR$/src/javakunalclass/binarysearch/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunalclass/binarysearch/OrderAgnosticBS.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javakunalclass/linearseach/SearchIn2DArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalclass/linearseach/SearchIn2DArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +61,7 @@
     "Application.BasicArray.executor": "Run",
     "Application.BasicArrayInput.executor": "Run",
     "Application.BasicArrayStringInput.executor": "Run",
+    "Application.BinarySearchMyImplementation.executor": "Run",
     "Application.DynamicArrays.executor": "Run",
     "Application.ExampleClass.executor": "Run",
     "Application.Factorial.executor": "Run",
@@ -84,6 +81,7 @@
     "Application.ObjectDemo.executor": "Run",
     "Application.OddEven.executor": "Run",
     "Application.OptimizedPrime.executor": "Run",
+    "Application.OrderAgnosticBS.executor": "Run",
     "Application.Palindrome.executor": "Run",
     "Application.ReverseString.executor": "Run",
     "Application.ReversingArray.executor": "Run",
@@ -124,13 +122,13 @@
       <recent name="javakunal.oops.customarraylist" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.javakunal.oops.cloning.Main">
-    <configuration name="LambdaExpressions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunal.oops.customarraylist.LambdaExpressions" />
+  <component name="RunManager" selected="Application.OrderAgnosticBS">
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javakunalclass.binarysearch.BinarySearch" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javakunal.oops.customarraylist.*" />
+          <option name="PATTERN" value="javakunalclass.binarysearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,12 +136,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunal.oops.interfaces.nestedinterfaces.MainTest" />
+    <configuration name="OrderAgnosticBS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javakunalclass.binarysearch.OrderAgnosticBS" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javakunal.oops.interfaces.nestedinterfaces.*" />
+          <option name="PATTERN" value="javakunalclass.binarysearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchIn2DArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javakunalclass.linearseach.SearchIn2DArray" />
+      <module name="DSA-with-Java-GFG-Self-Paced-Course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javakunalclass.linearseach.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,19 +168,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="javakunal.oops.cloning.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="javakunal.oops.customarraylist.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunal.oops.customarraylist.Main" />
-      <module name="DSA-with-Java-GFG-Self-Paced-Course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="javakunal.oops.customarraylist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -192,11 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OrderAgnosticBS" />
+        <item itemvalue="Application.BinarySearchMyImplementation" />
+        <item itemvalue="Application.SearchIn2DArray" />
         <item itemvalue="Application.javakunal.oops.cloning.Main" />
         <item itemvalue="Application.javakunal.oops.exceptionhandling.Main" />
-        <item itemvalue="Application.LambdaExpressions" />
-        <item itemvalue="Application.javakunal.oops.customarraylist.Main" />
-        <item itemvalue="Application.MainTest" />
       </list>
     </recent_temporary>
   </component>
@@ -233,7 +231,8 @@
       <workItem from="1704927019850" duration="3033000" />
       <workItem from="1705021836165" duration="2475000" />
       <workItem from="1705162466523" duration="34000" />
-      <workItem from="1705204864224" duration="11770000" />
+      <workItem from="1705204864224" duration="12866000" />
+      <workItem from="1705293393722" duration="4336000" />
     </task>
     <task id="LOCAL-00001" summary="Added files">
       <option name="closed" value="true" />
@@ -563,7 +562,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705208504358</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="complete lecture 6">
+      <option name="closed" value="true" />
+      <created>1705231252944</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1705231252944</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -600,6 +607,7 @@
     <MESSAGE value="java kunal oops 4 lecture complete" />
     <MESSAGE value="abstract classes" />
     <MESSAGE value="complete lecture 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete lecture 5" />
+    <MESSAGE value="complete lecture 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete lecture 6" />
   </component>
 </project>
