@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f15d687b-b8b6-4f06-a769-73b3bdd09095" name="Changes" comment="bs problems">
-      <change afterPath="$PROJECT_DIR$/src/javakunalclass/binarysearch/FirstAndLastPositionElement.java" afterDir="false" />
+    <list default="true" id="f15d687b-b8b6-4f06-a769-73b3bdd09095" name="Changes" comment="BS problems">
+      <change afterPath="$PROJECT_DIR$/src/javakunalclass/binarysearch/InfiniteArrayBS.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -125,7 +125,7 @@
       <recent name="javakunal.oops.customarraylist" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FirstAndLastPositionElement">
+  <component name="RunManager" selected="Application.InfiniteArrayBS">
     <configuration name="CeilingBS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javakunalclass.binarysearch.CeilingBS" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
@@ -165,8 +165,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderAgnosticBS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunalclass.binarysearch.OrderAgnosticBS" />
+    <configuration name="InfiniteArrayBS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javakunalclass.binarysearch.InfiniteArrayBS" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
@@ -193,11 +193,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InfiniteArrayBS" />
         <item itemvalue="Application.FirstAndLastPositionElement" />
         <item itemvalue="Application.SmallestLetter" />
         <item itemvalue="Application.FloorBS" />
         <item itemvalue="Application.CeilingBS" />
-        <item itemvalue="Application.OrderAgnosticBS" />
       </list>
     </recent_temporary>
   </component>
@@ -240,7 +240,7 @@
       <workItem from="1705393814362" duration="818000" />
       <workItem from="1705418300880" duration="552000" />
       <workItem from="1705470776441" duration="3256000" />
-      <workItem from="1705552840879" duration="1264000" />
+      <workItem from="1705552840879" duration="2610000" />
     </task>
     <task id="LOCAL-00001" summary="Added files">
       <option name="closed" value="true" />
@@ -602,7 +602,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705487876854</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="BS problems">
+      <option name="closed" value="true" />
+      <created>1705554226892</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1705554226892</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -643,7 +651,8 @@
     <MESSAGE value="complete bs lecture" />
     <MESSAGE value="ceiling problem" />
     <MESSAGE value="bs problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="bs problems" />
+    <MESSAGE value="BS problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="BS problems" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
