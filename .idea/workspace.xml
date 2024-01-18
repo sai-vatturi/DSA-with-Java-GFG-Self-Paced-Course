@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f15d687b-b8b6-4f06-a769-73b3bdd09095" name="Changes" comment="BS problems">
-      <change afterPath="$PROJECT_DIR$/src/javakunalclass/binarysearch/InfiniteArrayBS.java" afterDir="false" />
+    <list default="true" id="f15d687b-b8b6-4f06-a769-73b3bdd09095" name="Changes" comment="bs infinite array">
+      <change afterPath="$PROJECT_DIR$/src/classlectures/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classlectures/SelectionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,6 +69,7 @@
     "Application.FirstAndLastPositionElement.executor": "Run",
     "Application.FloorBS.executor": "Run",
     "Application.GarbagaCollection.executor": "Run",
+    "Application.InfiniteArrayBS.executor": "Run",
     "Application.LambdaExpressions.executor": "Run",
     "Application.LargestTillX.executor": "Run",
     "Application.LinearSearch.executor": "Run",
@@ -84,9 +86,11 @@
     "Application.OptimizedPrime.executor": "Run",
     "Application.OrderAgnosticBS.executor": "Run",
     "Application.Palindrome.executor": "Run",
+    "Application.QuickSort.executor": "Run",
     "Application.ReverseString.executor": "Run",
     "Application.ReversingArray.executor": "Run",
     "Application.SearchIn2DArray.executor": "Run",
+    "Application.SelectionSort.executor": "Run",
     "Application.SmallestLetter.executor": "Debug",
     "Application.SubClass.executor": "Run",
     "Application.SwappingValuesInArray.executor": "Run",
@@ -125,35 +129,9 @@
       <recent name="javakunal.oops.customarraylist" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InfiniteArrayBS">
-    <configuration name="CeilingBS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunalclass.binarysearch.CeilingBS" />
-      <module name="DSA-with-Java-GFG-Self-Paced-Course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="javakunalclass.binarysearch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.QuickSort">
     <configuration name="FirstAndLastPositionElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javakunalclass.binarysearch.FirstAndLastPositionElement" />
-      <module name="DSA-with-Java-GFG-Self-Paced-Course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="javakunalclass.binarysearch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FloorBS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunalclass.binarysearch.FloorBS" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
@@ -178,6 +156,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classlectures.QuickSort" />
+      <module name="DSA-with-Java-GFG-Self-Paced-Course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="classlectures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classlectures.SelectionSort" />
+      <module name="DSA-with-Java-GFG-Self-Paced-Course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="classlectures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SmallestLetter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javakunalclass.binarysearch.SmallestLetter" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
@@ -193,11 +197,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QuickSort" />
+        <item itemvalue="Application.SelectionSort" />
         <item itemvalue="Application.InfiniteArrayBS" />
         <item itemvalue="Application.FirstAndLastPositionElement" />
         <item itemvalue="Application.SmallestLetter" />
-        <item itemvalue="Application.FloorBS" />
-        <item itemvalue="Application.CeilingBS" />
       </list>
     </recent_temporary>
   </component>
@@ -240,7 +244,8 @@
       <workItem from="1705393814362" duration="818000" />
       <workItem from="1705418300880" duration="552000" />
       <workItem from="1705470776441" duration="3256000" />
-      <workItem from="1705552840879" duration="2610000" />
+      <workItem from="1705552840879" duration="3478000" />
+      <workItem from="1705567856088" duration="2184000" />
     </task>
     <task id="LOCAL-00001" summary="Added files">
       <option name="closed" value="true" />
@@ -610,7 +615,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705554226892</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="bs infinite array">
+      <option name="closed" value="true" />
+      <created>1705555717178</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1705555717178</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -652,7 +665,8 @@
     <MESSAGE value="ceiling problem" />
     <MESSAGE value="bs problems" />
     <MESSAGE value="BS problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="BS problems" />
+    <MESSAGE value="bs infinite array" />
+    <option name="LAST_COMMIT_MESSAGE" value="bs infinite array" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
