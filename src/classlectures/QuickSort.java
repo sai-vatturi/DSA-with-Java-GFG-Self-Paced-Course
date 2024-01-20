@@ -2,7 +2,7 @@ package classlectures;
 
 import java.util.Arrays;
 
-public class QuickSort {
+public class QuickSort extends Exception{
     public static void main(String[] args) {
         int[] arr = {353,12,2411,3,12,1,123,44,145,54};
         System.out.println("Original Array: ");
