@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f15d687b-b8b6-4f06-a769-73b3bdd09095" name="Changes" comment="quick sort mountain array">
-      <change afterPath="$PROJECT_DIR$/src/javakunalclass/binarysearch/SearchRotatedSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunalclass/binarysearch/SelectInMountain.java" afterDir="false" />
+    <list default="true" id="f15d687b-b8b6-4f06-a769-73b3bdd09095" name="Changes" comment="bs medium hard leetcode">
+      <change afterPath="$PROJECT_DIR$/src/classlectures/SE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunalclass/arrays/RearrangeArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunalclass/binarysearch/MountainArraySelect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunalclass/binarysearch/TwoDBinary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunalclass/linearseach/PeakMountainArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunalclass/sorting/BubbleSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javakunalclass/binarysearch/MountainArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalclass/binarysearch/MountainArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +65,7 @@
     "Application.BasicArrayInput.executor": "Run",
     "Application.BasicArrayStringInput.executor": "Run",
     "Application.BinarySearchMyImplementation.executor": "Run",
+    "Application.BubbleSort.executor": "Debug",
     "Application.CeilingBS.executor": "Run",
     "Application.DynamicArrays.executor": "Run",
     "Application.ExampleClass.executor": "Run",
@@ -83,15 +87,19 @@
     "Application.MaxInArray.executor": "Run",
     "Application.MaxMinTwoNumbers.executor": "Run",
     "Application.MountainArray.executor": "Debug",
+    "Application.MountainArraySelect.executor": "Run",
     "Application.NCRnpr.executor": "Run",
     "Application.ObjectDemo.executor": "Run",
     "Application.OddEven.executor": "Run",
     "Application.OptimizedPrime.executor": "Run",
     "Application.OrderAgnosticBS.executor": "Run",
     "Application.Palindrome.executor": "Run",
+    "Application.PeakMountainArray.executor": "Run",
     "Application.QuickSort.executor": "Run",
+    "Application.RearrangeArray.executor": "Run",
     "Application.ReverseString.executor": "Run",
     "Application.ReversingArray.executor": "Run",
+    "Application.SE.executor": "Run",
     "Application.SearchIn2DArray.executor": "Run",
     "Application.SearchRotatedSortedArray.executor": "Run",
     "Application.SelectInMountain.executor": "Run",
@@ -101,7 +109,9 @@
     "Application.SwappingValuesInArray.executor": "Run",
     "Application.Test.executor": "Run",
     "Application.TwoDArrays.executor": "Run",
+    "Application.TwoDBinary.executor": "Run",
     "Application.TwoDDynamicArray.executor": "Run",
+    "Application.TwoDSortedBinary.executor": "Run",
     "Application.UserInputDynamicArrays.executor": "Run",
     "Application.VoteVerify.executor": "Run",
     "Application.WrapperClasses.executor": "Run",
@@ -135,9 +145,22 @@
       <recent name="javakunal.oops.customarraylist" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SearchRotatedSortedArray">
-    <configuration name="ManeuveringClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classlectures.ManeuveringClass" />
+  <component name="RunManager" selected="Application.BubbleSort">
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javakunalclass.sorting.BubbleSort" />
+      <module name="DSA-with-Java-GFG-Self-Paced-Course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javakunalclass.sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MountainArraySelect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javakunalclass.binarysearch.MountainArraySelect" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
@@ -149,8 +172,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MountainArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunalclass.binarysearch.MountainArray" />
+    <configuration name="SE" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classlectures.SE" />
+      <module name="DSA-with-Java-GFG-Self-Paced-Course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="classlectures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TwoDBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javakunalclass.binarysearch.TwoDBinary" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
@@ -162,34 +198,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchRotatedSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunalclass.binarysearch.SearchRotatedSortedArray" />
-      <module name="DSA-with-Java-GFG-Self-Paced-Course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="javakunalclass.binarysearch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SelectInMountain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunalclass.binarysearch.SelectInMountain" />
-      <module name="DSA-with-Java-GFG-Self-Paced-Course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="javakunalclass.binarysearch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classlectures.Test" />
+    <configuration name="TwoDSortedBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javakunalclass.binarysearch.TwoDSortedBinary" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
@@ -203,11 +213,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SearchRotatedSortedArray" />
-        <item itemvalue="Application.SelectInMountain" />
-        <item itemvalue="Application.MountainArray" />
-        <item itemvalue="Application.ManeuveringClass" />
-        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.BubbleSort" />
+        <item itemvalue="Application.TwoDSortedBinary" />
+        <item itemvalue="Application.TwoDBinary" />
+        <item itemvalue="Application.MountainArraySelect" />
+        <item itemvalue="Application.SE" />
       </list>
     </recent_temporary>
   </component>
@@ -258,15 +268,14 @@
       <workItem from="1705761175782" duration="753000" />
       <workItem from="1705763460106" duration="594000" />
       <workItem from="1705811165400" duration="2813000" />
-      <workItem from="1705819807133" duration="1526000" />
-    </task>
-    <task id="LOCAL-00001" summary="Added files">
-      <option name="closed" value="true" />
-      <created>1700893438809</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1700893438809</updated>
+      <workItem from="1705819807133" duration="1640000" />
+      <workItem from="1705917617587" duration="754000" />
+      <workItem from="1705922775640" duration="79000" />
+      <workItem from="1705924066889" duration="238000" />
+      <workItem from="1705970764644" duration="2142000" />
+      <workItem from="1705992116150" duration="4873000" />
+      <workItem from="1706058377274" duration="599000" />
+      <workItem from="1706070001177" duration="5626000" />
     </task>
     <task id="LOCAL-00002" summary="Added files">
       <option name="closed" value="true" />
@@ -652,7 +661,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705763484019</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="bs medium hard leetcode">
+      <option name="closed" value="true" />
+      <created>1705821445024</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1705821445024</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -671,7 +688,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="GCD Problem" />
     <MESSAGE value="New Problems" />
     <MESSAGE value="completed 2nd" />
     <MESSAGE value="completed conditions loops" />
@@ -696,7 +712,8 @@
     <MESSAGE value="bs infinite array" />
     <MESSAGE value="quick sort" />
     <MESSAGE value="quick sort mountain array" />
-    <option name="LAST_COMMIT_MESSAGE" value="quick sort mountain array" />
+    <MESSAGE value="bs medium hard leetcode" />
+    <option name="LAST_COMMIT_MESSAGE" value="bs medium hard leetcode" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -710,6 +727,11 @@
           <url>file://$PROJECT_DIR$/src/javakunalclass/binarysearch/MountainArray.java</url>
           <line>19</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/javakunalclass/arrays/RearrangeArray.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
