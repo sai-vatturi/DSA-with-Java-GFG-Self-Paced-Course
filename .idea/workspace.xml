@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f15d687b-b8b6-4f06-a769-73b3bdd09095" name="Changes" comment="bs medium hard leetcode">
-      <change afterPath="$PROJECT_DIR$/src/classlectures/SE.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunalclass/arrays/RearrangeArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunalclass/binarysearch/MountainArraySelect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunalclass/binarysearch/TwoDBinary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunalclass/linearseach/PeakMountainArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunalclass/sorting/BubbleSort.java" afterDir="false" />
+    <list default="true" id="f15d687b-b8b6-4f06-a769-73b3bdd09095" name="Changes" comment="bubble sort 2d binary search">
+      <change afterPath="$PROJECT_DIR$/src/classlectures/ReshapeMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunalclass/sorting/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunalclass/sorting/SelectionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,6 +94,7 @@
     "Application.PeakMountainArray.executor": "Run",
     "Application.QuickSort.executor": "Run",
     "Application.RearrangeArray.executor": "Run",
+    "Application.ReshapeMatrix.executor": "Debug",
     "Application.ReverseString.executor": "Run",
     "Application.ReversingArray.executor": "Run",
     "Application.SE.executor": "Run",
@@ -145,7 +143,7 @@
       <recent name="javakunal.oops.customarraylist" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BubbleSort">
+  <component name="RunManager" selected="Application.ReshapeMatrix">
     <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javakunalclass.sorting.BubbleSort" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
@@ -159,12 +157,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MountainArraySelect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunalclass.binarysearch.MountainArraySelect" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javakunalclass.sorting.Main" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javakunalclass.binarysearch.*" />
+          <option name="PATTERN" value="javakunalclass.sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,8 +170,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SE" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classlectures.SE" />
+    <configuration name="ReshapeMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classlectures.ReshapeMatrix" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
@@ -185,12 +183,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoDBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunalclass.binarysearch.TwoDBinary" />
+    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javakunalclass.sorting.SelectionSort" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javakunalclass.binarysearch.*" />
+          <option name="PATTERN" value="javakunalclass.sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -213,11 +211,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReshapeMatrix" />
+        <item itemvalue="Application.SelectionSort" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.TwoDSortedBinary" />
-        <item itemvalue="Application.TwoDBinary" />
-        <item itemvalue="Application.MountainArraySelect" />
-        <item itemvalue="Application.SE" />
       </list>
     </recent_temporary>
   </component>
@@ -275,15 +273,11 @@
       <workItem from="1705970764644" duration="2142000" />
       <workItem from="1705992116150" duration="4873000" />
       <workItem from="1706058377274" duration="599000" />
-      <workItem from="1706070001177" duration="5626000" />
-    </task>
-    <task id="LOCAL-00002" summary="Added files">
-      <option name="closed" value="true" />
-      <created>1700893819489</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1700893819489</updated>
+      <workItem from="1706070001177" duration="5651000" />
+      <workItem from="1706098424355" duration="49000" />
+      <workItem from="1706112530737" duration="610000" />
+      <workItem from="1706157280889" duration="2362000" />
+      <workItem from="1706203277672" duration="932000" />
     </task>
     <task id="LOCAL-00003" summary="Added files">
       <option name="closed" value="true" />
@@ -669,7 +663,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705821445024</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="bubble sort 2d binary search">
+      <option name="closed" value="true" />
+      <created>1706093424441</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1706093424442</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -688,7 +690,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="New Problems" />
     <MESSAGE value="completed 2nd" />
     <MESSAGE value="completed conditions loops" />
     <MESSAGE value="Functions Program" />
@@ -713,7 +714,8 @@
     <MESSAGE value="quick sort" />
     <MESSAGE value="quick sort mountain array" />
     <MESSAGE value="bs medium hard leetcode" />
-    <option name="LAST_COMMIT_MESSAGE" value="bs medium hard leetcode" />
+    <MESSAGE value="bubble sort 2d binary search" />
+    <option name="LAST_COMMIT_MESSAGE" value="bubble sort 2d binary search" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -732,6 +734,11 @@
           <url>file://$PROJECT_DIR$/src/javakunalclass/arrays/RearrangeArray.java</url>
           <line>6</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/classlectures/ReshapeMatrix.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
