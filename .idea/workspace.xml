@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f15d687b-b8b6-4f06-a769-73b3bdd09095" name="Changes" comment="added problems">
-      <change afterPath="$PROJECT_DIR$/src/javakunalclass/sorting/InsertionSort.java" afterDir="false" />
+    <list default="true" id="f15d687b-b8b6-4f06-a769-73b3bdd09095" name="Changes" comment="insertion sort">
+      <change afterPath="$PROJECT_DIR$/src/javakunalclass/sorting/CyclicSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,6 +62,7 @@
     "Application.BinarySearchMyImplementation.executor": "Run",
     "Application.BubbleSort.executor": "Debug",
     "Application.CeilingBS.executor": "Run",
+    "Application.CyclicSort.executor": "Run",
     "Application.DynamicArrays.executor": "Run",
     "Application.ExampleClass.executor": "Run",
     "Application.Factorial.executor": "Run",
@@ -142,9 +143,9 @@
       <recent name="javakunal.oops.customarraylist" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InsertionSort">
-    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunalclass.sorting.BubbleSort" />
+  <component name="RunManager" selected="Application.CyclicSort">
+    <configuration name="CyclicSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javakunalclass.sorting.CyclicSort" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
@@ -210,11 +211,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CyclicSort" />
         <item itemvalue="Application.InsertionSort" />
         <item itemvalue="Application.ReshapeMatrix" />
         <item itemvalue="Application.SelectionSort" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.BubbleSort" />
       </list>
     </recent_temporary>
   </component>
@@ -278,15 +279,7 @@
       <workItem from="1706157280889" duration="2362000" />
       <workItem from="1706203277672" duration="932000" />
       <workItem from="1706288128979" duration="52000" />
-      <workItem from="1706292320892" duration="299000" />
-    </task>
-    <task id="LOCAL-00004" summary="Added files">
-      <option name="closed" value="true" />
-      <created>1700902417688</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1700902417688</updated>
+      <workItem from="1706292320892" duration="1105000" />
     </task>
     <task id="LOCAL-00005" summary="Added files">
       <option name="closed" value="true" />
@@ -672,7 +665,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706288170956</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="insertion sort">
+      <option name="closed" value="true" />
+      <created>1706293123120</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1706293123120</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -691,7 +692,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="completed conditions loops" />
     <MESSAGE value="Functions Program" />
     <MESSAGE value="Completed Functions" />
     <MESSAGE value="Arrays Lectures" />
@@ -716,7 +716,8 @@
     <MESSAGE value="bs medium hard leetcode" />
     <MESSAGE value="bubble sort 2d binary search" />
     <MESSAGE value="added problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="added problems" />
+    <MESSAGE value="insertion sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="insertion sort" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
