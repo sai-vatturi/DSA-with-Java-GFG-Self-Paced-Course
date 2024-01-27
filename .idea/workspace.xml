@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f15d687b-b8b6-4f06-a769-73b3bdd09095" name="Changes" comment="insertion sort">
-      <change afterPath="$PROJECT_DIR$/src/javakunalclass/sorting/CyclicSort.java" afterDir="false" />
+    <list default="true" id="f15d687b-b8b6-4f06-a769-73b3bdd09095" name="Changes" comment="cyclic sort">
+      <change afterPath="$PROJECT_DIR$/src/classlectures/Josephus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javakunalclass/sorting/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalclass/sorting/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javakunalclass/sorting/CyclicSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalclass/sorting/CyclicSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +74,7 @@
     "Application.GarbagaCollection.executor": "Run",
     "Application.InfiniteArrayBS.executor": "Run",
     "Application.InsertionSort.executor": "Debug",
+    "Application.Josephus.executor": "Debug",
     "Application.LambdaExpressions.executor": "Run",
     "Application.LargestTillX.executor": "Run",
     "Application.LinearSearch.executor": "Run",
@@ -143,7 +146,20 @@
       <recent name="javakunal.oops.customarraylist" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CyclicSort">
+  <component name="RunManager" selected="Application.Josephus">
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javakunalclass.sorting.BubbleSort" />
+      <module name="DSA-with-Java-GFG-Self-Paced-Course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javakunalclass.sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CyclicSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javakunalclass.sorting.CyclicSort" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
@@ -170,12 +186,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunalclass.sorting.Main" />
+    <configuration name="Josephus" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classlectures.Josephus" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javakunalclass.sorting.*" />
+          <option name="PATTERN" value="classlectures.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -196,26 +212,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunalclass.sorting.SelectionSort" />
-      <module name="DSA-with-Java-GFG-Self-Paced-Course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="javakunalclass.sorting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Josephus" />
+        <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.CyclicSort" />
         <item itemvalue="Application.InsertionSort" />
         <item itemvalue="Application.ReshapeMatrix" />
-        <item itemvalue="Application.SelectionSort" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -279,15 +282,9 @@
       <workItem from="1706157280889" duration="2362000" />
       <workItem from="1706203277672" duration="932000" />
       <workItem from="1706288128979" duration="52000" />
-      <workItem from="1706292320892" duration="1105000" />
-    </task>
-    <task id="LOCAL-00005" summary="Added files">
-      <option name="closed" value="true" />
-      <created>1701013744573</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1701013744573</updated>
+      <workItem from="1706292320892" duration="1125000" />
+      <workItem from="1706314293782" duration="4906000" />
+      <workItem from="1706348588180" duration="1244000" />
     </task>
     <task id="LOCAL-00006" summary="Added files">
       <option name="closed" value="true" />
@@ -673,7 +670,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706293123120</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="cyclic sort">
+      <option name="closed" value="true" />
+      <created>1706293442500</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1706293442500</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -692,7 +697,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Functions Program" />
     <MESSAGE value="Completed Functions" />
     <MESSAGE value="Arrays Lectures" />
     <MESSAGE value="Arrays Lecture Problems Completed" />
@@ -717,7 +721,8 @@
     <MESSAGE value="bubble sort 2d binary search" />
     <MESSAGE value="added problems" />
     <MESSAGE value="insertion sort" />
-    <option name="LAST_COMMIT_MESSAGE" value="insertion sort" />
+    <MESSAGE value="cyclic sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="cyclic sort" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -741,6 +746,16 @@
           <url>file://$PROJECT_DIR$/src/classlectures/ReshapeMatrix.java</url>
           <line>10</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/javakunalclass/sorting/BubbleSort.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/classlectures/Josephus.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
