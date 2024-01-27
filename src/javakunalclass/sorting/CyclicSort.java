@@ -1,12 +1,16 @@
 package javakunalclass.sorting;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class CyclicSort {
     public static void main(String[] args) {
-        int[] arr = {5, 4, 3, 2, 1};
+        int[] arr = {3, 5, 2, 1, 4};
+
         System.out.println(Arrays.toString(arr));
         cyclicSort(arr);
+
         System.out.println(Arrays.toString(arr));
     }
 
@@ -16,8 +20,8 @@ public class CyclicSort {
         while (start < n ) {
             int correctIndex = arr[start] - 1;
             if (arr[start] != arr[correctIndex]) {
-                swapArray(arr, start, correctIndex);
-            }
+                    swapArray(arr, start, correctIndex);
+                }
             else {
                 start++;
             }
