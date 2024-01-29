@@ -4,17 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f15d687b-b8b6-4f06-a769-73b3bdd09095" name="Changes" comment="sorting problems">
-      <change afterPath="$PROJECT_DIR$/src/javakunalclass/strings/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunalclass/strings/Methods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunalclass/strings/Operators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunalclass/strings/Output.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunalclass/strings/Palindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunalclass/strings/Performance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunalclass/strings/PrettyPrinting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunalclass/strings/SB.java" afterDir="false" />
+    <list default="true" id="f15d687b-b8b6-4f06-a769-73b3bdd09095" name="Changes" comment="Completed Strings Lecture">
+      <change afterPath="$PROJECT_DIR$/src/javakunalas8/ShuffleString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patterns/Eight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patterns/Fifth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patterns/First.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patterns/Fourth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patterns/Nine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patterns/Second.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patterns/Seventh.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patterns/Sixth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patterns/Ten.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patterns/Third.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javakunalclass/sorting/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +52,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -72,11 +77,15 @@
     "Application.CeilingBS.executor": "Run",
     "Application.CyclicSort.executor": "Run",
     "Application.DynamicArrays.executor": "Run",
+    "Application.Eight.executor": "Run",
     "Application.ExampleClass.executor": "Run",
     "Application.Factorial.executor": "Run",
+    "Application.Fifth.executor": "Run",
     "Application.FindMin.executor": "Run",
+    "Application.First.executor": "Run",
     "Application.FirstAndLastPositionElement.executor": "Run",
     "Application.FloorBS.executor": "Run",
+    "Application.Fourth.executor": "Run",
     "Application.GarbagaCollection.executor": "Run",
     "Application.InfiniteArrayBS.executor": "Run",
     "Application.InsertionSort.executor": "Debug",
@@ -96,6 +105,7 @@
     "Application.MountainArray.executor": "Debug",
     "Application.MountainArraySelect.executor": "Run",
     "Application.NCRnpr.executor": "Run",
+    "Application.Nine.executor": "Run",
     "Application.ObjectDemo.executor": "Run",
     "Application.OddEven.executor": "Run",
     "Application.Operators.executor": "Run",
@@ -115,12 +125,17 @@
     "Application.SE.executor": "Run",
     "Application.SearchIn2DArray.executor": "Run",
     "Application.SearchRotatedSortedArray.executor": "Run",
+    "Application.Second.executor": "Run",
     "Application.SelectInMountain.executor": "Run",
     "Application.SelectionSort.executor": "Run",
+    "Application.Seventh.executor": "Run",
+    "Application.Sixth.executor": "Run",
     "Application.SmallestLetter.executor": "Debug",
     "Application.SubClass.executor": "Run",
     "Application.SwappingValuesInArray.executor": "Run",
+    "Application.Ten.executor": "Run",
     "Application.Test.executor": "Run",
+    "Application.Third.executor": "Run",
     "Application.TwoDArrays.executor": "Run",
     "Application.TwoDBinary.executor": "Run",
     "Application.TwoDDynamicArray.executor": "Run",
@@ -140,6 +155,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "deletionFromPopupRequiresConfirmation": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/xsainav/GitHub/DSA-with-Java-GFG-Self-Paced-Course/DSA-with-Java-GFG-Self-Paced-Course",
@@ -154,17 +170,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="patterns" />
       <recent name="javakunalclass.binarysearch" />
       <recent name="javakunal.oops.customarraylist" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Palindrome">
-    <configuration name="Methods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunalclass.strings.Methods" />
+  <component name="RunManager" selected="Application.Fifth">
+    <configuration name="Eight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="patterns.Eight" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javakunalclass.strings.*" />
+          <option name="PATTERN" value="patterns.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,12 +189,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Operators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunalclass.strings.Operators" />
+    <configuration name="Fifth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="patterns.Fifth" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javakunalclass.strings.*" />
+          <option name="PATTERN" value="patterns.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -185,12 +202,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunalclass.strings.Palindrome" />
+    <configuration name="Nine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="patterns.Nine" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javakunalclass.strings.*" />
+          <option name="PATTERN" value="patterns.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -198,12 +215,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Performance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunalclass.strings.Performance" />
+    <configuration name="Seventh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="patterns.Seventh" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javakunalclass.strings.*" />
+          <option name="PATTERN" value="patterns.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -211,12 +228,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunalclass.strings.SB" />
+    <configuration name="Ten" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="patterns.Ten" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javakunalclass.strings.*" />
+          <option name="PATTERN" value="patterns.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -226,11 +243,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Palindrome" />
-        <item itemvalue="Application.Methods" />
-        <item itemvalue="Application.SB" />
-        <item itemvalue="Application.Performance" />
-        <item itemvalue="Application.Operators" />
+        <item itemvalue="Application.Fifth" />
+        <item itemvalue="Application.Ten" />
+        <item itemvalue="Application.Nine" />
+        <item itemvalue="Application.Eight" />
+        <item itemvalue="Application.Seventh" />
       </list>
     </recent_temporary>
   </component>
@@ -238,6 +255,7 @@
     <attachedChunks>
       <set>
         <option value="jdk-16.0.2-corretto-16.0.2-3183f394aec4-d86ce77a" />
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-322ed176" />
       </set>
     </attachedChunks>
   </component>
@@ -298,15 +316,13 @@
       <workItem from="1706314293782" duration="4906000" />
       <workItem from="1706348588180" duration="1244000" />
       <workItem from="1706376030705" duration="65000" />
-      <workItem from="1706399175598" duration="4411000" />
-    </task>
-    <task id="LOCAL-00009" summary="Added files">
-      <option name="closed" value="true" />
-      <created>1701076800257</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1701076800257</updated>
+      <workItem from="1706399175598" duration="4739000" />
+      <workItem from="1706455328842" duration="2102000" />
+      <workItem from="1706485100285" duration="667000" />
+      <workItem from="1706485776033" duration="415000" />
+      <workItem from="1706486237197" duration="103000" />
+      <workItem from="1706486385558" duration="14000" />
+      <workItem from="1706486494810" duration="3502000" />
     </task>
     <task id="LOCAL-00010" summary="Added files">
       <option name="closed" value="true" />
@@ -692,7 +708,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706376069156</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="Completed Strings Lecture">
+      <option name="closed" value="true" />
+      <created>1706404915491</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1706404915491</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -711,7 +735,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Completed Functions" />
     <MESSAGE value="Arrays Lectures" />
     <MESSAGE value="Arrays Lecture Problems Completed" />
     <MESSAGE value="Linear Search Class Problems" />
@@ -736,7 +759,8 @@
     <MESSAGE value="added problems" />
     <MESSAGE value="insertion sort" />
     <MESSAGE value="cyclic sort" />
-    <option name="LAST_COMMIT_MESSAGE" value="cyclic sort" />
+    <MESSAGE value="Completed Strings Lecture" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed Strings Lecture" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
