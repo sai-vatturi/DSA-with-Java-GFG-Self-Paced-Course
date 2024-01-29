@@ -1,15 +1,16 @@
-package patterns;
+package javakunalclass.patterns;
 
 import java.util.Scanner;
 
 /*
-8.      *
+6.       *
+        **
        ***
-      *****
-     *******
-    *********
+      ****
+     *****
+
  */
-public class Eight {
+public class Sixth {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
@@ -17,11 +18,8 @@ public class Eight {
             for (int j = n - i; j > 0; j--) {
                 System.out.print(" ");
             }
-            for (int j = 0; j < 2 * i - 1; j++){
+            for (int j = i; j > 0; j--) {
                 System.out.print("*");
-            }
-            for (int j = n - i; j > 0; j--) {
-                System.out.print(" ");
             }
             System.out.println();
         }

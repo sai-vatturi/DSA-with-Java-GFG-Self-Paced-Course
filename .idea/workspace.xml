@@ -4,19 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f15d687b-b8b6-4f06-a769-73b3bdd09095" name="Changes" comment="Completed Strings Lecture">
-      <change afterPath="$PROJECT_DIR$/src/javakunalas8/ShuffleString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/Eight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/Fifth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/First.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/Fourth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/Nine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/Second.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/Seventh.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/Sixth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/Ten.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/Third.java" afterDir="false" />
+    <list default="true" id="f15d687b-b8b6-4f06-a769-73b3bdd09095" name="Changes" comment="pattern problems">
+      <change afterPath="$PROJECT_DIR$/src/javakunalclass/binarysearch/SplitArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion/Fibo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion/NumbersExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion/NumbersExampleRecursion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/Eight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalclass/patterns/Eight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/Fifth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalclass/patterns/Fifth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/First.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalclass/patterns/First.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/Fourth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalclass/patterns/Fourth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/Nine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalclass/patterns/Nine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/Second.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalclass/patterns/Second.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/Seventh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalclass/patterns/Seventh.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/Sixth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalclass/patterns/Sixth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/Ten.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalclass/patterns/Ten.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/Third.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalclass/patterns/Third.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +47,7 @@
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
-        <option name="accountId" value="de2ae8a2-7cf1-46b0-830b-2cdf14bc3810" />
+        <option name="accountId" value="361a26b4-f984-4a34-b5c3-48b21d2abef3" />
         <option name="url" value="https://github.com/sai-vatturi/DSA-with-Java-GFG-Self-Paced-Course" />
       </UrlAndAccount>
     </option>
@@ -80,6 +83,7 @@
     "Application.Eight.executor": "Run",
     "Application.ExampleClass.executor": "Run",
     "Application.Factorial.executor": "Run",
+    "Application.Fibo.executor": "Debug",
     "Application.Fifth.executor": "Run",
     "Application.FindMin.executor": "Run",
     "Application.First.executor": "Run",
@@ -106,6 +110,8 @@
     "Application.MountainArraySelect.executor": "Run",
     "Application.NCRnpr.executor": "Run",
     "Application.Nine.executor": "Run",
+    "Application.NumbersExample.executor": "Debug",
+    "Application.NumbersExampleRecursion.executor": "Run",
     "Application.ObjectDemo.executor": "Run",
     "Application.OddEven.executor": "Run",
     "Application.Operators.executor": "Run",
@@ -175,13 +181,13 @@
       <recent name="javakunal.oops.customarraylist" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Fifth">
-    <configuration name="Eight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="patterns.Eight" />
+  <component name="RunManager" selected="Application.Fibo">
+    <configuration name="Fibo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javakunalclass.recursion.Fibo" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="patterns.*" />
+          <option name="PATTERN" value="javakunalclass.recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -190,11 +196,11 @@
       </method>
     </configuration>
     <configuration name="Fifth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="patterns.Fifth" />
+      <option name="MAIN_CLASS_NAME" value="javakunalclass.patterns.Fifth" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="patterns.*" />
+          <option name="PATTERN" value="javakunalclass.patterns.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -202,12 +208,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Nine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="patterns.Nine" />
+    <configuration name="NumbersExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javakunalclass.recursion.NumbersExample" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="patterns.*" />
+          <option name="PATTERN" value="javakunalclass.recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -215,12 +221,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Seventh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="patterns.Seventh" />
+    <configuration name="NumbersExampleRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javakunalclass.recursion.NumbersExampleRecursion" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="patterns.*" />
+          <option name="PATTERN" value="javakunalclass.recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -229,11 +235,11 @@
       </method>
     </configuration>
     <configuration name="Ten" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="patterns.Ten" />
+      <option name="MAIN_CLASS_NAME" value="javakunalclass.patterns.Ten" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="patterns.*" />
+          <option name="PATTERN" value="javakunalclass.patterns.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -243,11 +249,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Fibo" />
+        <item itemvalue="Application.NumbersExampleRecursion" />
+        <item itemvalue="Application.NumbersExample" />
         <item itemvalue="Application.Fifth" />
         <item itemvalue="Application.Ten" />
-        <item itemvalue="Application.Nine" />
-        <item itemvalue="Application.Eight" />
-        <item itemvalue="Application.Seventh" />
       </list>
     </recent_temporary>
   </component>
@@ -322,15 +328,7 @@
       <workItem from="1706485776033" duration="415000" />
       <workItem from="1706486237197" duration="103000" />
       <workItem from="1706486385558" duration="14000" />
-      <workItem from="1706486494810" duration="3502000" />
-    </task>
-    <task id="LOCAL-00010" summary="Added files">
-      <option name="closed" value="true" />
-      <created>1701193065282</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1701193065282</updated>
+      <workItem from="1706486494810" duration="11281000" />
     </task>
     <task id="LOCAL-00011" summary="Added files">
       <option name="closed" value="true" />
@@ -716,7 +714,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706404915491</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="pattern problems">
+      <option name="closed" value="true" />
+      <created>1706497475680</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1706497475680</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -735,7 +741,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Arrays Lectures" />
     <MESSAGE value="Arrays Lecture Problems Completed" />
     <MESSAGE value="Linear Search Class Problems" />
     <MESSAGE value="Constructor Practice" />
@@ -760,7 +765,8 @@
     <MESSAGE value="insertion sort" />
     <MESSAGE value="cyclic sort" />
     <MESSAGE value="Completed Strings Lecture" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed Strings Lecture" />
+    <MESSAGE value="pattern problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="pattern problems" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -795,6 +801,10 @@
           <line>11</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.StackOverflowError" package="java.lang" />
+          <option name="timeStamp" value="10" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
