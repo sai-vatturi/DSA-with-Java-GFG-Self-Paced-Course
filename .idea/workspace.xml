@@ -4,22 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f15d687b-b8b6-4f06-a769-73b3bdd09095" name="Changes" comment="pattern problems">
-      <change afterPath="$PROJECT_DIR$/src/javakunalclass/binarysearch/SplitArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion/Fibo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion/NumbersExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion/NumbersExampleRecursion.java" afterDir="false" />
+    <list default="true" id="f15d687b-b8b6-4f06-a769-73b3bdd09095" name="Changes" comment="recursion lecture">
+      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion/BSRecursion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/patterns/Eight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalclass/patterns/Eight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/patterns/Fifth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalclass/patterns/Fifth.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/patterns/First.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalclass/patterns/First.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/patterns/Fourth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalclass/patterns/Fourth.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/patterns/Nine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalclass/patterns/Nine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/patterns/Second.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalclass/patterns/Second.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/patterns/Seventh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalclass/patterns/Seventh.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/patterns/Sixth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalclass/patterns/Sixth.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/patterns/Ten.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalclass/patterns/Ten.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/patterns/Third.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalclass/patterns/Third.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +60,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.BSRecursion.executor": "Debug",
     "Application.BasicArray.executor": "Run",
     "Application.BasicArrayInput.executor": "Run",
     "Application.BasicArrayStringInput.executor": "Run",
@@ -181,7 +170,20 @@
       <recent name="javakunal.oops.customarraylist" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Fibo">
+  <component name="RunManager" selected="Application.BSRecursion">
+    <configuration name="BSRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javakunalclass.recursion.BSRecursion" />
+      <module name="DSA-with-Java-GFG-Self-Paced-Course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javakunalclass.recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Fibo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javakunalclass.recursion.Fibo" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
@@ -234,26 +236,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ten" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunalclass.patterns.Ten" />
-      <module name="DSA-with-Java-GFG-Self-Paced-Course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="javakunalclass.patterns.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BSRecursion" />
         <item itemvalue="Application.Fibo" />
         <item itemvalue="Application.NumbersExampleRecursion" />
         <item itemvalue="Application.NumbersExample" />
         <item itemvalue="Application.Fifth" />
-        <item itemvalue="Application.Ten" />
       </list>
     </recent_temporary>
   </component>
@@ -329,22 +318,8 @@
       <workItem from="1706486237197" duration="103000" />
       <workItem from="1706486385558" duration="14000" />
       <workItem from="1706486494810" duration="11281000" />
-    </task>
-    <task id="LOCAL-00011" summary="Added files">
-      <option name="closed" value="true" />
-      <created>1701193129682</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1701193129682</updated>
-    </task>
-    <task id="LOCAL-00012" summary="GCD Problem">
-      <option name="closed" value="true" />
-      <created>1701301536030</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1701301536030</updated>
+      <workItem from="1706546145831" duration="65000" />
+      <workItem from="1706571720115" duration="939000" />
     </task>
     <task id="LOCAL-00013" summary="GCD Problem">
       <option name="closed" value="true" />
@@ -722,7 +697,23 @@
       <option name="project" value="LOCAL" />
       <updated>1706497475680</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="rearrange file structure">
+      <option name="closed" value="true" />
+      <created>1706546183913</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1706546183913</updated>
+    </task>
+    <task id="LOCAL-00061" summary="recursion lecture">
+      <option name="closed" value="true" />
+      <created>1706546202052</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1706546202052</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -741,8 +732,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Arrays Lecture Problems Completed" />
-    <MESSAGE value="Linear Search Class Problems" />
     <MESSAGE value="Constructor Practice" />
     <MESSAGE value="oop class 1 lecture practice" />
     <MESSAGE value="Inheritance" />
@@ -766,7 +755,9 @@
     <MESSAGE value="cyclic sort" />
     <MESSAGE value="Completed Strings Lecture" />
     <MESSAGE value="pattern problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="pattern problems" />
+    <MESSAGE value="rearrange file structure" />
+    <MESSAGE value="recursion lecture" />
+    <option name="LAST_COMMIT_MESSAGE" value="recursion lecture" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
