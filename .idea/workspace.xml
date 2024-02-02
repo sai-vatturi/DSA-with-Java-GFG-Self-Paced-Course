@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f15d687b-b8b6-4f06-a769-73b3bdd09095" name="Changes" comment="recursion lecture">
-      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion/BSRecursion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="f15d687b-b8b6-4f06-a769-73b3bdd09095" name="Changes" comment="bs using recursion">
+      <change afterPath="$PROJECT_DIR$/src/classlectures/MarkingDuplicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunalas8/SortingTheSentence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunalclass/arrays/Candies.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,112 +58,115 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.BSRecursion.executor": "Debug",
-    "Application.BasicArray.executor": "Run",
-    "Application.BasicArrayInput.executor": "Run",
-    "Application.BasicArrayStringInput.executor": "Run",
-    "Application.BinarySearchMyImplementation.executor": "Run",
-    "Application.BubbleSort.executor": "Debug",
-    "Application.CeilingBS.executor": "Run",
-    "Application.CyclicSort.executor": "Run",
-    "Application.DynamicArrays.executor": "Run",
-    "Application.Eight.executor": "Run",
-    "Application.ExampleClass.executor": "Run",
-    "Application.Factorial.executor": "Run",
-    "Application.Fibo.executor": "Debug",
-    "Application.Fifth.executor": "Run",
-    "Application.FindMin.executor": "Run",
-    "Application.First.executor": "Run",
-    "Application.FirstAndLastPositionElement.executor": "Run",
-    "Application.FloorBS.executor": "Run",
-    "Application.Fourth.executor": "Run",
-    "Application.GarbagaCollection.executor": "Run",
-    "Application.InfiniteArrayBS.executor": "Run",
-    "Application.InsertionSort.executor": "Debug",
-    "Application.Josephus.executor": "Debug",
-    "Application.LambdaExpressions.executor": "Run",
-    "Application.LargestTillX.executor": "Run",
-    "Application.LinearSearch.executor": "Run",
-    "Application.LinearSearchInRange.executor": "Run",
-    "Application.LinearSearchString.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.MainTest.executor": "Run",
-    "Application.ManeuveringClass.executor": "Run",
-    "Application.MaxIn2DArray.executor": "Run",
-    "Application.MaxInArray.executor": "Run",
-    "Application.MaxMinTwoNumbers.executor": "Run",
-    "Application.Methods.executor": "Run",
-    "Application.MountainArray.executor": "Debug",
-    "Application.MountainArraySelect.executor": "Run",
-    "Application.NCRnpr.executor": "Run",
-    "Application.Nine.executor": "Run",
-    "Application.NumbersExample.executor": "Debug",
-    "Application.NumbersExampleRecursion.executor": "Run",
-    "Application.ObjectDemo.executor": "Run",
-    "Application.OddEven.executor": "Run",
-    "Application.Operators.executor": "Run",
-    "Application.OptimizedPrime.executor": "Run",
-    "Application.OrderAgnosticBS.executor": "Run",
-    "Application.Output.executor": "Run",
-    "Application.Palindrome.executor": "Run",
-    "Application.PeakMountainArray.executor": "Run",
-    "Application.Performance.executor": "Run",
-    "Application.PrettyPrinting.executor": "Run",
-    "Application.QuickSort.executor": "Run",
-    "Application.RearrangeArray.executor": "Run",
-    "Application.ReshapeMatrix.executor": "Debug",
-    "Application.ReverseString.executor": "Run",
-    "Application.ReversingArray.executor": "Run",
-    "Application.SB.executor": "Run",
-    "Application.SE.executor": "Run",
-    "Application.SearchIn2DArray.executor": "Run",
-    "Application.SearchRotatedSortedArray.executor": "Run",
-    "Application.Second.executor": "Run",
-    "Application.SelectInMountain.executor": "Run",
-    "Application.SelectionSort.executor": "Run",
-    "Application.Seventh.executor": "Run",
-    "Application.Sixth.executor": "Run",
-    "Application.SmallestLetter.executor": "Debug",
-    "Application.SubClass.executor": "Run",
-    "Application.SwappingValuesInArray.executor": "Run",
-    "Application.Ten.executor": "Run",
-    "Application.Test.executor": "Run",
-    "Application.Third.executor": "Run",
-    "Application.TwoDArrays.executor": "Run",
-    "Application.TwoDBinary.executor": "Run",
-    "Application.TwoDDynamicArray.executor": "Run",
-    "Application.TwoDSortedBinary.executor": "Run",
-    "Application.UserInputDynamicArrays.executor": "Run",
-    "Application.VoteVerify.executor": "Run",
-    "Application.WrapperClasses.executor": "Run",
-    "Application.findFactorial.executor": "Run",
-    "Application.javakunal.oops.abstractDemo.Main.executor": "Run",
-    "Application.javakunal.oops.access.Main.executor": "Run",
-    "Application.javakunal.oops.cloning.Main.executor": "Run",
-    "Application.javakunal.oops.customarraylist.Main.executor": "Run",
-    "Application.javakunal.oops.exceptionhandling.Main.executor": "Run",
-    "Application.javakunal.oops.interfaces.Main.executor": "Run",
-    "Application.javakunal.oops.polymorphism.Main.executor": "Run",
-    "Application.printPrimes.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "deletionFromPopupRequiresConfirmation": "false",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/xsainav/GitHub/DSA-with-Java-GFG-Self-Paced-Course/DSA-with-Java-GFG-Self-Paced-Course",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.appearance",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.BSRecursion.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.BasicArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BasicArrayInput.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BasicArrayStringInput.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BinarySearchMyImplementation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BubbleSort.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Candies.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CeilingBS.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CyclicSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DynamicArrays.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Eight.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExampleClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Factorial.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Fibo.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Fifth.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindMin.executor&quot;: &quot;Run&quot;,
+    &quot;Application.First.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FirstAndLastPositionElement.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FloorBS.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Fourth.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GarbagaCollection.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InfiniteArrayBS.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InsertionSort.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Josephus.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.LambdaExpressions.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LargestTillX.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LinearSearch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LinearSearchInRange.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LinearSearchString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ManeuveringClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MarkingDuplicates.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaxIn2DArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaxInArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaxMinTwoNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Methods.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MountainArray.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MountainArraySelect.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NCRnpr.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Nine.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NumbersExample.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.NumbersExampleRecursion.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ObjectDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OddEven.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Operators.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OptimizedPrime.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OrderAgnosticBS.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Output.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Palindrome.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PeakMountainArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Performance.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrettyPrinting.executor&quot;: &quot;Run&quot;,
+    &quot;Application.QuickSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RearrangeArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReshapeMatrix.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ReverseString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReversingArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SB.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SE.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SearchIn2DArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SearchRotatedSortedArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Second.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SelectInMountain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SelectionSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Seventh.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Sixth.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SmallestLetter.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.SortingTheSentence.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SubClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SwappingValuesInArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ten.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Third.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TwoDArrays.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TwoDBinary.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TwoDDynamicArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TwoDSortedBinary.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UserInputDynamicArrays.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VoteVerify.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WrapperClasses.executor&quot;: &quot;Run&quot;,
+    &quot;Application.findFactorial.executor&quot;: &quot;Run&quot;,
+    &quot;Application.javakunal.oops.abstractDemo.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.javakunal.oops.access.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.javakunal.oops.cloning.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.javakunal.oops.customarraylist.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.javakunal.oops.exceptionhandling.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.javakunal.oops.interfaces.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.javakunal.oops.polymorphism.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.printPrimes.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/xsainav/GitHub/DSA-with-Java-GFG-Self-Paced-Course/DSA-with-Java-GFG-Self-Paced-Course&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.appearance&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="patterns" />
@@ -170,13 +174,26 @@
       <recent name="javakunal.oops.customarraylist" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BSRecursion">
+  <component name="RunManager" selected="Application.Candies">
     <configuration name="BSRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javakunalclass.recursion.BSRecursion" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="javakunalclass.recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Candies" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javakunalclass.arrays.Candies" />
+      <module name="DSA-with-Java-GFG-Self-Paced-Course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javakunalclass.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -197,12 +214,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Fifth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunalclass.patterns.Fifth" />
+    <configuration name="MarkingDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classlectures.MarkingDuplicates" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javakunalclass.patterns.*" />
+          <option name="PATTERN" value="classlectures.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -210,25 +227,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumbersExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunalclass.recursion.NumbersExample" />
+    <configuration name="SortingTheSentence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javakunalas8.SortingTheSentence" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javakunalclass.recursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NumbersExampleRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunalclass.recursion.NumbersExampleRecursion" />
-      <module name="DSA-with-Java-GFG-Self-Paced-Course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="javakunalclass.recursion.*" />
+          <option name="PATTERN" value="javakunalas8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -238,11 +242,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Candies" />
+        <item itemvalue="Application.MarkingDuplicates" />
+        <item itemvalue="Application.SortingTheSentence" />
         <item itemvalue="Application.BSRecursion" />
         <item itemvalue="Application.Fibo" />
-        <item itemvalue="Application.NumbersExampleRecursion" />
-        <item itemvalue="Application.NumbersExample" />
-        <item itemvalue="Application.Fifth" />
       </list>
     </recent_temporary>
   </component>
@@ -319,15 +323,11 @@
       <workItem from="1706486385558" duration="14000" />
       <workItem from="1706486494810" duration="11281000" />
       <workItem from="1706546145831" duration="65000" />
-      <workItem from="1706571720115" duration="939000" />
-    </task>
-    <task id="LOCAL-00013" summary="GCD Problem">
-      <option name="closed" value="true" />
-      <created>1701312348149</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1701312348149</updated>
+      <workItem from="1706571720115" duration="1553000" />
+      <workItem from="1706577402295" duration="1960000" />
+      <workItem from="1706598993478" duration="580000" />
+      <workItem from="1706629423571" duration="959000" />
+      <workItem from="1706848986680" duration="2426000" />
     </task>
     <task id="LOCAL-00014" summary="GCD Problem">
       <option name="closed" value="true" />
@@ -713,7 +713,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706546202052</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="bs using recursion">
+      <option name="closed" value="true" />
+      <created>1706577190181</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1706577190181</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -732,7 +740,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Constructor Practice" />
     <MESSAGE value="oop class 1 lecture practice" />
     <MESSAGE value="Inheritance" />
     <MESSAGE value="Done with Inheritance" />
@@ -757,7 +764,8 @@
     <MESSAGE value="pattern problems" />
     <MESSAGE value="rearrange file structure" />
     <MESSAGE value="recursion lecture" />
-    <option name="LAST_COMMIT_MESSAGE" value="recursion lecture" />
+    <MESSAGE value="bs using recursion" />
+    <option name="LAST_COMMIT_MESSAGE" value="bs using recursion" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
