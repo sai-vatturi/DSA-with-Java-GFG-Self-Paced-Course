@@ -5,8 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f15d687b-b8b6-4f06-a769-73b3bdd09095" name="Changes" comment="problems">
-      <change afterPath="$PROJECT_DIR$/src/classlectures/Combinations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/ShiftingLetters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classlectures/cat/Combinations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classlectures/cat/EquilibriumSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classlectures/cat/Hamiltonian.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classlectures/cat/JosephusProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classlectures/cat/LeadersInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classlectures/cat/MajorityElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classlectures/cat/ManeuveringProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classlectures/cat/NQueens.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classlectures/cat/NQueens2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classlectures/cat/Permutations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classlectures/cat/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classlectures/cat/RatMazeSolving.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classlectures/cat/SelectionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,6 +83,7 @@
     "Application.CyclicSort.executor": "Run",
     "Application.DynamicArrays.executor": "Run",
     "Application.Eight.executor": "Run",
+    "Application.EquilibriumSum.executor": "Run",
     "Application.ExampleClass.executor": "Run",
     "Application.Factorial.executor": "Run",
     "Application.Fibo.executor": "Debug",
@@ -82,17 +94,23 @@
     "Application.FloorBS.executor": "Run",
     "Application.Fourth.executor": "Run",
     "Application.GarbagaCollection.executor": "Run",
+    "Application.Hamiltonian.executor": "Run",
+    "Application.HamiltonianCycle.executor": "Run",
     "Application.InfiniteArrayBS.executor": "Run",
     "Application.InsertionSort.executor": "Debug",
     "Application.Josephus.executor": "Debug",
+    "Application.JosephusProblem.executor": "Run",
     "Application.LambdaExpressions.executor": "Run",
     "Application.LargestTillX.executor": "Run",
+    "Application.LeadersInArray.executor": "Run",
     "Application.LinearSearch.executor": "Run",
     "Application.LinearSearchInRange.executor": "Run",
     "Application.LinearSearchString.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MainTest.executor": "Run",
+    "Application.MajorityElement.executor": "Run",
     "Application.ManeuveringClass.executor": "Run",
+    "Application.ManeuveringProblem.executor": "Run",
     "Application.MarkingDuplicates.executor": "Run",
     "Application.MaxIn2DArray.executor": "Run",
     "Application.MaxInArray.executor": "Run",
@@ -101,6 +119,8 @@
     "Application.MountainArray.executor": "Debug",
     "Application.MountainArraySelect.executor": "Run",
     "Application.NCRnpr.executor": "Run",
+    "Application.NQueens.executor": "Run",
+    "Application.NQueens2.executor": "Run",
     "Application.Nine.executor": "Run",
     "Application.NumbersExample.executor": "Debug",
     "Application.NumbersExampleRecursion.executor": "Run",
@@ -113,8 +133,10 @@
     "Application.Palindrome.executor": "Run",
     "Application.PeakMountainArray.executor": "Run",
     "Application.Performance.executor": "Run",
+    "Application.Permutations.executor": "Run",
     "Application.PrettyPrinting.executor": "Run",
     "Application.QuickSort.executor": "Run",
+    "Application.RatMazeSolving.executor": "Run",
     "Application.RearrangeArray.executor": "Run",
     "Application.ReshapeMatrix.executor": "Debug",
     "Application.ReverseString.executor": "Run",
@@ -125,7 +147,7 @@
     "Application.SearchRotatedSortedArray.executor": "Run",
     "Application.Second.executor": "Run",
     "Application.SelectInMountain.executor": "Run",
-    "Application.SelectionSort.executor": "Run",
+    "Application.SelectionSort.executor": "Debug",
     "Application.Seventh.executor": "Run",
     "Application.ShiftingLetters.executor": "Run",
     "Application.Sixth.executor": "Run",
@@ -151,6 +173,7 @@
     "Application.javakunal.oops.exceptionhandling.Main.executor": "Run",
     "Application.javakunal.oops.interfaces.Main.executor": "Run",
     "Application.javakunal.oops.polymorphism.Main.executor": "Run",
+    "Application.javakunalclass.sorting.SelectionSort.executor": "Run",
     "Application.printPrimes.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -175,13 +198,13 @@
       <recent name="javakunal.oops.customarraylist" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ShiftingLetters">
-    <configuration name="Candies" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunalclass.arrays.Candies" />
+  <component name="RunManager" selected="Application.RatMazeSolving">
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javakunalclass.sorting.BubbleSort" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javakunalclass.arrays.*" />
+          <option name="PATTERN" value="javakunalclass.sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -189,12 +212,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Combinations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classlectures.Combinations" />
+    <configuration name="CyclicSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javakunalclass.sorting.CyclicSort" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="classlectures.*" />
+          <option name="PATTERN" value="javakunalclass.sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -202,12 +225,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MarkingDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classlectures.MarkingDuplicates" />
+    <configuration name="NQueens" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classlectures.cat.NQueens" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="classlectures.*" />
+          <option name="PATTERN" value="classlectures.cat.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -215,12 +238,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShiftingLetters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.ShiftingLetters" />
+    <configuration name="Permutations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classlectures.cat.Permutations" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.*" />
+          <option name="PATTERN" value="classlectures.cat.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -228,12 +251,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortingTheSentence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunalas8.SortingTheSentence" />
+    <configuration name="RatMazeSolving" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classlectures.cat.RatMazeSolving" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javakunalas8.*" />
+          <option name="PATTERN" value="classlectures.cat.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -243,11 +266,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ShiftingLetters" />
-        <item itemvalue="Application.Combinations" />
-        <item itemvalue="Application.Candies" />
-        <item itemvalue="Application.MarkingDuplicates" />
-        <item itemvalue="Application.SortingTheSentence" />
+        <item itemvalue="Application.RatMazeSolving" />
+        <item itemvalue="Application.CyclicSort" />
+        <item itemvalue="Application.BubbleSort" />
+        <item itemvalue="Application.Permutations" />
+        <item itemvalue="Application.NQueens" />
       </list>
     </recent_temporary>
   </component>
@@ -333,15 +356,9 @@
       <workItem from="1706896766890" duration="1970000" />
       <workItem from="1706975171330" duration="639000" />
       <workItem from="1707152644307" duration="145000" />
-      <workItem from="1707227945697" duration="725000" />
-    </task>
-    <task id="LOCAL-00015" summary="GCD Problem">
-      <option name="closed" value="true" />
-      <created>1701756899942</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1701756899942</updated>
+      <workItem from="1707227945697" duration="770000" />
+      <workItem from="1707235236363" duration="23429000" />
+      <workItem from="1707309183143" duration="5981000" />
     </task>
     <task id="LOCAL-00016" summary="GCD Problem">
       <option name="closed" value="true" />
@@ -727,7 +744,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706891056567</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="problems">
+      <option name="closed" value="true" />
+      <created>1707228992591</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1707228992592</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -795,11 +820,6 @@
           <url>file://$PROJECT_DIR$/src/classlectures/ReshapeMatrix.java</url>
           <line>10</line>
           <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/javakunalclass/sorting/BubbleSort.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/classlectures/Josephus.java</url>
