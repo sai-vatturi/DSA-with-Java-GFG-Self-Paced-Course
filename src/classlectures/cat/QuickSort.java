@@ -7,7 +7,7 @@ public class QuickSort {
         int[] arr = {8, 2, 4, 7, 1, 3, 9, 6, 5};
         quickSort(arr, 0, arr.length - 1);
         System.out.println(Arrays.toString(arr));
-
+        System.out.println(arr);
     }
     public static void quickSort (int[] array, int start, int end) {
         if (end <= start) {

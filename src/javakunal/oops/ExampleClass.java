@@ -1,6 +1,6 @@
 package javakunal.oops;
 
-import javakunalas2.Greeting;
+import javakunalquestions.javakunalas2.Greeting;
 
 public class ExampleClass {
     public static void main(String[] args) {

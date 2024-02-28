@@ -2,8 +2,8 @@ package classlectures.cat;
 
 public class JosephusProblem {
     public static void main(String[] args) {
-        int n = 7;
-        int k = 4;
+        int n = 5;
+        int k = 2;
         System.out.println(josephus(n, k));
     }
     static int josephus(int n, int k) {

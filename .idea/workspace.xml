@@ -4,14 +4,96 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f15d687b-b8b6-4f06-a769-73b3bdd09095" name="Changes" comment="mid exam preperation">
-      <change afterPath="$PROJECT_DIR$/src/javakunalclass/bitwise/FindUnique.java" afterDir="false" />
+    <list default="true" id="f15d687b-b8b6-4f06-a769-73b3bdd09095" name="Changes" comment="bitwise">
+      <change afterPath="$PROJECT_DIR$/src/classlectures/daa/KruskalAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classlectures/daa/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classlectures/daa/PrimsAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classlectures/daa/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collections/ArrayListDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collections/HashSetDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collections/HashSetDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collections/HashSetDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collections/LinkedListDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collections/LinkedListDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collections/LinkedListDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collections/Tesy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunalclass/arrays/Reverse2DArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunalclass/bitwise/ApowerB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunalclass/bitwise/MagicNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunalclass/bitwise/NoOfDigits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunalclass/bitwise/NoofSetBits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunalclass/bitwise/PowerOfTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunalclass/mathematics/Prime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunalclass/mathematics/SieveOfEratosthenes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/neopat/classesobjects/Main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/neopat/classesobjects/Main2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classlectures/cat/MajorityElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classlectures/cat/MajorityElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classlectures/cat/Permutations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classlectures/cat/Permutations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javakunalas2/EvenOdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalas2/EvenOdd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javakunalclass/recursion/Fibo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalclass/recursion/Fibo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mathematicsmod2/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mathematicsmod2/Factorial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classlectures/Combinations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classlectures/Josephus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classlectures/ManeuveringClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classlectures/MarkingDuplicates.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classlectures/QuickSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classlectures/ReshapeMatrix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classlectures/SE.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classlectures/SelectionSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classlectures/cat/JosephusProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classlectures/cat/JosephusProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classlectures/cat/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classlectures/cat/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javakunal/oops/ExampleClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunal/oops/ExampleClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javakunalas1/Hcf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalquestions/javakunalas1/Hcf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javakunalas1/Lcm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalquestions/javakunalas1/Lcm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javakunalas1/LeapYear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalquestions/javakunalas1/LeapYear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javakunalas1/MultiplicationTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalquestions/javakunalas1/MultiplicationTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javakunalas1/NumberSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalquestions/javakunalas1/NumberSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javakunalas1/TwoNumbersSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalquestions/javakunalas1/TwoNumbersSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javakunalas2/Armstrong.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalquestions/javakunalas2/Armstrong.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javakunalas2/EvenOdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalquestions/javakunalas2/EvenOdd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javakunalas2/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalquestions/javakunalas2/Fibonacci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javakunalas2/Greeting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalquestions/javakunalas2/Greeting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javakunalas2/INRtoUSD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalquestions/javakunalas2/INRtoUSD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javakunalas2/MaximumNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalquestions/javakunalas2/MaximumNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javakunalas2/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalquestions/javakunalas2/Palindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javakunalas2/SimpleCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalquestions/javakunalas2/SimpleCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javakunalas2/SimpleInterest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalquestions/javakunalas2/SimpleInterest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javakunalas3/easy/AreaOfCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalquestions/easy/AreaOfCircle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javakunalas3/easy/AreaOfEquilateralTri.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalquestions/easy/AreaOfEquilateralTri.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javakunalas3/easy/AreaOfIsoscelesTri.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalquestions/easy/AreaOfIsoscelesTri.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javakunalas3/easy/AreaOfParallelogram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalquestions/easy/AreaOfParallelogram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javakunalas3/easy/AreaOfRectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalquestions/easy/AreaOfRectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javakunalas3/easy/AreaOfRhombus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalquestions/easy/AreaOfRhombus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javakunalas3/easy/AreaOfTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalquestions/easy/AreaOfTriangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javakunalas3/easy/LargestTillX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalquestions/easy/LargestTillX.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javakunalas3/easy/PerimeterOfCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalquestions/easy/PerimeterOfCircle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javakunalas3/easy/PerimeterOfEquilateralTri.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalquestions/easy/PerimeterOfEquilateralTri.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javakunalas3/easy/PerimeterOfRectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalquestions/easy/PerimeterOfRectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javakunalas3/easy/PrintFactors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalquestions/easy/PrintFactors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javakunalas3/easy/SunTillX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalquestions/easy/SunTillX.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javakunalas32/intermediate/ElectricityBill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalquestions/intermediate/ElectricityBill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javakunalas32/intermediate/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalquestions/intermediate/Factorial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javakunalas32/intermediate/NCRnpr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalquestions/intermediate/NCRnpr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javakunalas32/intermediate/ReverseString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalquestions/intermediate/ReverseString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javakunalas4/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalquestions/javakunalas4/Factorial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javakunalas4/MaxMinTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalquestions/javakunalas4/MaxMinTwoNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javakunalas4/OddEven.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalquestions/javakunalas4/OddEven.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javakunalas4/OptimizedPrime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalquestions/javakunalas4/OptimizedPrime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javakunalas4/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalquestions/javakunalas4/Palindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javakunalas4/PrintPrimes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalquestions/javakunalas4/PrintPrimes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javakunalas4/VoteVerify.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalquestions/javakunalas4/VoteVerify.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javakunalas8/ShuffleString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalquestions/javakunalas8/ShuffleString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javakunalas8/SortingTheSentence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalquestions/javakunalas8/SortingTheSentence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javakunalclass/arrays/ReversingArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalclass/arrays/ReversingArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mathematicsmod2/AbsoluteValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfgclass/mathematicsmod2/AbsoluteValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mathematicsmod2/CelsiusToFahrenheit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfgclass/mathematicsmod2/CelsiusToFahrenheit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mathematicsmod2/ComputePower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfgclass/mathematicsmod2/ComputePower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mathematicsmod2/DigitsInFactorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfgclass/mathematicsmod2/DigitsInFactorial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mathematicsmod2/Divisors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfgclass/mathematicsmod2/Divisors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mathematicsmod2/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfgclass/mathematicsmod2/Factorial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mathematicsmod2/GreatestCommonDivisor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfgclass/mathematicsmod2/GreatestCommonDivisor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mathematicsmod2/LeastCommonMultiple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfgclass/mathematicsmod2/LeastCommonMultiple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mathematicsmod2/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfgclass/mathematicsmod2/Palindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mathematicsmod2/PrimeFactors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfgclass/mathematicsmod2/PrimeFactors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mathematicsmod2/PrimeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfgclass/mathematicsmod2/PrimeNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mathematicsmod2/SieveOfErasthonesis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfgclass/mathematicsmod2/SieveOfErasthonesis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mathematicsmod2/TrailingZeroesFactorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfgclass/mathematicsmod2/TrailingZeroesFactorial.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +126,9 @@
       </UrlAndAccount>
     </option>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/openjdk-21.0.2/Contents/Home/lib/src.zip!/java.base/java/util/List.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -61,130 +146,156 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.BSRecursion.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.BasicArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BasicArrayInput.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BasicArrayStringInput.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BinarySearchMyImplementation.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BubbleSort.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Candies.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CeilingBS.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Combinations.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CyclicSort.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DynamicArrays.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Eight.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EquilibriumSum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EvenOdd.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExampleClass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Factorial.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Fibo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Fifth.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindMin.executor&quot;: &quot;Run&quot;,
-    &quot;Application.First.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FirstAndLastPositionElement.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FloorBS.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Fourth.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GarbagaCollection.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Hamiltonian.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HamiltonianCycle.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InfiniteArrayBS.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InsertionSort.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Josephus.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JosephusProblem.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LambdaExpressions.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LargestTillX.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LeadersInArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LinearSearch.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LinearSearchInRange.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LinearSearchString.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MajorityElement.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ManeuveringClass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ManeuveringProblem.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MarkingDuplicates.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaxIn2DArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaxInArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaxMinTwoNumbers.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Methods.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MountainArray.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.MountainArraySelect.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NCRnpr.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NQueens.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NQueens2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Nine.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NumbersExample.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.NumbersExampleRecursion.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ObjectDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OddEven.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Operators.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OptimizedPrime.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OrderAgnosticBS.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Output.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Palindrome.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PeakMountainArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Performance.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Permutations.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PrettyPrinting.executor&quot;: &quot;Run&quot;,
-    &quot;Application.QuickSort.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RatMazeSolving.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RearrangeArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReshapeMatrix.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.ReverseString.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReversingArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SB.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SE.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SearchIn2DArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SearchRotatedSortedArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Second.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SelectInMountain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SelectionSort.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Seventh.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ShiftingLetters.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Sixth.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SmallestLetter.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.SortingTheSentence.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SubClass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SwappingValuesInArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Ten.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Third.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TwoDArrays.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TwoDBinary.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TwoDDynamicArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TwoDSortedBinary.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UserInputDynamicArrays.executor&quot;: &quot;Run&quot;,
-    &quot;Application.VoteVerify.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WrapperClasses.executor&quot;: &quot;Run&quot;,
-    &quot;Application.findFactorial.executor&quot;: &quot;Run&quot;,
-    &quot;Application.javakunal.oops.abstractDemo.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.javakunal.oops.access.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.javakunal.oops.cloning.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.javakunal.oops.customarraylist.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.javakunal.oops.exceptionhandling.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.javakunal.oops.interfaces.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.javakunal.oops.polymorphism.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.javakunalclass.sorting.SelectionSort.executor&quot;: &quot;Run&quot;,
-    &quot;Application.printPrimes.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/xsainav/GitHub/DSA-with-Java-GFG-Self-Paced-Course/DSA-with-Java-GFG-Self-Paced-Course&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.appearance&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.ApowerB.executor": "Run",
+    "Application.ArrayListDemo1.executor": "Run",
+    "Application.BSRecursion.executor": "Debug",
+    "Application.BasicArray.executor": "Run",
+    "Application.BasicArrayInput.executor": "Run",
+    "Application.BasicArrayStringInput.executor": "Run",
+    "Application.BinarySearchMyImplementation.executor": "Run",
+    "Application.BubbleSort.executor": "Debug",
+    "Application.Candies.executor": "Run",
+    "Application.CeilingBS.executor": "Run",
+    "Application.Combinations.executor": "Run",
+    "Application.CyclicSort.executor": "Run",
+    "Application.DynamicArrays.executor": "Run",
+    "Application.Eight.executor": "Run",
+    "Application.EquilibriumSum.executor": "Run",
+    "Application.EvenOdd.executor": "Run",
+    "Application.ExampleClass.executor": "Run",
+    "Application.Factorial.executor": "Run",
+    "Application.Fibo.executor": "Run",
+    "Application.Fifth.executor": "Run",
+    "Application.FindMin.executor": "Run",
+    "Application.FindUnique.executor": "Debug",
+    "Application.First.executor": "Run",
+    "Application.FirstAndLastPositionElement.executor": "Run",
+    "Application.FloorBS.executor": "Run",
+    "Application.Fourth.executor": "Run",
+    "Application.GarbagaCollection.executor": "Run",
+    "Application.Hamiltonian.executor": "Run",
+    "Application.HamiltonianCycle.executor": "Run",
+    "Application.HashSetDemo1.executor": "Run",
+    "Application.HashSetDemo2.executor": "Run",
+    "Application.HashSetDemo3.executor": "Run",
+    "Application.InfiniteArrayBS.executor": "Run",
+    "Application.InsertionSort.executor": "Debug",
+    "Application.Josephus.executor": "Run",
+    "Application.JosephusProblem.executor": "Run",
+    "Application.KruskalAlgorithm (1).executor": "Run",
+    "Application.KruskalAlgorithm (2).executor": "Run",
+    "Application.KruskalAlgorithm (3).executor": "Debug",
+    "Application.KruskalAlgorithm (4).executor": "Run",
+    "Application.KruskalAlgorithm (5).executor": "Run",
+    "Application.KruskalAlgorithm.executor": "Run",
+    "Application.LambdaExpressions.executor": "Run",
+    "Application.LargestTillX.executor": "Run",
+    "Application.LeadersInArray.executor": "Run",
+    "Application.LinearSearch.executor": "Run",
+    "Application.LinearSearchInRange.executor": "Run",
+    "Application.LinearSearchString.executor": "Run",
+    "Application.LinkedListDemo1.executor": "Run",
+    "Application.LinkedListDemo2.executor": "Run",
+    "Application.LinkedListDemo3.executor": "Run",
+    "Application.MagicNumber.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Main2.executor": "Run",
+    "Application.MainTest.executor": "Run",
+    "Application.MajorityElement.executor": "Run",
+    "Application.ManeuveringClass.executor": "Run",
+    "Application.ManeuveringProblem.executor": "Run",
+    "Application.MarkingDuplicates.executor": "Run",
+    "Application.MaxIn2DArray.executor": "Run",
+    "Application.MaxInArray.executor": "Run",
+    "Application.MaxMinTwoNumbers.executor": "Run",
+    "Application.MergeSort.executor": "Run",
+    "Application.Methods.executor": "Run",
+    "Application.MountainArray.executor": "Debug",
+    "Application.MountainArraySelect.executor": "Run",
+    "Application.NCRnpr.executor": "Run",
+    "Application.NQueens.executor": "Run",
+    "Application.NQueens2.executor": "Run",
+    "Application.Nine.executor": "Run",
+    "Application.NoOfDigits.executor": "Run",
+    "Application.NoofSetBits.executor": "Run",
+    "Application.NumbersExample.executor": "Debug",
+    "Application.NumbersExampleRecursion.executor": "Run",
+    "Application.ObjectDemo.executor": "Run",
+    "Application.OddEven.executor": "Run",
+    "Application.Operators.executor": "Run",
+    "Application.OptimizedPrime.executor": "Run",
+    "Application.OrderAgnosticBS.executor": "Run",
+    "Application.Output.executor": "Run",
+    "Application.Palindrome.executor": "Run",
+    "Application.PeakMountainArray.executor": "Run",
+    "Application.Performance.executor": "Run",
+    "Application.Permutations.executor": "Run",
+    "Application.PowerOfTwo.executor": "Run",
+    "Application.PrettyPrinting.executor": "Run",
+    "Application.Prime.executor": "Run",
+    "Application.PrimsAlgorithm.executor": "Run",
+    "Application.QuickSort.executor": "Run",
+    "Application.RatMazeSolving.executor": "Run",
+    "Application.RearrangeArray.executor": "Run",
+    "Application.ReshapeMatrix.executor": "Debug",
+    "Application.Reverse2DArray.executor": "Run",
+    "Application.ReverseString.executor": "Run",
+    "Application.ReversingArray.executor": "Run",
+    "Application.SB.executor": "Run",
+    "Application.SE.executor": "Run",
+    "Application.SearchIn2DArray.executor": "Run",
+    "Application.SearchRotatedSortedArray.executor": "Run",
+    "Application.Second.executor": "Run",
+    "Application.SelectInMountain.executor": "Run",
+    "Application.SelectionSort.executor": "Debug",
+    "Application.Seventh.executor": "Run",
+    "Application.ShiftingLetters.executor": "Run",
+    "Application.SieveOfEratosthenes.executor": "Run",
+    "Application.Sixth.executor": "Run",
+    "Application.SmallestLetter.executor": "Debug",
+    "Application.SortingTheSentence.executor": "Run",
+    "Application.SubClass.executor": "Run",
+    "Application.SwappingValuesInArray.executor": "Run",
+    "Application.Ten.executor": "Run",
+    "Application.Test.executor": "Run",
+    "Application.Tesy.executor": "Run",
+    "Application.Third.executor": "Run",
+    "Application.TwoDArrays.executor": "Run",
+    "Application.TwoDBinary.executor": "Run",
+    "Application.TwoDDynamicArray.executor": "Run",
+    "Application.TwoDSortedBinary.executor": "Run",
+    "Application.UserInputDynamicArrays.executor": "Run",
+    "Application.VoteVerify.executor": "Run",
+    "Application.WrapperClasses.executor": "Run",
+    "Application.findFactorial.executor": "Run",
+    "Application.javakunal.oops.abstractDemo.Main.executor": "Run",
+    "Application.javakunal.oops.access.Main.executor": "Run",
+    "Application.javakunal.oops.cloning.Main.executor": "Run",
+    "Application.javakunal.oops.customarraylist.Main.executor": "Run",
+    "Application.javakunal.oops.exceptionhandling.Main.executor": "Run",
+    "Application.javakunal.oops.interfaces.Main.executor": "Run",
+    "Application.javakunal.oops.polymorphism.Main.executor": "Run",
+    "Application.javakunalclass.sorting.SelectionSort.executor": "Run",
+    "Application.printPrimes.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/xsainav/GitHub/DSA-with-Java-GFG-Self-Paced-Course/DSA-with-Java-GFG-Self-Paced-Course",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="patterns" />
@@ -192,13 +303,13 @@
       <recent name="javakunal.oops.customarraylist" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FindUnique">
-    <configuration name="EvenOdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunalas2.EvenOdd" />
+  <component name="RunManager" selected="Application.Tesy">
+    <configuration name="HashSetDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.HashSetDemo1" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javakunalas2.*" />
+          <option name="PATTERN" value="collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -206,12 +317,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mathematicsmod2.Factorial" />
+    <configuration name="HashSetDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.HashSetDemo2" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mathematicsmod2.*" />
+          <option name="PATTERN" value="collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -219,12 +330,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Fibo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunalclass.recursion.Fibo" />
+    <configuration name="HashSetDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.HashSetDemo3" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javakunalclass.recursion.*" />
+          <option name="PATTERN" value="collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -232,12 +343,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindUnique" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunalclass.bitwise.FindUnique" />
+    <configuration name="LinkedListDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.LinkedListDemo3" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javakunalclass.bitwise.*" />
+          <option name="PATTERN" value="collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -245,12 +356,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JosephusProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classlectures.cat.JosephusProblem" />
+    <configuration name="Tesy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collections.Tesy" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="classlectures.cat.*" />
+          <option name="PATTERN" value="collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -260,11 +371,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FindUnique" />
-        <item itemvalue="Application.EvenOdd" />
-        <item itemvalue="Application.Fibo" />
-        <item itemvalue="Application.Factorial" />
-        <item itemvalue="Application.JosephusProblem" />
+        <item itemvalue="Application.Tesy" />
+        <item itemvalue="Application.HashSetDemo3" />
+        <item itemvalue="Application.HashSetDemo2" />
+        <item itemvalue="Application.HashSetDemo1" />
+        <item itemvalue="Application.LinkedListDemo3" />
       </list>
     </recent_temporary>
   </component>
@@ -365,15 +476,20 @@
       <workItem from="1707871242840" duration="846000" />
       <workItem from="1707904545310" duration="255000" />
       <workItem from="1707907886037" duration="1394000" />
-      <workItem from="1707910993359" duration="108000" />
-    </task>
-    <task id="LOCAL-00017" summary="GCD Problem">
-      <option name="closed" value="true" />
-      <created>1701965704337</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1701965704337</updated>
+      <workItem from="1707910993359" duration="789000" />
+      <workItem from="1708088069051" duration="2773000" />
+      <workItem from="1708103205722" duration="12000" />
+      <workItem from="1708111005546" duration="2558000" />
+      <workItem from="1708221790298" duration="9731000" />
+      <workItem from="1708443086130" duration="977000" />
+      <workItem from="1708577688261" duration="4301000" />
+      <workItem from="1708665268386" duration="10445000" />
+      <workItem from="1708705151151" duration="605000" />
+      <workItem from="1708752318362" duration="1072000" />
+      <workItem from="1708765900396" duration="1028000" />
+      <workItem from="1708957098120" duration="5777000" />
+      <workItem from="1709053753286" duration="4000" />
+      <workItem from="1709105294053" duration="3868000" />
     </task>
     <task id="LOCAL-00018" summary="New Problems">
       <option name="closed" value="true" />
@@ -759,7 +875,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707321269424</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="bitwise">
+      <option name="closed" value="true" />
+      <created>1707914356529</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1707914356530</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -778,7 +902,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Done with Inheritance" />
     <MESSAGE value="kunal lecture 3 complete" />
     <MESSAGE value="java kunal oops 4 lecture complete" />
     <MESSAGE value="abstract classes" />
@@ -803,7 +926,8 @@
     <MESSAGE value="bs using recursion" />
     <MESSAGE value="problems" />
     <MESSAGE value="mid exam preperation" />
-    <option name="LAST_COMMIT_MESSAGE" value="mid exam preperation" />
+    <MESSAGE value="bitwise" />
+    <option name="LAST_COMMIT_MESSAGE" value="bitwise" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -824,14 +948,9 @@
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/classlectures/ReshapeMatrix.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/classlectures/Josephus.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="6" />
+          <url>file://$PROJECT_DIR$/src/javakunalclass/bitwise/ApowerB.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.StackOverflowError" package="java.lang" />
