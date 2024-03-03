@@ -23,8 +23,8 @@ Welcome to my coding journey repository! 🤗 Here, i will be sharing my daily p
 ## Folder Structure:
 ### 📁 Repository file path overview:
 *Ex:* /src/mathematics**mod2**
-- **src:** Contains java packages of modules of GFG Self Paced Course.
-- **mod[number]:** Represents the module number respective to GFG Self Paced Course.
+- **src:** Contains java packages of modules of Main Self Paced Course.
+- **mod[number]:** Represents the module number respective to Main Self Paced Course.
 
 [Analysis of Algorithms]
 **Topics**
