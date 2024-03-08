@@ -18,7 +18,7 @@ public class LeadersInArray {
                 stack.push(arr[j]);
             }
         }
-        while(!stack.empty()) {
+        while(!stack.isEmpty()) {
             System.out.print(stack.pop() + " ");
         }
     }

@@ -23,8 +23,8 @@ public class Combinations {
         }
     }
     public static void main(String[] args) {
-        int[] arr = {1, 2, 3, 4};
-        int r = 2;
+        int[] arr = {1, 2, 3, 5, 6};
+        int r = 3;
         Arrays.sort(arr); // Sort the array to handle duplicates
         generateCombinations(arr, r);
     }

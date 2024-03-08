@@ -32,11 +32,11 @@ public class RatMazeSolving {
 
     public static void main(String[] args) {
         int maze[][] = {
-                {1, 1, 1, 1, 0},
-                {0, 0, 0, 1, 1},
-                {1, 1, 1, 1, 1},
-                {1, 0, 0, 0, 1},
-                {1, 1, 1, 1, 1}
+                {1, 0, 0, 0, 0},
+                {1, 1, 1, 0, 0},
+                {1, 0, 1, 0, 1},
+                {0, 0, 1, 1, 0},
+                {0, 0, 0, 1, 1}
         };
 
         sol = new int[maze.length][maze[0].length];
