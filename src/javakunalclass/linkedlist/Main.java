@@ -2,15 +2,17 @@ package javakunalclass.linkedlist;
 
 public class Main {
     public static void main(String[] args) {
-        LL list = new LL();
-        System.out.println(list.size);
-        list.insertFirst(5);
-        list.insertFirst(6);
-        list.insertFirst(7);
-        list.insertFirst(8);
-        list.insertLast(4);
-        list.insertLast(3);
+        Integer myInteger = new Integer(10);
+        System.out.println("Before method call: " + myInteger);
 
-        list.display();
+        modifyInteger(myInteger);
+
+        System.out.println("After method call: " + myInteger);
     }
+    public static void modifyInteger(Integer num) {
+        // This method modifies the value of the Integer object
+        num = num + 5;
+        System.out.println("Inside method: " + num);
+    }
+
 }

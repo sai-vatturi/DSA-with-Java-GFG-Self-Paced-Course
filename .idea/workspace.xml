@@ -4,25 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f15d687b-b8b6-4f06-a769-73b3bdd09095" name="Changes" comment="add commit">
-      <change afterPath="$PROJECT_DIR$/src/classlectures/cat/Perm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classlectures/daa/BruteTSP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classlectures/daa/FloydWarshall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classlectures/daa/Knapsack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunalclass/mathematics/Factors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sdot/linkedlist/SinglyLinkedList.java" afterDir="false" />
+    <list default="true" id="f15d687b-b8b6-4f06-a769-73b3bdd09095" name="Changes" comment="Problems">
+      <change afterPath="$PROJECT_DIR$/src/sdot/linkedlist/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classlectures/cat/Combinations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classlectures/cat/Combinations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classlectures/cat/EquilibriumSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classlectures/cat/EquilibriumSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classlectures/cat/JosephusProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classlectures/cat/JosephusProblem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classlectures/cat/LeadersInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classlectures/cat/LeadersInArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classlectures/cat/MajorityElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classlectures/cat/MajorityElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classlectures/cat/Permutations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classlectures/cat/Permutations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classlectures/cat/RatMazeSolving.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classlectures/cat/RatMazeSolving.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classlectures/daa/KruskalAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classlectures/daa/KruskalAlgorithm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/javakunalclass/linkedlist/LL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalclass/linkedlist/LL.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/javakunalclass/linkedlist/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalclass/linkedlist/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javakunalclass/mathematics/SieveOfEratosthenes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunalclass/mathematics/SieveOfEratosthenes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,6 +123,8 @@
     "Application.LinkedListDemo2.executor": "Run",
     "Application.LinkedListDemo3.executor": "Run",
     "Application.MagicNumber.executor": "Run",
+    "Application.Main (1).executor": "Run",
+    "Application.Main (2).executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Main2.executor": "Run",
     "Application.MainTest.executor": "Run",
@@ -248,7 +236,7 @@
       <recent name="javakunal.oops.customarraylist" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SinglyLinkedList">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="BruteTSP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="classlectures.daa.BruteTSP" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
@@ -262,12 +250,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FloydWarshall" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classlectures.daa.FloydWarshall" />
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sdot.linkedlist.Main" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="classlectures.daa.*" />
+          <option name="PATTERN" value="sdot.linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -275,12 +263,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KruskalAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classlectures.daa.KruskalAlgorithm" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sdot.linkedlist.Main" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="classlectures.daa.*" />
+          <option name="PATTERN" value="sdot.linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -288,12 +276,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimsAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classlectures.daa.PrimsAlgorithm" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sdot.linkedlist.Main" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="classlectures.daa.*" />
+          <option name="PATTERN" value="sdot.linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -316,11 +304,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.SinglyLinkedList" />
         <item itemvalue="Application.BruteTSP" />
-        <item itemvalue="Application.KruskalAlgorithm" />
-        <item itemvalue="Application.PrimsAlgorithm" />
-        <item itemvalue="Application.FloydWarshall" />
       </list>
     </recent_temporary>
   </component>
@@ -457,15 +445,9 @@
       <workItem from="1709897410659" duration="903000" />
       <workItem from="1709898421617" duration="1890000" />
       <workItem from="1709901474211" duration="3294000" />
-      <workItem from="1709915679802" duration="115000" />
-    </task>
-    <task id="LOCAL-00020" summary="completed 2nd">
-      <option name="closed" value="true" />
-      <created>1702138100553</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1702138100553</updated>
+      <workItem from="1709915679802" duration="969000" />
+      <workItem from="1709962788208" duration="610000" />
+      <workItem from="1709965958910" duration="3808000" />
     </task>
     <task id="LOCAL-00021" summary="completed 2nd">
       <option name="closed" value="true" />
@@ -851,7 +833,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709484871644</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="Problems">
+      <option name="closed" value="true" />
+      <created>1709915826569</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1709915826569</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -870,7 +860,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="java kunal oops 4 lecture complete" />
     <MESSAGE value="abstract classes" />
     <MESSAGE value="complete lecture 5" />
     <MESSAGE value="complete lecture 6" />
@@ -895,7 +884,8 @@
     <MESSAGE value="mid exam preperation" />
     <MESSAGE value="bitwise" />
     <MESSAGE value="add commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="add commit" />
+    <MESSAGE value="Problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="Problems" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
