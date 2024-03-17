@@ -2,7 +2,7 @@ package classlectures.cat;
 
 public class JosephusProblem {
     public static void main(String[] args) {
-        int n = 8;
+        int n = 6;
         int k = 3;
         System.out.println(josephus(n, k));
     }

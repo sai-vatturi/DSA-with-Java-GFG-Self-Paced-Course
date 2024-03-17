@@ -4,10 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f15d687b-b8b6-4f06-a769-73b3bdd09095" name="Changes" comment="Graphs SDOT Training">
-      <change afterPath="$PROJECT_DIR$/src/sdot/zaheer/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="f15d687b-b8b6-4f06-a769-73b3bdd09095" name="Changes" comment="LinkedList SDOT Training">
+      <change afterPath="$PROJECT_DIR$/src/classlectures/daa/DpTSP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classlectures/daa/OptimalBSTusingDP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gfgclass/arrays/MoveAllZeroesToEnd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gfgclass/arrays/RemoveDuplicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gfgclass/recursion/CheckStringPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gfgclass/recursion/FactorialTailRecursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gfgclass/recursion/FindElementInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gfgclass/recursion/PermutationsOfAString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gfgclass/recursion/PowerSetSubSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gfgclass/recursion/PrintNtoOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gfgclass/recursion/RopeCutting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gfgclass/recursion/SubsetSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gfgclass/recursion/SumFromNtoOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gfgclass/recursion/SumOfDigits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gfgclass/recursion/TowerOfHanoi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classlectures/cat/JosephusProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classlectures/cat/JosephusProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classlectures/daa/BruteTSP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classlectures/daa/BruteTSP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sdot/linkedlist/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sdot/linkedlist/SinglyLinked.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sdot/linkedlist/Mainn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sdot/linkedlist/Mainn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sdot/linkedlist/MergeKLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sdot/linkedlist/MergeKLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sdot/linkedlist/MergeSorted.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sdot/linkedlist/MergeSorted.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sdot/linkedlist/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sdot/linkedlist/Palindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sdot/linkedlist/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sdot/linkedlist/SinglyLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +62,7 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/openjdk-21.0.2/Contents/Home/lib/src.zip!/java.base/java/nio/CharBuffer.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/openjdk-21.0.2/Contents/Home/lib/src.zip!/java.base/java/util/List.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -76,6 +98,7 @@
     "Application.CeilingBS.executor": "Run",
     "Application.Combinations.executor": "Run",
     "Application.CyclicSort.executor": "Run",
+    "Application.DpTSP.executor": "Run",
     "Application.DynamicArrays.executor": "Run",
     "Application.Eight.executor": "Run",
     "Application.EquilibriumSum.executor": "Run",
@@ -85,6 +108,7 @@
     "Application.Factors.executor": "Run",
     "Application.Fibo.executor": "Run",
     "Application.Fifth.executor": "Run",
+    "Application.FindElementInArray.executor": "Run",
     "Application.FindMin.executor": "Run",
     "Application.FindUnique.executor": "Debug",
     "Application.First.executor": "Run",
@@ -144,6 +168,7 @@
     "Application.Methods.executor": "Run",
     "Application.MountainArray.executor": "Debug",
     "Application.MountainArraySelect.executor": "Run",
+    "Application.MoveAllZeroesToEnd.executor": "Run",
     "Application.NCRnpr.executor": "Run",
     "Application.NQueens.executor": "Run",
     "Application.NQueens2.executor": "Run",
@@ -163,13 +188,16 @@
     "Application.Performance.executor": "Run",
     "Application.Perm.executor": "Run",
     "Application.Permutations.executor": "Run",
+    "Application.PermutationsOfAString.executor": "Run",
     "Application.PowerOfTwo.executor": "Run",
+    "Application.PowerSetSubSet.executor": "Run",
     "Application.PrettyPrinting.executor": "Run",
     "Application.Prime.executor": "Run",
     "Application.PrimsAlgorithm.executor": "Run",
     "Application.QuickSort.executor": "Run",
     "Application.RatMazeSolving.executor": "Run",
     "Application.RearrangeArray.executor": "Run",
+    "Application.RemoveDuplicates.executor": "Run",
     "Application.ReorderList.executor": "Run",
     "Application.ReshapeMatrix.executor": "Debug",
     "Application.Reverse2DArray.executor": "Run",
@@ -194,11 +222,13 @@
     "Application.SmallestLetter.executor": "Debug",
     "Application.SortingTheSentence.executor": "Run",
     "Application.SubClass.executor": "Run",
+    "Application.SubsetSum.executor": "Run",
     "Application.SwappingValuesInArray.executor": "Run",
     "Application.Ten.executor": "Run",
     "Application.Test.executor": "Run",
     "Application.Tesy.executor": "Run",
     "Application.Third.executor": "Run",
+    "Application.TowerOfHanoi.executor": "Run",
     "Application.TwoDArrays.executor": "Run",
     "Application.TwoDBinary.executor": "Run",
     "Application.TwoDDynamicArray.executor": "Run",
@@ -236,6 +266,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/sdot/linkedlist" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="sdot" />
     </key>
@@ -245,23 +278,13 @@
       <recent name="javakunal.oops.customarraylist" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="16" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="DSA-with-Java-GFG-Self-Paced-Course" />
-      <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Permutations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classlectures.cat.Permutations" />
+  <component name="RunManager" selected="Application.MoveAllZeroesToEnd">
+    <configuration name="MoveAllZeroesToEnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gfgclass.arrays.MoveAllZeroesToEnd" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="classlectures.cat.*" />
+          <option name="PATTERN" value="gfgclass.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -269,14 +292,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="zaheer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="16" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="sdot.zaheer" />
+    <configuration name="PermutationsOfAString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gfgclass.recursion.PermutationsOfAString" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sdot.zaheer.*" />
+          <option name="PATTERN" value="gfgclass.recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PowerSetSubSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gfgclass.recursion.PowerSetSubSet" />
+      <module name="DSA-with-Java-GFG-Self-Paced-Course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gfgclass.recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gfgclass.arrays.RemoveDuplicates" />
+      <module name="DSA-with-Java-GFG-Self-Paced-Course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gfgclass.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubsetSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gfgclass.recursion.SubsetSum" />
+      <module name="DSA-with-Java-GFG-Self-Paced-Course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gfgclass.recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -285,15 +345,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Permutations" />
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.zaheer" />
+      <item itemvalue="Application.MoveAllZeroesToEnd" />
+      <item itemvalue="Application.RemoveDuplicates" />
+      <item itemvalue="Application.PermutationsOfAString" />
+      <item itemvalue="Application.PowerSetSubSet" />
+      <item itemvalue="Application.SubsetSum" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Permutations" />
-        <item itemvalue="Application.zaheer" />
+        <item itemvalue="Application.MoveAllZeroesToEnd" />
+        <item itemvalue="Application.SubsetSum" />
+        <item itemvalue="Application.PowerSetSubSet" />
+        <item itemvalue="Application.PermutationsOfAString" />
+        <item itemvalue="Application.RemoveDuplicates" />
       </list>
     </recent_temporary>
   </component>
@@ -437,22 +501,12 @@
       <workItem from="1710152028953" duration="729000" />
       <workItem from="1710175915928" duration="38000" />
       <workItem from="1710177877823" duration="6000000" />
-    </task>
-    <task id="LOCAL-00023" summary="completed 2nd">
-      <option name="closed" value="true" />
-      <created>1702225977954</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1702225977954</updated>
-    </task>
-    <task id="LOCAL-00024" summary="completed 2nd">
-      <option name="closed" value="true" />
-      <created>1702225997938</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1702225997938</updated>
+      <workItem from="1710268427431" duration="94000" />
+      <workItem from="1710437947933" duration="28000" />
+      <workItem from="1710502401329" duration="1311000" />
+      <workItem from="1710506115965" duration="4198000" />
+      <workItem from="1710638094217" duration="11366000" />
+      <workItem from="1710676164955" duration="4817000" />
     </task>
     <task id="LOCAL-00025" summary="completed 2nd">
       <option name="closed" value="true" />
@@ -830,7 +884,23 @@
       <option name="project" value="LOCAL" />
       <updated>1710175946840</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="LinkedList SDOT Training">
+      <option name="closed" value="true" />
+      <created>1710268510528</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1710268510528</updated>
+    </task>
+    <task id="LOCAL-00073" summary="LinkedList SDOT Training">
+      <option name="closed" value="true" />
+      <created>1710437969353</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1710437969353</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -849,7 +919,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="complete lecture 6" />
     <MESSAGE value="complete bs lecture" />
     <MESSAGE value="ceiling problem" />
     <MESSAGE value="bs problems" />
@@ -874,7 +943,8 @@
     <MESSAGE value="Problems" />
     <MESSAGE value="Linkedlist Problems" />
     <MESSAGE value="Graphs SDOT Training" />
-    <option name="LAST_COMMIT_MESSAGE" value="Graphs SDOT Training" />
+    <MESSAGE value="LinkedList SDOT Training" />
+    <option name="LAST_COMMIT_MESSAGE" value="LinkedList SDOT Training" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

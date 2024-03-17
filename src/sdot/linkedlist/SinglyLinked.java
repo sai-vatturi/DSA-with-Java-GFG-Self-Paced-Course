@@ -1,6 +1,4 @@
-package sdot.linkedlist;
-
-import java.util.Scanner;
+//package sdot.linkedlist;
 //
 //class Node {
 //	int data;
@@ -9,7 +7,7 @@ import java.util.Scanner;
 //		this.data = data;
 //	}
 //}
-//class SinglyLinkedList {
+//class SinglyLinked {
 //	Node head, tail;
 //
 //	void insert(int x) {
@@ -126,52 +124,29 @@ import java.util.Scanner;
 //		}
 //		System.out.println();
 //	}
-//}
-//
-//public class Palindrome {
-//	public static Node reverse(Node head) {
-//		Node current = head;
-//        Node prev = null;
-//        Node next = null;
-//        while (current != null) {
-//            next = current.next;
-//            current.next = prev;
-//            prev = current;
-//            current = next;
-//        }
-//        head = prev;
-//        return head;
-//	}
-//	public static boolean isPalindrome(SinglyLinked l) {
-//		Node slow = l.head;
-//		Node current = slow;
-//		Node fast = slow;
-//		while (fast != null && fast.next != null) {
-//			fast = fast.next.next;
-//			current = slow;
-//			slow = slow.next;
-//		}
-//		current.next = null;
-//		Node list2 = reverse(slow);
-//
-//		Node temp1 = l.head;
-//		Node temp2 = list2;
-//		while (temp1 != null && temp2 != null) {
-//			if (temp1.data != temp2.data) {
-//				return false;
-//			}
-//			temp1 = temp1.next;
-//			temp2 = temp2.next;
-//		}
-//		return true;
-//	}
 //	public static void main(String[] args) {
-//		Scanner sc = new Scanner(System.in);
-//		int n1 = sc.nextInt();
-//		SinglyLinked l1 = new SinglyLinked();
-//		for (int i = 0; i < n1; i++) {
-//			l1.insert(sc.nextInt());
-//		}
-//		System.out.println(isPalindrome(l1));
+//		// Linked List Methods
+//
+//		// insert(data), insertAt(index, data), insertFirst
+//		// delete(data), deleteFirst, deleteLast, deleteAt
+//		// display, getSize()
+//		SinglyLinked l = new SinglyLinked();
+//
+//		l.display();
+//		l.insert(5);
+//		l.insert(6);
+//		l.insert(10);
+//		l.insert(7);
+//		System.out.println("Should print 5, 6, 10, 7");
+//		l.display();
+//		l.delete(6);
+//		l.insertFirst(0);
+//		System.out.println("Should print 0, 5, 10, 7");
+//		l.display();
+//		l.insertAt(2, 4);
+//		System.out.println("I should print 0, 5, 4, 10, 7");
+//		l.display();
+//		System.out.println(l.getSize());
 //	}
 //}
+//
