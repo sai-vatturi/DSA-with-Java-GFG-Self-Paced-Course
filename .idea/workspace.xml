@@ -4,21 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f15d687b-b8b6-4f06-a769-73b3bdd09095" name="Changes" comment="Arrays Problems">
-      <change afterPath="$PROJECT_DIR$/src/classlectures/cattwo/ActivitySelection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classlectures/cattwo/GraphColoring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classlectures/cattwo/HuffmanCoding.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classlectures/cattwo/IterativeTowerOfHanoi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classlectures/cattwo/LoopDetection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classlectures/cattwo/MaxActivities.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classlectures/cattwo/MergeSortDLL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classlectures/cattwo/MergeSortForDLL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classlectures/cattwo/MinimumStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classlectures/cattwo/OddEvenLL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classlectures/cattwo/SortTheBitonicDLL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classlectures/cattwo/StockSpanProblem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classlectures/cattwo/TheCelebrityProblem.java" afterDir="false" />
+    <list default="true" id="f15d687b-b8b6-4f06-a769-73b3bdd09095" name="Changes" comment="CAT2 STS Problems">
+      <change afterPath="$PROJECT_DIR$/src/classlectures/daa/OptimalBST.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classlectures/cattwo/IterativeTowerOfHanoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classlectures/cattwo/IterativeTowerOfHanoi.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,203 +61,204 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.ActivitySelection.executor": "Run",
-    "Application.ApowerB.executor": "Run",
-    "Application.ArrayListDemo1.executor": "Run",
-    "Application.BSRecursion.executor": "Debug",
-    "Application.BasicArray.executor": "Run",
-    "Application.BasicArrayInput.executor": "Run",
-    "Application.BasicArrayStringInput.executor": "Run",
-    "Application.BinarySearchMyImplementation.executor": "Run",
-    "Application.BruteTSP.executor": "Run",
-    "Application.BubbleSort.executor": "Debug",
-    "Application.Candies.executor": "Run",
-    "Application.CeilingBS.executor": "Run",
-    "Application.Combinations.executor": "Run",
-    "Application.CyclicSort.executor": "Run",
-    "Application.DpTSP.executor": "Run",
-    "Application.DynamicArrays.executor": "Run",
-    "Application.Eight.executor": "Run",
-    "Application.EquilibriumSum.executor": "Run",
-    "Application.EvenOdd.executor": "Run",
-    "Application.ExampleClass.executor": "Run",
-    "Application.Factorial.executor": "Run",
-    "Application.Factors.executor": "Run",
-    "Application.Fibo.executor": "Run",
-    "Application.Fifth.executor": "Run",
-    "Application.FindElementInArray.executor": "Run",
-    "Application.FindMin.executor": "Run",
-    "Application.FindUnique.executor": "Debug",
-    "Application.First.executor": "Run",
-    "Application.FirstAndLastPositionElement.executor": "Run",
-    "Application.FloorBS.executor": "Run",
-    "Application.FloydWarshall.executor": "Run",
-    "Application.Foo.executor": "Run",
-    "Application.Fourth.executor": "Run",
-    "Application.FrequenciesInSortedArray.executor": "Run",
-    "Application.GarbagaCollection.executor": "Run",
-    "Application.GraphClass (1).executor": "Run",
-    "Application.GraphClass (2).executor": "Run",
-    "Application.GraphClass.executor": "Run",
-    "Application.GraphColoring.executor": "Run",
-    "Application.Hamiltonian.executor": "Run",
-    "Application.HamiltonianCycle.executor": "Run",
-    "Application.HashSetDemo1.executor": "Run",
-    "Application.HashSetDemo2.executor": "Run",
-    "Application.HashSetDemo3.executor": "Run",
-    "Application.HelloWorld.executor": "Run",
-    "Application.InfiniteArrayBS.executor": "Run",
-    "Application.InsertionSort.executor": "Debug",
-    "Application.Josephus.executor": "Run",
-    "Application.JosephusProblem.executor": "Run",
-    "Application.Knapsack (1).executor": "Run",
-    "Application.Knapsack (2).executor": "Run",
-    "Application.Knapsack.executor": "Run",
-    "Application.KruskalAlgorithm (1).executor": "Run",
-    "Application.KruskalAlgorithm (2).executor": "Run",
-    "Application.KruskalAlgorithm (3).executor": "Debug",
-    "Application.KruskalAlgorithm (4).executor": "Run",
-    "Application.KruskalAlgorithm (5).executor": "Run",
-    "Application.KruskalAlgorithm.executor": "Run",
-    "Application.LambdaExpressions.executor": "Run",
-    "Application.LargestTillX.executor": "Run",
-    "Application.LeadersInArray.executor": "Run",
-    "Application.LeftRotateByD.executor": "Run",
-    "Application.LeftRotateByOne.executor": "Run",
-    "Application.LinearSearch.executor": "Run",
-    "Application.LinearSearchInRange.executor": "Run",
-    "Application.LinearSearchString.executor": "Run",
-    "Application.LinkedListDemo1.executor": "Run",
-    "Application.LinkedListDemo2.executor": "Run",
-    "Application.LinkedListDemo3.executor": "Run",
-    "Application.MagicNumber.executor": "Run",
-    "Application.Main (1).executor": "Run",
-    "Application.Main (2).executor": "Run",
-    "Application.Main (3).executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.Main2.executor": "Run",
-    "Application.MainTest.executor": "Run",
-    "Application.MajorityElement.executor": "Run",
-    "Application.ManeuveringClass.executor": "Run",
-    "Application.ManeuveringProblem.executor": "Run",
-    "Application.MarkingDuplicates.executor": "Run",
-    "Application.MaxActivities.executor": "Run",
-    "Application.MaxEquilibriumSum.executor": "Run",
-    "Application.MaxIn2DArray.executor": "Run",
-    "Application.MaxInArray.executor": "Run",
-    "Application.MaxMinTwoNumbers.executor": "Run",
-    "Application.MaximumDifference.executor": "Run",
-    "Application.MaximumSumSubArray.executor": "Run",
-    "Application.MergeSort.executor": "Run",
-    "Application.Methods.executor": "Run",
-    "Application.MountainArray.executor": "Debug",
-    "Application.MountainArraySelect.executor": "Run",
-    "Application.MoveAllZeroesToEnd.executor": "Run",
-    "Application.NCRnpr.executor": "Run",
-    "Application.NQueens.executor": "Run",
-    "Application.NQueens2.executor": "Run",
-    "Application.Nine.executor": "Run",
-    "Application.NoOfDigits.executor": "Run",
-    "Application.NoofSetBits.executor": "Run",
-    "Application.NumbersExample.executor": "Debug",
-    "Application.NumbersExampleRecursion.executor": "Run",
-    "Application.ObjectDemo.executor": "Run",
-    "Application.OddEven.executor": "Run",
-    "Application.OddEvenLL.executor": "Run",
-    "Application.Operators.executor": "Run",
-    "Application.OptimizedPrime.executor": "Run",
-    "Application.OrderAgnosticBS.executor": "Run",
-    "Application.Output.executor": "Run",
-    "Application.Palindrome.executor": "Run",
-    "Application.PeakMountainArray.executor": "Run",
-    "Application.Performance.executor": "Run",
-    "Application.Perm.executor": "Run",
-    "Application.Permutations.executor": "Run",
-    "Application.PermutationsOfAString.executor": "Run",
-    "Application.PowerOfTwo.executor": "Run",
-    "Application.PowerSetSubSet.executor": "Run",
-    "Application.PrettyPrinting.executor": "Run",
-    "Application.Prime.executor": "Run",
-    "Application.PrimsAlgorithm.executor": "Run",
-    "Application.QuickSort.executor": "Run",
-    "Application.RatMazeSolving.executor": "Run",
-    "Application.RearrangeArray.executor": "Run",
-    "Application.RemoveDuplicates.executor": "Run",
-    "Application.ReorderList.executor": "Run",
-    "Application.ReshapeMatrix.executor": "Debug",
-    "Application.Reverse2DArray.executor": "Run",
-    "Application.ReverseK.executor": "Run",
-    "Application.ReverseLinkedList.executor": "Run",
-    "Application.ReverseString.executor": "Run",
-    "Application.ReversingArray.executor": "Run",
-    "Application.SB.executor": "Run",
-    "Application.SE.executor": "Run",
-    "Application.SearchIn2DArray.executor": "Run",
-    "Application.SearchInSubArray (1).executor": "Run",
-    "Application.SearchInSubArray.executor": "Run",
-    "Application.SearchRotatedSortedArray.executor": "Run",
-    "Application.Second.executor": "Run",
-    "Application.SelectInMountain.executor": "Run",
-    "Application.SelectionSort.executor": "Debug",
-    "Application.Seventh.executor": "Run",
-    "Application.ShiftingLetters.executor": "Run",
-    "Application.SieveOfEratosthenes.executor": "Run",
-    "Application.SinglyLinkedList.executor": "Run",
-    "Application.Sixth.executor": "Run",
-    "Application.SmallestLetter.executor": "Debug",
-    "Application.SortingTheSentence.executor": "Run",
-    "Application.StockBuyAndSell.executor": "Run",
-    "Application.StockSpanProblem.executor": "Run",
-    "Application.SubClass.executor": "Run",
-    "Application.SubsetSum.executor": "Run",
-    "Application.SwappingValuesInArray.executor": "Run",
-    "Application.Ten.executor": "Run",
-    "Application.Test.executor": "Run",
-    "Application.Tesy.executor": "Run",
-    "Application.TheCelebrityProblem.executor": "Run",
-    "Application.Third.executor": "Run",
-    "Application.TowerOfHanoi.executor": "Run",
-    "Application.TrappingRainWater.executor": "Run",
-    "Application.TwoDArrays.executor": "Run",
-    "Application.TwoDBinary.executor": "Run",
-    "Application.TwoDDynamicArray.executor": "Run",
-    "Application.TwoDSortedBinary.executor": "Run",
-    "Application.UserInputDynamicArrays.executor": "Run",
-    "Application.VoteVerify.executor": "Run",
-    "Application.WrapperClasses.executor": "Run",
-    "Application.classlectures.daa.HelloWorld.executor": "Debug",
-    "Application.findFactorial.executor": "Run",
-    "Application.javakunal.oops.abstractDemo.Main.executor": "Run",
-    "Application.javakunal.oops.access.Main.executor": "Run",
-    "Application.javakunal.oops.cloning.Main.executor": "Run",
-    "Application.javakunal.oops.customarraylist.Main.executor": "Run",
-    "Application.javakunal.oops.exceptionhandling.Main.executor": "Run",
-    "Application.javakunal.oops.interfaces.Main.executor": "Run",
-    "Application.javakunal.oops.polymorphism.Main.executor": "Run",
-    "Application.javakunalclass.sorting.SelectionSort.executor": "Run",
-    "Application.printPrimes.executor": "Run",
-    "Application.sdot.zaheer.Main (1).executor": "Run",
-    "Application.sdot.zaheer.Main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "deletionFromPopupRequiresConfirmation": "false",
-    "git-widget-placeholder": "main",
-    "ignore.preview.features.used": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/xsainav/GitHub/DSA-with-Java-GFG-Self-Paced-Course/DSA-with-Java-GFG-Self-Paced-Course",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.ActivitySelection.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ApowerB.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayListDemo1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BSRecursion.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.BasicArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BasicArrayInput.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BasicArrayStringInput.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BinarySearchMyImplementation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BruteTSP.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BubbleSort.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Candies.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CeilingBS.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Combinations.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CyclicSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DpTSP.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DynamicArrays.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Eight.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EquilibriumSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EvenOdd.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExampleClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Factorial.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Factors.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Fibo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Fifth.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindElementInArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindMin.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindUnique.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.First.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FirstAndLastPositionElement.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FloorBS.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FloydWarshall.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Foo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Fourth.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FrequenciesInSortedArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GarbagaCollection.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GraphClass (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.GraphClass (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.GraphClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GraphColoring.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Hamiltonian.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HamiltonianCycle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HashSetDemo1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HashSetDemo2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HashSetDemo3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HelloWorld.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InfiniteArrayBS.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InsertionSort.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Josephus.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JosephusProblem.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Knapsack (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Knapsack (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Knapsack.executor&quot;: &quot;Run&quot;,
+    &quot;Application.KruskalAlgorithm (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.KruskalAlgorithm (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.KruskalAlgorithm (3).executor&quot;: &quot;Debug&quot;,
+    &quot;Application.KruskalAlgorithm (4).executor&quot;: &quot;Run&quot;,
+    &quot;Application.KruskalAlgorithm (5).executor&quot;: &quot;Run&quot;,
+    &quot;Application.KruskalAlgorithm.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LambdaExpressions.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LargestTillX.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LeadersInArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LeftRotateByD.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LeftRotateByOne.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LinearSearch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LinearSearchInRange.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LinearSearchString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LinkedListDemo1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LinkedListDemo2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LinkedListDemo3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MagicNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main (3).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MajorityElement.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ManeuveringClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ManeuveringProblem.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MarkingDuplicates.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaxActivities.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaxEquilibriumSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaxIn2DArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaxInArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaxMinTwoNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaximumDifference.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaximumSumSubArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MergeSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Methods.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MountainArray.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MountainArraySelect.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MoveAllZeroesToEnd.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NCRnpr.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NQueens.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NQueens2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Nine.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NoOfDigits.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NoofSetBits.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NumbersExample.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.NumbersExampleRecursion.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ObjectDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OddEven.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OddEvenLL.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Operators.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OptimalBST.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OptimizedPrime.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OrderAgnosticBS.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Output.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Palindrome.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PeakMountainArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Performance.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Perm.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Permutations.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PermutationsOfAString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PowerOfTwo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PowerSetSubSet.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrettyPrinting.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Prime.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrimsAlgorithm.executor&quot;: &quot;Run&quot;,
+    &quot;Application.QuickSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RatMazeSolving.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RearrangeArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveDuplicates.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReorderList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReshapeMatrix.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Reverse2DArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseK.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReversingArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SB.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SE.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SearchIn2DArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SearchInSubArray (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.SearchInSubArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SearchRotatedSortedArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Second.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SelectInMountain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SelectionSort.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Seventh.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ShiftingLetters.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SieveOfEratosthenes.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SinglyLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Sixth.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SmallestLetter.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.SortingTheSentence.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StockBuyAndSell.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StockSpanProblem.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SubClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SubsetSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SwappingValuesInArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ten.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Tesy.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TheCelebrityProblem.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Third.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TowerOfHanoi.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TrappingRainWater.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TwoDArrays.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TwoDBinary.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TwoDDynamicArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TwoDSortedBinary.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UserInputDynamicArrays.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VoteVerify.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WrapperClasses.executor&quot;: &quot;Run&quot;,
+    &quot;Application.classlectures.daa.HelloWorld.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.findFactorial.executor&quot;: &quot;Run&quot;,
+    &quot;Application.javakunal.oops.abstractDemo.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.javakunal.oops.access.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.javakunal.oops.cloning.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.javakunal.oops.customarraylist.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.javakunal.oops.exceptionhandling.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.javakunal.oops.interfaces.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.javakunal.oops.polymorphism.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.javakunalclass.sorting.SelectionSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.printPrimes.executor&quot;: &quot;Run&quot;,
+    &quot;Application.sdot.zaheer.Main (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.sdot.zaheer.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.preview.features.used&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/xsainav/GitHub/DSA-with-Java-GFG-Self-Paced-Course/DSA-with-Java-GFG-Self-Paced-Course&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/sdot" />
@@ -283,20 +273,7 @@
       <recent name="javakunal.oops.customarraylist" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StockSpanProblem">
-    <configuration name="ActivitySelection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classlectures.cattwo.ActivitySelection" />
-      <module name="DSA-with-Java-GFG-Self-Paced-Course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="classlectures.cattwo.LinkedList" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.OptimalBST">
     <configuration name="GraphColoring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="classlectures.cattwo.GraphColoring" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
@@ -316,6 +293,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="classlectures.cattwo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OptimalBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classlectures.daa.OptimalBST" />
+      <module name="DSA-with-Java-GFG-Self-Paced-Course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="classlectures.daa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -350,7 +340,7 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ActivitySelection" />
+      <item itemvalue="Application.OptimalBST" />
       <item itemvalue="Application.GraphColoring" />
       <item itemvalue="Application.OddEvenLL" />
       <item itemvalue="Application.StockSpanProblem" />
@@ -358,11 +348,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OptimalBST" />
         <item itemvalue="Application.StockSpanProblem" />
         <item itemvalue="Application.TheCelebrityProblem" />
         <item itemvalue="Application.OddEvenLL" />
         <item itemvalue="Application.GraphColoring" />
-        <item itemvalue="Application.ActivitySelection" />
       </list>
     </recent_temporary>
   </component>
@@ -518,14 +508,10 @@
       <workItem from="1710906599951" duration="8299000" />
       <workItem from="1710952183380" duration="2373000" />
       <workItem from="1711003520087" duration="6321000" />
-    </task>
-    <task id="LOCAL-00029" summary="Arrays Lectures">
-      <option name="closed" value="true" />
-      <created>1702536935853</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1702536935853</updated>
+      <workItem from="1711043353439" duration="59000" />
+      <workItem from="1711043638199" duration="613000" />
+      <workItem from="1711108053085" duration="915000" />
+      <workItem from="1711257936361" duration="1251000" />
     </task>
     <task id="LOCAL-00030" summary="Arrays Lecture Problems Completed">
       <option name="closed" value="true" />
@@ -911,7 +897,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710952271237</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="CAT2 STS Problems">
+      <option name="closed" value="true" />
+      <created>1711043376268</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1711043376268</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -930,7 +924,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="bs infinite array" />
     <MESSAGE value="quick sort" />
     <MESSAGE value="quick sort mountain array" />
     <MESSAGE value="bs medium hard leetcode" />
@@ -955,7 +948,8 @@
     <MESSAGE value="Completed GFG Arrays-1" />
     <MESSAGE value="Added Binary Tree SDOT" />
     <MESSAGE value="Arrays Problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="Arrays Problems" />
+    <MESSAGE value="CAT2 STS Problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="CAT2 STS Problems" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
