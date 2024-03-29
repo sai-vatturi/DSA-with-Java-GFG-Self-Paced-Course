@@ -19,8 +19,7 @@ public class StockSpanProblem {
             // Pop elements from stack while stack is not
             // empty and top of stack is smaller than
             // price[i]
-            while (!st.isEmpty() &&
-                    price[st.peek()] <= price[i])
+            while (!st.isEmpty() && price[st.peek()] <= price[i])
                 st.pop();
 
             // If stack becomes empty, then price[i] is

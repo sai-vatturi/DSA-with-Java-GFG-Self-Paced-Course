@@ -3,8 +3,8 @@ package classlectures.daa;
 import java.util.Scanner;
 
 public class OptimalBST {
-    static int optCost(int freq[], int i, int j){
-        if (j < i)
+    static int optCost(int freq[], int i, int j){ // 19 lines
+        if (j < i) // Cyclomatic complexity - Edges - nodes + 2
             return 0;
         if (j == i)
             return freq[i];
