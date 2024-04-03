@@ -4,19 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f15d687b-b8b6-4f06-a769-73b3bdd09095" name="Changes" comment="Tree problems">
-      <change afterPath="$PROJECT_DIR$/src/classlectures/cattwo/SortWithoutExtraSpace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classlectures/cattwo/StackPermutations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classlectures/daa/MatrixChainMultiplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classlectures/prepare/SortTheBitonicDLL.java" afterDir="false" />
+    <list default="true" id="f15d687b-b8b6-4f06-a769-73b3bdd09095" name="Changes" comment="BST's and LinkedList Problems">
+      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion_array/FindSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion_array/LinearSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion_array/RotatedBinarySearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ChallengeTopCoder/tree/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChallengeTopCoder/tree/BinarySearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classlectures/cattwo/IterativeTowerOfHanoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classlectures/cattwo/IterativeTowerOfHanoi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classlectures/cattwo/MaxActivities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classlectures/cattwo/MaxActivities.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classlectures/cattwo/MinimumStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classlectures/cattwo/MinimumStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classlectures/cattwo/SortTheBitonicDLL.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classlectures/cattwo/StockSpanProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classlectures/cattwo/StockSpanProblem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classlectures/daa/OptimalBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classlectures/daa/OptimalBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gfgclass/recursion/FactorialTailRecursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfgclass/recursion/FactorialTailRecursion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javakunal/oops/ExampleClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunal/oops/ExampleClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,6 +93,7 @@
     "Application.Fifth.executor": "Run",
     "Application.FindElementInArray.executor": "Run",
     "Application.FindMin.executor": "Run",
+    "Application.FindSortedArray.executor": "Run",
     "Application.FindUnique.executor": "Debug",
     "Application.First.executor": "Run",
     "Application.FirstAndLastPositionElement.executor": "Run",
@@ -205,6 +200,7 @@
     "Application.ReverseLinkedList.executor": "Run",
     "Application.ReverseString.executor": "Run",
     "Application.ReversingArray.executor": "Run",
+    "Application.RotatedBinarySearch.executor": "Run",
     "Application.SB.executor": "Run",
     "Application.SE.executor": "Run",
     "Application.SearchIn2DArray.executor": "Run",
@@ -289,7 +285,33 @@
       <recent name="javakunal.oops.customarraylist" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MatrixChainMultiplication">
+  <component name="RunManager" selected="Application.RotatedBinarySearch">
+    <configuration name="FindSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javakunalclass.recursion_array.FindSortedArray" />
+      <module name="DSA-with-Java-GFG-Self-Paced-Course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javakunalclass.recursion_array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinearSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javakunalclass.recursion_array.LinearSearch" />
+      <module name="DSA-with-Java-GFG-Self-Paced-Course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javakunalclass.recursion_array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MatrixChainMultiplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="classlectures.daa.MatrixChainMultiplication" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
@@ -316,38 +338,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortWithoutExtraSpace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classlectures.cattwo.SortWithoutExtraSpace" />
+    <configuration name="RotatedBinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javakunalclass.recursion_array.RotatedBinarySearch" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="classlectures.cattwo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StackPermutations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classlectures.cattwo.StackPermutations" />
-      <module name="DSA-with-Java-GFG-Self-Paced-Course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="classlectures.cattwo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StockSpanProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classlectures.cattwo.StockSpanProblem" />
-      <module name="DSA-with-Java-GFG-Self-Paced-Course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="classlectures.cattwo.*" />
+          <option name="PATTERN" value="javakunalclass.recursion_array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -356,19 +352,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.FindSortedArray" />
+      <item itemvalue="Application.LinearSearch" />
+      <item itemvalue="Application.RotatedBinarySearch" />
       <item itemvalue="Application.MatrixChainMultiplication" />
       <item itemvalue="Application.MaxActivities" />
-      <item itemvalue="Application.SortWithoutExtraSpace" />
-      <item itemvalue="Application.StackPermutations" />
-      <item itemvalue="Application.StockSpanProblem" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RotatedBinarySearch" />
+        <item itemvalue="Application.LinearSearch" />
+        <item itemvalue="Application.FindSortedArray" />
         <item itemvalue="Application.MatrixChainMultiplication" />
         <item itemvalue="Application.MaxActivities" />
-        <item itemvalue="Application.StackPermutations" />
-        <item itemvalue="Application.SortWithoutExtraSpace" />
-        <item itemvalue="Application.StockSpanProblem" />
       </list>
     </recent_temporary>
   </component>
@@ -535,14 +531,12 @@
       <workItem from="1711606865148" duration="5553000" />
       <workItem from="1711641359606" duration="1637000" />
       <workItem from="1711713798363" duration="668000" />
-    </task>
-    <task id="LOCAL-00031" summary="Linear Search Class Problems">
-      <option name="closed" value="true" />
-      <created>1702733461657</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1702733461657</updated>
+      <workItem from="1711735585924" duration="42000" />
+      <workItem from="1711959627057" duration="216000" />
+      <workItem from="1711960213229" duration="1631000" />
+      <workItem from="1711995734982" duration="22000" />
+      <workItem from="1712125370326" duration="69000" />
+      <workItem from="1712160509208" duration="3569000" />
     </task>
     <task id="LOCAL-00032" summary="Linear Search Class Problems">
       <option name="closed" value="true" />
@@ -928,7 +922,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711382710423</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="BST's and LinkedList Problems">
+      <option name="closed" value="true" />
+      <created>1711735608508</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1711735608508</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -947,7 +949,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="quick sort mountain array" />
     <MESSAGE value="bs medium hard leetcode" />
     <MESSAGE value="bubble sort 2d binary search" />
     <MESSAGE value="added problems" />
@@ -972,7 +973,8 @@
     <MESSAGE value="Arrays Problems" />
     <MESSAGE value="CAT2 STS Problems" />
     <MESSAGE value="Tree problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tree problems" />
+    <MESSAGE value="BST's and LinkedList Problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="BST's and LinkedList Problems" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1001,6 +1003,12 @@
           <properties class="java.lang.StackOverflowError" package="java.lang" />
           <option name="timeStamp" value="10" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/javakunal/oops/ExampleClass.java</url>
+          <line>33</line>
+          <properties field="roll" class="javakunal.oops.Student" />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

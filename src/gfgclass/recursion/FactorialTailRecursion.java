@@ -1,7 +1,9 @@
 package gfgclass.recursion;
+import java.util.Stack;
 
 public class FactorialTailRecursion {
     public static void main(String[] args) {
+        Stack<Integer> st = new Stack<>();
         System.out.println(tailRecursionFactorial(4, 1));
     }
 
