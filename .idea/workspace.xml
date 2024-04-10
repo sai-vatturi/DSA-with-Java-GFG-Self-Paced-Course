@@ -4,13 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f15d687b-b8b6-4f06-a769-73b3bdd09095" name="Changes" comment="BST's and LinkedList Problems">
-      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion_array/FindSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion_array/LinearSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion_array/RotatedBinarySearch.java" afterDir="false" />
+    <list default="true" id="f15d687b-b8b6-4f06-a769-73b3bdd09095" name="Changes" comment="Recursion Problems">
+      <change afterPath="$PROJECT_DIR$/src/Sorting/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sorting/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sorting/MaxSelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sorting/MinSelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion/BubbleSortRecursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion/ConvertFive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion/RecursionPatterns.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gfgclass/recursion/FactorialTailRecursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gfgclass/recursion/FactorialTailRecursion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javakunal/oops/ExampleClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javakunal/oops/ExampleClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,10 +78,12 @@
     "Application.BasicArrayStringInput.executor": "Run",
     "Application.BinarySearchMyImplementation.executor": "Run",
     "Application.BruteTSP.executor": "Run",
-    "Application.BubbleSort.executor": "Debug",
+    "Application.BubbleSort.executor": "Run",
+    "Application.BubbleSortRecursion.executor": "Run",
     "Application.Candies.executor": "Run",
     "Application.CeilingBS.executor": "Run",
     "Application.Combinations.executor": "Run",
+    "Application.ConvertFive.executor": "Run",
     "Application.CyclicSort.executor": "Run",
     "Application.DpTSP.executor": "Run",
     "Application.DynamicArrays.executor": "Run",
@@ -114,7 +118,7 @@
     "Application.HashSetDemo3.executor": "Run",
     "Application.HelloWorld.executor": "Run",
     "Application.InfiniteArrayBS.executor": "Run",
-    "Application.InsertionSort.executor": "Debug",
+    "Application.InsertionSort.executor": "Run",
     "Application.IterativeTowerOfHanoi.executor": "Run",
     "Application.Josephus.executor": "Run",
     "Application.JosephusProblem.executor": "Run",
@@ -155,10 +159,12 @@
     "Application.MaxIn2DArray.executor": "Run",
     "Application.MaxInArray.executor": "Run",
     "Application.MaxMinTwoNumbers.executor": "Run",
+    "Application.MaxSelectionSort.executor": "Run",
     "Application.MaximumDifference.executor": "Run",
     "Application.MaximumSumSubArray.executor": "Run",
     "Application.MergeSort.executor": "Run",
     "Application.Methods.executor": "Run",
+    "Application.MinSelectionSort.executor": "Run",
     "Application.MountainArray.executor": "Debug",
     "Application.MountainArraySelect.executor": "Run",
     "Application.MoveAllZeroesToEnd.executor": "Run",
@@ -192,6 +198,7 @@
     "Application.QuickSort.executor": "Run",
     "Application.RatMazeSolving.executor": "Run",
     "Application.RearrangeArray.executor": "Run",
+    "Application.RecursionPatterns.executor": "Run",
     "Application.RemoveDuplicates.executor": "Run",
     "Application.ReorderList.executor": "Run",
     "Application.ReshapeMatrix.executor": "Debug",
@@ -285,13 +292,13 @@
       <recent name="javakunal.oops.customarraylist" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RotatedBinarySearch">
-    <configuration name="FindSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunalclass.recursion_array.FindSortedArray" />
+  <component name="RunManager" selected="Application.InsertionSort">
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sorting.BubbleSort" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javakunalclass.recursion_array.*" />
+          <option name="PATTERN" value="Sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -299,12 +306,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinearSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunalclass.recursion_array.LinearSearch" />
+    <configuration name="ConvertFive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javakunalclass.recursion.ConvertFive" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javakunalclass.recursion_array.*" />
+          <option name="PATTERN" value="javakunalclass.recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -312,12 +319,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MatrixChainMultiplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classlectures.daa.MatrixChainMultiplication" />
+    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sorting.InsertionSort" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="classlectures.daa.*" />
+          <option name="PATTERN" value="Sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -325,12 +332,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxActivities" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classlectures.cattwo.MaxActivities" />
+    <configuration name="MaxSelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sorting.MaxSelectionSort" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="classlectures.cattwo.*" />
+          <option name="PATTERN" value="Sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -338,12 +345,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RotatedBinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunalclass.recursion_array.RotatedBinarySearch" />
+    <configuration name="MinSelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sorting.MinSelectionSort" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javakunalclass.recursion_array.*" />
+          <option name="PATTERN" value="Sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -352,19 +359,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FindSortedArray" />
-      <item itemvalue="Application.LinearSearch" />
-      <item itemvalue="Application.RotatedBinarySearch" />
-      <item itemvalue="Application.MatrixChainMultiplication" />
-      <item itemvalue="Application.MaxActivities" />
+      <item itemvalue="Application.BubbleSort" />
+      <item itemvalue="Application.InsertionSort" />
+      <item itemvalue="Application.MaxSelectionSort" />
+      <item itemvalue="Application.MinSelectionSort" />
+      <item itemvalue="Application.ConvertFive" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RotatedBinarySearch" />
-        <item itemvalue="Application.LinearSearch" />
-        <item itemvalue="Application.FindSortedArray" />
-        <item itemvalue="Application.MatrixChainMultiplication" />
-        <item itemvalue="Application.MaxActivities" />
+        <item itemvalue="Application.InsertionSort" />
+        <item itemvalue="Application.BubbleSort" />
+        <item itemvalue="Application.MaxSelectionSort" />
+        <item itemvalue="Application.MinSelectionSort" />
+        <item itemvalue="Application.ConvertFive" />
       </list>
     </recent_temporary>
   </component>
@@ -536,15 +543,10 @@
       <workItem from="1711960213229" duration="1631000" />
       <workItem from="1711995734982" duration="22000" />
       <workItem from="1712125370326" duration="69000" />
-      <workItem from="1712160509208" duration="3569000" />
-    </task>
-    <task id="LOCAL-00032" summary="Linear Search Class Problems">
-      <option name="closed" value="true" />
-      <created>1702739196499</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1702739196499</updated>
+      <workItem from="1712160509208" duration="6478000" />
+      <workItem from="1712204846691" duration="3015000" />
+      <workItem from="1712339284848" duration="629000" />
+      <workItem from="1712657167050" duration="5152000" />
     </task>
     <task id="LOCAL-00033" summary="Constructor Practice">
       <option name="closed" value="true" />
@@ -930,7 +932,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711735608508</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="Recursion Problems">
+      <option name="closed" value="true" />
+      <created>1712168137420</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1712168137420</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -949,7 +959,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="bs medium hard leetcode" />
     <MESSAGE value="bubble sort 2d binary search" />
     <MESSAGE value="added problems" />
     <MESSAGE value="insertion sort" />
@@ -974,7 +983,8 @@
     <MESSAGE value="CAT2 STS Problems" />
     <MESSAGE value="Tree problems" />
     <MESSAGE value="BST's and LinkedList Problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="BST's and LinkedList Problems" />
+    <MESSAGE value="Recursion Problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="Recursion Problems" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
