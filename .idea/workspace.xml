@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f15d687b-b8b6-4f06-a769-73b3bdd09095" name="Changes" comment="Recursion Problems">
-      <change afterPath="$PROJECT_DIR$/src/Sorting/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sorting/InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sorting/MaxSelectionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sorting/MinSelectionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion/BubbleSortRecursion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion/ConvertFive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion/RecursionPatterns.java" afterDir="false" />
+    <list default="true" id="f15d687b-b8b6-4f06-a769-73b3bdd09095" name="Changes" comment="Sorting Algo's">
+      <change afterPath="$PROJECT_DIR$/src/Sorting/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sorting/MergeSortInPlace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sorting/MergeSortInPlaceOptimized.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sorting/QuickSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -163,11 +160,14 @@
     "Application.MaximumDifference.executor": "Run",
     "Application.MaximumSumSubArray.executor": "Run",
     "Application.MergeSort.executor": "Run",
+    "Application.MergeSortInPlace.executor": "Run",
+    "Application.MergeSortInPlaceOptimized.executor": "Run",
     "Application.Methods.executor": "Run",
     "Application.MinSelectionSort.executor": "Run",
     "Application.MountainArray.executor": "Debug",
     "Application.MountainArraySelect.executor": "Run",
     "Application.MoveAllZeroesToEnd.executor": "Run",
+    "Application.MyProgram.executor": "Run",
     "Application.NCRnpr.executor": "Run",
     "Application.NQueens.executor": "Run",
     "Application.NQueens2.executor": "Run",
@@ -292,9 +292,9 @@
       <recent name="javakunal.oops.customarraylist" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InsertionSort">
-    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sorting.BubbleSort" />
+  <component name="RunManager" selected="Application.MyProgram">
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sorting.MergeSort" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
@@ -306,21 +306,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConvertFive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunalclass.recursion.ConvertFive" />
-      <module name="DSA-with-Java-GFG-Self-Paced-Course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="javakunalclass.recursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sorting.InsertionSort" />
+    <configuration name="MergeSortInPlace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sorting.MergeSortInPlace" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
@@ -332,8 +319,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxSelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sorting.MaxSelectionSort" />
+    <configuration name="MergeSortInPlaceOptimized" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sorting.MergeSortInPlaceOptimized" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
@@ -345,8 +332,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinSelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sorting.MinSelectionSort" />
+    <configuration name="MyProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sorting.MyProgram" />
+      <module name="DSA-with-Java-GFG-Self-Paced-Course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sorting.QuickSort" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
@@ -359,19 +359,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BubbleSort" />
-      <item itemvalue="Application.InsertionSort" />
-      <item itemvalue="Application.MaxSelectionSort" />
-      <item itemvalue="Application.MinSelectionSort" />
-      <item itemvalue="Application.ConvertFive" />
+      <item itemvalue="Application.MyProgram" />
+      <item itemvalue="Application.MergeSort" />
+      <item itemvalue="Application.MergeSortInPlace" />
+      <item itemvalue="Application.MergeSortInPlaceOptimized" />
+      <item itemvalue="Application.QuickSort" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.InsertionSort" />
-        <item itemvalue="Application.BubbleSort" />
-        <item itemvalue="Application.MaxSelectionSort" />
-        <item itemvalue="Application.MinSelectionSort" />
-        <item itemvalue="Application.ConvertFive" />
+        <item itemvalue="Application.MyProgram" />
+        <item itemvalue="Application.QuickSort" />
+        <item itemvalue="Application.MergeSortInPlace" />
+        <item itemvalue="Application.MergeSortInPlaceOptimized" />
+        <item itemvalue="Application.MergeSort" />
       </list>
     </recent_temporary>
   </component>
@@ -547,14 +547,8 @@
       <workItem from="1712204846691" duration="3015000" />
       <workItem from="1712339284848" duration="629000" />
       <workItem from="1712657167050" duration="5152000" />
-    </task>
-    <task id="LOCAL-00033" summary="Constructor Practice">
-      <option name="closed" value="true" />
-      <created>1702966548047</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1702966548047</updated>
+      <workItem from="1712683947689" duration="12373000" />
+      <workItem from="1712772006986" duration="212000" />
     </task>
     <task id="LOCAL-00034" summary="oop class 1 lecture practice">
       <option name="closed" value="true" />
@@ -940,7 +934,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712168137420</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="Sorting Algo's">
+      <option name="closed" value="true" />
+      <created>1712710644898</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1712710644898</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -959,7 +961,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="bubble sort 2d binary search" />
     <MESSAGE value="added problems" />
     <MESSAGE value="insertion sort" />
     <MESSAGE value="cyclic sort" />
@@ -984,7 +985,8 @@
     <MESSAGE value="Tree problems" />
     <MESSAGE value="BST's and LinkedList Problems" />
     <MESSAGE value="Recursion Problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="Recursion Problems" />
+    <MESSAGE value="Sorting Algo's" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sorting Algo's" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
