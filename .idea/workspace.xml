@@ -4,11 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f15d687b-b8b6-4f06-a769-73b3bdd09095" name="Changes" comment="Sorting Algo's">
-      <change afterPath="$PROJECT_DIR$/src/Sorting/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sorting/MergeSortInPlace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sorting/MergeSortInPlaceOptimized.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sorting/QuickSort.java" afterDir="false" />
+    <list default="true" id="f15d687b-b8b6-4f06-a769-73b3bdd09095" name="Changes" comment="Merge and Quick Sort">
+      <change afterPath="$PROJECT_DIR$/src/basic_competetive_coding/CelebrityProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic_competetive_coding/SegregateOddEven.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic_competetive_coding/SortWithoutExtraSpace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic_competetive_coding/StackPermutations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic_competetive_coding/StockSpan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic_competetive_coding/TowerOfHanoi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/design_analysis_algorithms/Floyd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/design_analysis_algorithms/KnapSackDP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/design_analysis_algorithms/KnapSackGreedy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/design_analysis_algorithms/Kruskal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/design_analysis_algorithms/MatrixChain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/design_analysis_algorithms/OptimalBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/design_analysis_algorithms/Prims.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/design_analysis_algorithms/TSPbrute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/design_analysis_algorithms/TSPdp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gfgclass/hashing/OpenAddressingHashTable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,6 +91,7 @@
     "Application.BubbleSortRecursion.executor": "Run",
     "Application.Candies.executor": "Run",
     "Application.CeilingBS.executor": "Run",
+    "Application.CelebrityProblem.executor": "Run",
     "Application.Combinations.executor": "Run",
     "Application.ConvertFive.executor": "Run",
     "Application.CyclicSort.executor": "Run",
@@ -99,6 +112,7 @@
     "Application.First.executor": "Run",
     "Application.FirstAndLastPositionElement.executor": "Run",
     "Application.FloorBS.executor": "Run",
+    "Application.Floyd.executor": "Run",
     "Application.FloydWarshall.executor": "Run",
     "Application.Foo.executor": "Run",
     "Application.Fourth.executor": "Run",
@@ -119,9 +133,13 @@
     "Application.IterativeTowerOfHanoi.executor": "Run",
     "Application.Josephus.executor": "Run",
     "Application.JosephusProblem.executor": "Run",
+    "Application.KnapSackDP.executor": "Run",
+    "Application.KnapSackGreedy (1).executor": "Run",
+    "Application.KnapSackGreedy.executor": "Run",
     "Application.Knapsack (1).executor": "Run",
     "Application.Knapsack (2).executor": "Run",
     "Application.Knapsack.executor": "Run",
+    "Application.Kruskal.executor": "Run",
     "Application.KruskalAlgorithm (1).executor": "Run",
     "Application.KruskalAlgorithm (2).executor": "Run",
     "Application.KruskalAlgorithm (3).executor": "Debug",
@@ -150,6 +168,7 @@
     "Application.ManeuveringClass.executor": "Run",
     "Application.ManeuveringProblem.executor": "Run",
     "Application.MarkingDuplicates.executor": "Run",
+    "Application.MatrixChain.executor": "Run",
     "Application.MatrixChainMultiplication.executor": "Run",
     "Application.MaxActivities.executor": "Run",
     "Application.MaxEquilibriumSum.executor": "Run",
@@ -194,6 +213,8 @@
     "Application.PowerSetSubSet.executor": "Run",
     "Application.PrettyPrinting.executor": "Run",
     "Application.Prime.executor": "Run",
+    "Application.Prims (1).executor": "Run",
+    "Application.Prims.executor": "Run",
     "Application.PrimsAlgorithm.executor": "Run",
     "Application.QuickSort.executor": "Run",
     "Application.RatMazeSolving.executor": "Run",
@@ -215,6 +236,7 @@
     "Application.SearchInSubArray.executor": "Run",
     "Application.SearchRotatedSortedArray.executor": "Run",
     "Application.Second.executor": "Run",
+    "Application.SegregateOddEven.executor": "Run",
     "Application.SelectInMountain.executor": "Run",
     "Application.SelectionSort.executor": "Debug",
     "Application.Seventh.executor": "Run",
@@ -230,10 +252,13 @@
     "Application.SortingTheSentence.executor": "Run",
     "Application.StackPermutations.executor": "Run",
     "Application.StockBuyAndSell.executor": "Run",
+    "Application.StockSpan.executor": "Run",
     "Application.StockSpanProblem.executor": "Run",
     "Application.SubClass.executor": "Run",
     "Application.SubsetSum.executor": "Run",
     "Application.SwappingValuesInArray.executor": "Run",
+    "Application.TSPbrute.executor": "Run",
+    "Application.TSPdp.executor": "Run",
     "Application.Ten.executor": "Run",
     "Application.Test.executor": "Run",
     "Application.Tesy.executor": "Run",
@@ -292,13 +317,13 @@
       <recent name="javakunal.oops.customarraylist" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyProgram">
-    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sorting.MergeSort" />
+  <component name="RunManager" selected="Application.MatrixChain">
+    <configuration name="KnapSackDP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="design_analysis_algorithms.KnapSackDP" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Sorting.*" />
+          <option name="PATTERN" value="design_analysis_algorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -306,12 +331,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSortInPlace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sorting.MergeSortInPlace" />
+    <configuration name="MatrixChain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="design_analysis_algorithms.MatrixChain" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Sorting.*" />
+          <option name="PATTERN" value="design_analysis_algorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -319,12 +344,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSortInPlaceOptimized" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sorting.MergeSortInPlaceOptimized" />
+    <configuration name="OptimalBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="design_analysis_algorithms.OptimalBST" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Sorting.*" />
+          <option name="PATTERN" value="design_analysis_algorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -332,12 +357,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sorting.MyProgram" />
+    <configuration name="TSPbrute" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="design_analysis_algorithms.TSPbrute" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Sorting.*" />
+          <option name="PATTERN" value="design_analysis_algorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -345,12 +370,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sorting.QuickSort" />
+    <configuration name="TSPdp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="design_analysis_algorithms.TSPdp" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Sorting.*" />
+          <option name="PATTERN" value="design_analysis_algorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -359,19 +384,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MyProgram" />
-      <item itemvalue="Application.MergeSort" />
-      <item itemvalue="Application.MergeSortInPlace" />
-      <item itemvalue="Application.MergeSortInPlaceOptimized" />
-      <item itemvalue="Application.QuickSort" />
+      <item itemvalue="Application.KnapSackDP" />
+      <item itemvalue="Application.MatrixChain" />
+      <item itemvalue="Application.OptimalBST" />
+      <item itemvalue="Application.TSPbrute" />
+      <item itemvalue="Application.TSPdp" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MyProgram" />
-        <item itemvalue="Application.QuickSort" />
-        <item itemvalue="Application.MergeSortInPlace" />
-        <item itemvalue="Application.MergeSortInPlaceOptimized" />
-        <item itemvalue="Application.MergeSort" />
+        <item itemvalue="Application.MatrixChain" />
+        <item itemvalue="Application.OptimalBST" />
+        <item itemvalue="Application.TSPdp" />
+        <item itemvalue="Application.TSPbrute" />
+        <item itemvalue="Application.KnapSackDP" />
       </list>
     </recent_temporary>
   </component>
@@ -549,14 +574,14 @@
       <workItem from="1712657167050" duration="5152000" />
       <workItem from="1712683947689" duration="12373000" />
       <workItem from="1712772006986" duration="212000" />
-    </task>
-    <task id="LOCAL-00034" summary="oop class 1 lecture practice">
-      <option name="closed" value="true" />
-      <created>1702981487866</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1702981487866</updated>
+      <workItem from="1712856093798" duration="23000" />
+      <workItem from="1713031332106" duration="602000" />
+      <workItem from="1713160864079" duration="1167000" />
+      <workItem from="1713285333994" duration="1189000" />
+      <workItem from="1713368545874" duration="5111000" />
+      <workItem from="1713422413383" duration="3155000" />
+      <workItem from="1713454795305" duration="2197000" />
+      <workItem from="1713503514401" duration="8778000" />
     </task>
     <task id="LOCAL-00035" summary="Inheritance">
       <option name="closed" value="true" />
@@ -942,7 +967,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712710644898</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="Merge and Quick Sort">
+      <option name="closed" value="true" />
+      <created>1712856109522</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1712856109522</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -961,7 +994,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="added problems" />
     <MESSAGE value="insertion sort" />
     <MESSAGE value="cyclic sort" />
     <MESSAGE value="Completed Strings Lecture" />
@@ -986,7 +1018,8 @@
     <MESSAGE value="BST's and LinkedList Problems" />
     <MESSAGE value="Recursion Problems" />
     <MESSAGE value="Sorting Algo's" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sorting Algo's" />
+    <MESSAGE value="Merge and Quick Sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge and Quick Sort" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
