@@ -32,10 +32,7 @@ public class CelebrityProblem {
         }
         int x = st.pop();
         for (int i = 0; i < n; i++) {
-            if (i!=x && matrix[i][x] == 0) {
-                return -1;
-            }
-            if (i!=x && matrix[x][i] == 1) {
+            if (i!=x && matrix[i][x] == 0 || matrix[x][i] == 1) {
                 return -1;
             }
         }
