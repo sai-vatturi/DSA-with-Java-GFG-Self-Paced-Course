@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f15d687b-b8b6-4f06-a769-73b3bdd09095" name="Changes" comment="DFS and BFS">
-      <change afterPath="$PROJECT_DIR$/src/design_analysis_algorithms/HamiltonianCircuit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/design_analysis_algorithms/MatrixChainMultiplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/design_analysis_algorithms/StronglyConnectedComponents.java" afterDir="false" />
+    <list default="true" id="f15d687b-b8b6-4f06-a769-73b3bdd09095" name="Changes" comment="Problems">
+      <change afterPath="$PROJECT_DIR$/src/basic_competetive_coding/Dials.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/basic_competetive_coding/RecoverTheBST.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design_analysis_algorithms/GraphColoring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_analysis_algorithms/GraphColoring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basic_competetive_coding/BreadthFirstSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_competetive_coding/BreadthFirstSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basic_competetive_coding/DepthFirstSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_competetive_coding/DepthFirstSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basic_competetive_coding/JosephusProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic_competetive_coding/JosephusProblem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +75,7 @@
     &quot;Application.BasicArrayInput.executor&quot;: &quot;Run&quot;,
     &quot;Application.BasicArrayStringInput.executor&quot;: &quot;Run&quot;,
     &quot;Application.BinarySearchMyImplementation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BreadthFirstSearch (1).executor&quot;: &quot;Run&quot;,
     &quot;Application.BreadthFirstSearch.executor&quot;: &quot;Run&quot;,
     &quot;Application.BruteTSP.executor&quot;: &quot;Run&quot;,
     &quot;Application.BubbleSort.executor&quot;: &quot;Run&quot;,
@@ -85,6 +87,7 @@
     &quot;Application.ConvertFive.executor&quot;: &quot;Run&quot;,
     &quot;Application.CyclicSort.executor&quot;: &quot;Run&quot;,
     &quot;Application.DepthFirstSearch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Dials.executor&quot;: &quot;Run&quot;,
     &quot;Application.DpTSP.executor&quot;: &quot;Run&quot;,
     &quot;Application.DynamicArrays.executor&quot;: &quot;Run&quot;,
     &quot;Application.Eight.executor&quot;: &quot;Run&quot;,
@@ -215,6 +218,7 @@
     &quot;Application.QuickSort.executor&quot;: &quot;Run&quot;,
     &quot;Application.RatMazeSolving.executor&quot;: &quot;Run&quot;,
     &quot;Application.RearrangeArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RecoverTheBST.executor&quot;: &quot;Run&quot;,
     &quot;Application.RecursionPatterns.executor&quot;: &quot;Run&quot;,
     &quot;Application.RemoveDuplicates.executor&quot;: &quot;Run&quot;,
     &quot;Application.ReorderList.executor&quot;: &quot;Run&quot;,
@@ -317,13 +321,13 @@
       <recent name="javakunal.oops.customarraylist" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MatrixChainMultiplication">
-    <configuration name="GraphColoring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="design_analysis_algorithms.GraphColoring" />
+  <component name="RunManager" selected="Application.Dials">
+    <configuration name="BreadthFirstSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_competetive_coding.BreadthFirstSearch" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="design_analysis_algorithms.*" />
+          <option name="PATTERN" value="basic_competetive_coding.Graph" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -331,12 +335,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HamiltonianCircuit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="design_analysis_algorithms.HamiltonianCircuit" />
+    <configuration name="BreadthFirstSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_competetive_coding.BreadthFirstSearch" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="design_analysis_algorithms.*" />
+          <option name="PATTERN" value="basic_competetive_coding.Graph" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -344,12 +348,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MatrixChainMultiplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="design_analysis_algorithms.MatrixChainMultiplication" />
+    <configuration name="DepthFirstSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_competetive_coding.DepthFirstSearch" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="design_analysis_algorithms.*" />
+          <option name="PATTERN" value="basic_competetive_coding.Graph" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -357,12 +361,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OptimalBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="design_analysis_algorithms.OptimalBST" />
+    <configuration name="Dials" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_competetive_coding.Dials" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="design_analysis_algorithms.*" />
+          <option name="PATTERN" value="basic_competetive_coding.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -370,12 +374,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StronglyConnectedComponents (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="design_analysis_algorithms.StronglyConnectedComponents" />
+    <configuration name="JosephusProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic_competetive_coding.JosephusProblem" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="design_analysis_algorithms.*" />
+          <option name="PATTERN" value="basic_competetive_coding.Graph" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -384,26 +388,23 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MatrixChainMultiplication" />
-      <item itemvalue="Application.GraphColoring" />
-      <item itemvalue="Application.HamiltonianCircuit" />
-      <item itemvalue="Application.OptimalBST" />
-      <item itemvalue="Application.StronglyConnectedComponents (1)" />
+      <item itemvalue="Application.BreadthFirstSearch" />
+      <item itemvalue="Application.DepthFirstSearch" />
+      <item itemvalue="Application.Dials" />
+      <item itemvalue="Application.JosephusProblem" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MatrixChainMultiplication" />
-        <item itemvalue="Application.HamiltonianCircuit" />
-        <item itemvalue="Application.GraphColoring" />
-        <item itemvalue="Application.OptimalBST" />
-        <item itemvalue="Application.StronglyConnectedComponents (1)" />
+        <item itemvalue="Application.Dials" />
+        <item itemvalue="Application.JosephusProblem" />
+        <item itemvalue="Application.DepthFirstSearch" />
+        <item itemvalue="Application.BreadthFirstSearch" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-16.0.2-corretto-16.0.2-3183f394aec4-d86ce77a" />
         <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-322ed176" />
       </set>
     </attachedChunks>
@@ -594,15 +595,9 @@
       <workItem from="1714719829044" duration="4169000" />
       <workItem from="1714731346803" duration="698000" />
       <workItem from="1714732132263" duration="14000" />
-      <workItem from="1714733411874" duration="878000" />
-    </task>
-    <task id="LOCAL-00039" summary="abstract classes">
-      <option name="closed" value="true" />
-      <created>1705025247023</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1705025247023</updated>
+      <workItem from="1714733411874" duration="1485000" />
+      <workItem from="1715685635515" duration="2774000" />
+      <workItem from="1715713138134" duration="5893000" />
     </task>
     <task id="LOCAL-00040" summary="abstract classes">
       <option name="closed" value="true" />
@@ -988,7 +983,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714239371981</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="Problems">
+      <option name="closed" value="true" />
+      <created>1714760512703</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1714760512703</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1014,7 +1017,6 @@
     <MESSAGE value="mid exam preperation" />
     <MESSAGE value="bitwise" />
     <MESSAGE value="add commit" />
-    <MESSAGE value="Problems" />
     <MESSAGE value="Linkedlist Problems" />
     <MESSAGE value="Graphs SDOT Training" />
     <MESSAGE value="LinkedList SDOT Training" />
@@ -1032,7 +1034,8 @@
     <MESSAGE value="Rearranged Structure" />
     <MESSAGE value="levelorder insertion" />
     <MESSAGE value="DFS and BFS" />
-    <option name="LAST_COMMIT_MESSAGE" value="DFS and BFS" />
+    <MESSAGE value="Problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="Problems" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1061,11 +1064,6 @@
           <url>file://$PROJECT_DIR$/src/ChallengeTopCoder/tree/MaxDepth.java</url>
           <line>29</line>
           <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/basic_competetive_coding/BreadthFirstSearch.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="14" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.StackOverflowError" package="java.lang" />

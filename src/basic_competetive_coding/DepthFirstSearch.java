@@ -41,6 +41,6 @@ class DepthFirstSearch {
 
         System.out.println("Following is Depth First Traversal " + "(starting from vertex 2)");
 
-        g.DFS(2);
+        g.DFS(0);
     }
 }

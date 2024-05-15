@@ -2,8 +2,8 @@ package basic_competetive_coding;
 
 public class JosephusProblem {
     public static void main(String[] args) {
-        int n = 6;
-        int k = 3;
+        int n = 5;
+        int k = 2;
         System.out.println(josephus(n, k));
     }
     static int josephus(int n, int k) {

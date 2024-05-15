@@ -11,7 +11,7 @@ class Graph {
     Graph(int vertices) {
         this.vertices = vertices;
         adjList = new LinkedList[vertices];
-        for (int i = 0; i < vertices; ++i)
+        for (int i = 0; i < vertices; i++)
             adjList[i] = new LinkedList<>();
     }
 
