@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f15d687b-b8b6-4f06-a769-73b3bdd09095" name="Changes" comment="OOPS Assigment - 2">
-      <change afterPath="$PROJECT_DIR$/src/oops/ex3/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oops/ex3/Test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oops/ex3/Test3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oops/ex3/pkg1/Class1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oops/ex3/pkg2/Class2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oops/ex3/pkg3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pat_training/FindSmallestCharacter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pat_training/MaximumIndexProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pat_training/ReplaceFrequentCharacter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pat_training/SongsAirTime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,14 +35,12 @@
     &quot;assignee&quot;: &quot;sai-vatturi&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="361a26b4-f984-4a34-b5c3-48b21d2abef3" />
-        <option name="url" value="https://github.com/sai-vatturi/DSA-with-Java-GFG-Self-Paced-Course" />
-      </UrlAndAccount>
-    </option>
-  </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/sai-vatturi/DSA-with-Java-GFG-Self-Paced-Course.git",
+    "accountId": "14f2c89c-ef85-4998-9e2c-8df6af48c8fb"
+  }
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/openjdk-21.0.2/Contents/Home/lib/src.zip!/java.base/java/nio/CharBuffer.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/openjdk-21.0.2/Contents/Home/lib/src.zip!/java.base/java/util/List.java" root0="SKIP_INSPECTION" />
@@ -105,6 +102,7 @@
     "Application.Fifth.executor": "Run",
     "Application.FindElementInArray.executor": "Run",
     "Application.FindMin.executor": "Run",
+    "Application.FindSmallestCharacter.executor": "Run",
     "Application.FindSortedArray.executor": "Run",
     "Application.FindUnique.executor": "Debug",
     "Application.First.executor": "Run",
@@ -180,6 +178,7 @@
     "Application.MaxMinTwoNumbers.executor": "Run",
     "Application.MaxSelectionSort.executor": "Run",
     "Application.MaximumDifference.executor": "Run",
+    "Application.MaximumIndexProduct.executor": "Run",
     "Application.MaximumSumSubArray.executor": "Run",
     "Application.MergeSort.executor": "Run",
     "Application.MergeSortInPlace.executor": "Run",
@@ -228,6 +227,7 @@
     "Application.RecursionPatterns.executor": "Run",
     "Application.RemoveDuplicates.executor": "Run",
     "Application.ReorderList.executor": "Run",
+    "Application.ReplaceFrequentCharacter.executor": "Run",
     "Application.ReshapeMatrix.executor": "Debug",
     "Application.Reverse2DArray.executor": "Run",
     "Application.ReverseK.executor": "Run",
@@ -292,6 +292,7 @@
     "Application.TwoDBinary.executor": "Run",
     "Application.TwoDDynamicArray.executor": "Run",
     "Application.TwoDSortedBinary.executor": "Run",
+    "Application.TwoSum.executor": "Run",
     "Application.UserInputDynamicArrays.executor": "Run",
     "Application.VoteVerify.executor": "Run",
     "Application.WrapperClasses.executor": "Run",
@@ -343,13 +344,13 @@
       <recent name="javakunal.oops.customarraylist" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Class1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oops.ex3.pkg1.Class1" />
+  <component name="RunManager" selected="Application.MaximumIndexProduct">
+    <configuration name="FindSmallestCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pat_training.FindSmallestCharacter" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oops.ex3.pkg1.*" />
+          <option name="PATTERN" value="pat_training.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -370,12 +371,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test2 (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oops.ex3.Test2" />
+    <configuration name="MaximumIndexProduct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pat_training.MaximumIndexProduct" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oops.ex3.*" />
+          <option name="PATTERN" value="pat_training.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -383,12 +384,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oops.ex3.Test2" />
+    <configuration name="ReplaceFrequentCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pat_training.ReplaceFrequentCharacter" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oops.ex3.*" />
+          <option name="PATTERN" value="pat_training.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -396,12 +397,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oops.ex3.Test3" />
+    <configuration name="SongsAirTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pat_training.SongsAirTime" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oops.ex3.*" />
+          <option name="PATTERN" value="pat_training.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -410,28 +411,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Class1" />
+      <item itemvalue="Application.FindSmallestCharacter" />
+      <item itemvalue="Application.MaximumIndexProduct" />
+      <item itemvalue="Application.ReplaceFrequentCharacter" />
+      <item itemvalue="Application.SongsAirTime" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Test2 (4)" />
-      <item itemvalue="Application.Test2" />
-      <item itemvalue="Application.Test3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaximumIndexProduct" />
+        <item itemvalue="Application.ReplaceFrequentCharacter" />
+        <item itemvalue="Application.FindSmallestCharacter" />
+        <item itemvalue="Application.SongsAirTime" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Class1" />
-        <item itemvalue="Application.Test3" />
-        <item itemvalue="Application.Test2" />
-        <item itemvalue="Application.Test2 (4)" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-322ed176" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
