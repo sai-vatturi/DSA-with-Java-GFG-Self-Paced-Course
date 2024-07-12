@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f15d687b-b8b6-4f06-a769-73b3bdd09095" name="Changes" comment="recursion playlist l1 l2">
-      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion/l3/BubbleSortRecursion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion/l3/RecursivePatterns.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion/l3/SelectionSortRecursion.java" afterDir="false" />
+    <list default="true" id="f15d687b-b8b6-4f06-a769-73b3bdd09095" name="Changes" comment="recursion l3">
+      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion/l4/MergeSortInPlace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion/l4/MergeSortRecursive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion/l5/QuickSortRecursion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -187,6 +187,7 @@
     "Application.MergeSort.executor": "Run",
     "Application.MergeSortInPlace.executor": "Run",
     "Application.MergeSortInPlaceOptimized.executor": "Run",
+    "Application.MergeSortRecursive.executor": "Run",
     "Application.Methods.executor": "Run",
     "Application.MinSelectionSort.executor": "Run",
     "Application.MountainArray.executor": "Debug",
@@ -231,6 +232,7 @@
     "Application.ProductOfNto1.executor": "Run",
     "Application.ProductOfTwoDistinct.executor": "Run",
     "Application.QuickSort.executor": "Run",
+    "Application.QuickSortRecursion.executor": "Run",
     "Application.RatMazeSolving.executor": "Run",
     "Application.RearrangeArray.executor": "Run",
     "Application.RecoverTheBST.executor": "Run",
@@ -360,13 +362,13 @@
       <recent name="javakunal.oops.customarraylist" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RecursivePatterns">
-    <configuration name="BubbleSortRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunalclass.recursion.l3.BubbleSortRecursion" />
+  <component name="RunManager" selected="Application.QuickSortRecursion">
+    <configuration name="MergeSortInPlace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javakunalclass.recursion.l4.MergeSortInPlace" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javakunalclass.recursion.l3.*" />
+          <option name="PATTERN" value="javakunalclass.recursion.l4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -374,12 +376,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinearSearchMultipleOccurences" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunalclass.recursion.l2.LinearSearchMultipleOccurences" />
+    <configuration name="MergeSortRecursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javakunalclass.recursion.l4.MergeSortRecursive" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javakunalclass.recursion.l3.*" />
+          <option name="PATTERN" value="javakunalclass.recursion.l4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuickSortRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javakunalclass.recursion.l5.QuickSortRecursion" />
+      <module name="DSA-with-Java-GFG-Self-Paced-Course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javakunalclass.recursion.l5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -389,19 +404,6 @@
     </configuration>
     <configuration name="RecursivePatterns" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javakunalclass.recursion.l3.RecursivePatterns" />
-      <module name="DSA-with-Java-GFG-Self-Paced-Course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="javakunalclass.recursion.l3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RotatedBinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunalclass.recursion.l2.RotatedBinarySearch" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
@@ -427,19 +429,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BubbleSortRecursion" />
-      <item itemvalue="Application.LinearSearchMultipleOccurences" />
+      <item itemvalue="Application.MergeSortInPlace" />
+      <item itemvalue="Application.MergeSortRecursive" />
+      <item itemvalue="Application.QuickSortRecursion" />
       <item itemvalue="Application.RecursivePatterns" />
-      <item itemvalue="Application.RotatedBinarySearch" />
       <item itemvalue="Application.SelectionSortRecursion" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QuickSortRecursion" />
+        <item itemvalue="Application.MergeSortInPlace" />
+        <item itemvalue="Application.MergeSortRecursive" />
         <item itemvalue="Application.RecursivePatterns" />
         <item itemvalue="Application.SelectionSortRecursion" />
-        <item itemvalue="Application.BubbleSortRecursion" />
-        <item itemvalue="Application.RotatedBinarySearch" />
-        <item itemvalue="Application.LinearSearchMultipleOccurences" />
       </list>
     </recent_temporary>
   </component>
@@ -652,15 +654,7 @@
       <workItem from="1720460218892" duration="92000" />
       <workItem from="1720514156093" duration="1836000" />
       <workItem from="1720675079470" duration="1832000" />
-      <workItem from="1720743994207" duration="3401000" />
-    </task>
-    <task id="LOCAL-00045" summary="bs problems">
-      <option name="closed" value="true" />
-      <created>1705487876853</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1705487876854</updated>
+      <workItem from="1720743994207" duration="7245000" />
     </task>
     <task id="LOCAL-00046" summary="BS problems">
       <option name="closed" value="true" />
@@ -1046,7 +1040,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720745399729</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="recursion l3">
+      <option name="closed" value="true" />
+      <created>1720750001130</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1720750001130</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1065,7 +1067,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="problems" />
     <MESSAGE value="mid exam preperation" />
     <MESSAGE value="bitwise" />
     <MESSAGE value="add commit" />
@@ -1090,7 +1091,8 @@
     <MESSAGE value="OOPS Assigment - 1" />
     <MESSAGE value="OOPS Assigment - 2" />
     <MESSAGE value="recursion playlist l1 l2" />
-    <option name="LAST_COMMIT_MESSAGE" value="recursion playlist l1 l2" />
+    <MESSAGE value="recursion l3" />
+    <option name="LAST_COMMIT_MESSAGE" value="recursion l3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
