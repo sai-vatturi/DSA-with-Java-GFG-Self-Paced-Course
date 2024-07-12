@@ -1,0 +1,800 @@
+Index: src/oops/ex4/Test4.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/oops/ex4/Test4.java b/src/oops/ex4/Test4.java
+new file mode 100644
+--- /dev/null	(date 1718106328255)
++++ b/src/oops/ex4/Test4.java	(date 1718106328255)
+@@ -0,0 +1,30 @@
++package oops.ex4;
++
++class AnotherTest implements Runnable {
++    public void run() {
++        doSomething();
++    }
++    synchronized void doSomething() {
++        for (int i = 1; i <= 5; i++) {
++            System.out.println(i);
++            try {
++                Thread.sleep(500);
++            }
++            catch (Exception e) {
++                System.out.println("Thread Interrupted.");
++            }
++        }
++        System.out.println("Execution Finished");
++    }
++}
++
++public class Test4 {
++    public static void main(String[] args) {
++        AnotherTest thread = new AnotherTest();
++        Thread thread1 = new Thread(thread);
++        Thread thread2 = new Thread(thread);
++
++        thread1.start();
++        thread2.start();
++    }
++}
+Index: src/oops/ex4/Test3.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/oops/ex4/Test3.java b/src/oops/ex4/Test3.java
+new file mode 100644
+--- /dev/null	(date 1718106120539)
++++ b/src/oops/ex4/Test3.java	(date 1718106120539)
+@@ -0,0 +1,29 @@
++package oops.ex4;
++
++class TestClass extends Thread{
++    synchronized void printSomething() {
++        for (int i = 0; i < 5; i++) {
++            System.out.println("Printing: " + (i + 1));
++            try {
++                Thread.sleep(500);
++            } catch (Exception e) {
++                System.out.println("Another thread in work");
++            }
++        }
++    }
++    public void run() {
++        printSomething();
++    }
++}
++
++public class Test3 {
++    public static void main(String[] args) {
++        TestClass thread = new TestClass();
++
++        Thread thread1 = new Thread(thread);
++        Thread thread2 = new Thread(thread);
++
++        thread1.start();
++        thread2.start();
++    }
++}
+Index: src/oops/comparator_practice/Student.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/oops/comparator_practice/Student.java b/src/oops/comparator_practice/Student.java
+new file mode 100644
+--- /dev/null	(date 1718362854166)
++++ b/src/oops/comparator_practice/Student.java	(date 1718362854166)
+@@ -0,0 +1,19 @@
++package oops.comparator_practice;
++
++public class Student {
++    int roll;
++    String name;
++    int age;
++
++    public Student(int roll, String name, int age) {
++        this.roll = roll;
++        this.name = name;
++        this.age = age;
++    }
++
++    @Override
++    public String toString() {
++
++        return this.roll + " " + this.name + " " + this.age;
++    }
++}
+Index: src/oops/comparator_practice/NameComparator.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/oops/comparator_practice/NameComparator.java b/src/oops/comparator_practice/NameComparator.java
+new file mode 100644
+--- /dev/null	(date 1718362934986)
++++ b/src/oops/comparator_practice/NameComparator.java	(date 1718362934986)
+@@ -0,0 +1,6 @@
++package oops.comparator_practice;
++
++import java.util.Comparator;
++
++public class NameComparator {
++}
+Index: src/oops/comparator_practice/AgeComparator.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/oops/comparator_practice/AgeComparator.java b/src/oops/comparator_practice/AgeComparator.java
+new file mode 100644
+--- /dev/null	(date 1718361690789)
++++ b/src/oops/comparator_practice/AgeComparator.java	(date 1718361690789)
+@@ -0,0 +1,4 @@
++package oops.comparator_practice;
++
++public class AgeComparator {
++}
+Index: src/oops/comparator_practice/Simple.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/oops/comparator_practice/Simple.java b/src/oops/comparator_practice/Simple.java
+new file mode 100644
+--- /dev/null	(date 1718362925361)
++++ b/src/oops/comparator_practice/Simple.java	(date 1718362925361)
+@@ -0,0 +1,19 @@
++package oops.comparator_practice;
++
++import java.util.ArrayList;
++import java.util.Collections;
++
++public class Simple {
++    public static void main(String[] args) {
++        ArrayList<Student> list = new ArrayList();
++        list.add(new Student(1001, "Bhavesh", 20));
++        list.add(new Student(1005, "Aakash", 21));
++        list.add(new Student(1003, "Kartik", 22));
++
++        System.out.println("Original ");
++
++        System.out.println(list);
++
++    }
++
++}
+Index: src/oops/ex5/Test2.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/oops/ex5/Test2.java b/src/oops/ex5/Test2.java
+new file mode 100644
+--- /dev/null	(date 1718365071378)
++++ b/src/oops/ex5/Test2.java	(date 1718365071378)
+@@ -0,0 +1,117 @@
++package oops.ex5;
++
++
++import java.util.ArrayList;
++import java.util.Iterator;
++import java.util.Scanner;
++
++class CheckStringPalindrome {
++    static ArrayList<String> list;
++
++    static void readAndStore(ArrayList<String> list) {
++        Scanner sc = new Scanner(System.in);
++        System.out.println("Read and Store Strings to ArrayList");
++        System.out.println("Enter number of Strings: ");
++        int n = sc.nextInt();
++        sc.nextLine();
++        for (int i = 0; i < n; i++) {
++            System.out.println("Enter " + (i + 1) + " String: ");
++            list.add(sc.nextLine());
++        }
++
++        System.out.println("Read and Store Completed.");
++    }
++
++    static void display(ArrayList<String> list) {
++        Iterator it = list.iterator();
++        System.out.println("Strings in the ArrayList are: ");
++        while (it.hasNext()) {
++            System.out.print((String) it.next() + " ");
++        }
++        System.out.println();
++    }
++
++    static boolean searchArray(ArrayList<String> list, String target) {
++        Iterator it = list.iterator();
++        System.out.println("Searching Array for " + target);
++        while (it.hasNext()) {
++            String str = (String) it.next();
++            if (str.equals(target)) {
++                return true;
++            }
++        }
++
++        return false;
++    }
++
++    static void printStringPalindrome(ArrayList<String> list) {
++        Iterator it = list.iterator();
++        System.out.println("Strings that are palindromes are: ");
++        while (it.hasNext()) {
++            String str = (String) it.next();
++            if (checkPalindrome(str)) {
++                System.out.print(str + " ");
++            }
++        }
++        System.out.println();
++
++    }
++
++    static boolean checkPalindrome(String str) {
++        int i = 0;
++        int j = str.length() - 1;
++
++        while (i < j) {
++            if (str.charAt(i) != str.charAt(j)) {
++                return false;
++            }
++            i++;
++            j--;
++        }
++        return true;
++    }
++
++    public static void main(String[] args) {
++        Scanner sc = new Scanner(System.in);
++        list = new ArrayList<>();
++
++        System.out.println("Options: ");
++        System.out.println("1. Read and store the strings into the ArrayList");
++        System.out.println("2. Display the ArrayList");
++        System.out.println("3. Search the ArrayList and print whether found or not");
++        System.out.println("4. Print all the palindromes in the ArrayList.");
++        System.out.println("5. Stop the process.");
++
++        while (true) {
++            System.out.println("Enter value from 1 - 5: ");
++            int n = sc.nextInt();
++            switch (n) {
++                case 1:
++                    readAndStore(list);
++                    break;
++                case 2:
++                    display(list);
++                    break;
++                case 3:
++                    System.out.println("Enter Target Element");
++                    sc.nextLine();
++                    String target = sc.nextLine();
++                    if (searchArray(list, target)) {
++                        System.out.println("Target is Found");
++                    }
++                    else {
++                        System.out.println("Target is Not Found");
++                    }
++                    break;
++                case 4:
++                    printStringPalindrome(list);
++                    break;
++                case 5:
++                    System.out.println("Exiting");
++                    return;
++                default:
++                    System.out.println("Enter value in range 1-5!");
++            }
++        }
++    }
++}
+Index: src/oops/ex5/Test1.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/oops/ex5/Test1.java b/src/oops/ex5/Test1.java
+new file mode 100644
+--- /dev/null	(date 1718364478534)
++++ b/src/oops/ex5/Test1.java	(date 1718364478534)
+@@ -0,0 +1,33 @@
++package oops.ex5;
++
++import java.util.ArrayList;
++import java.util.Iterator;
++
++public class Test1 {
++    public static void main(String[] args) {
++        ArrayList<Integer> student = new ArrayList<>();
++
++        student.add(95);
++        student.add(92);
++        student.add(90);
++        student.add(92);
++        student.add(82);
++        student.add(91);
++        student.add(76);
++        student.add(90);
++        student.add(85);
++        student.add(80);
++
++        Iterator it = student.iterator();
++        int sum = 0;
++
++        while (it.hasNext()) {
++            int marks = (int) it.next();
++            sum += marks;
++        }
++
++        double average = (double) sum / student.size();
++
++        System.out.println("The average marks of students is " + average);
++    }
++}
+Index: src/oops/threaddd.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/oops/threaddd.java b/src/oops/threaddd.java
+new file mode 100644
+--- /dev/null	(date 1719025521102)
++++ b/src/oops/threaddd.java	(date 1719025521102)
+@@ -0,0 +1,21 @@
++package oops;
++
++import java.util.ArrayList;
++
++class LinkedList<T> {
++    T n;
++    LinkedList(T n) {
++        this.n = n;
++    }
++    T get() {
++        return n;
++    }
++}
++
++
++class threaddd {
++    public static void main(String[] args) {
++        ArrayList<Integer> l = new ArrayList<>();
++
++    }
++}
+\ No newline at end of file
+Index: src/oops/ex5/Test3.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/oops/ex5/Test3.java b/src/oops/ex5/Test3.java
+new file mode 100644
+--- /dev/null	(date 1718365893246)
++++ b/src/oops/ex5/Test3.java	(date 1718365893246)
+@@ -0,0 +1,43 @@
++package oops.ex5;
++
++import java.util.ArrayList;
++import java.util.Scanner;
++
++public class Test3 {
++    // check even numbers
++
++    static void printEven(Integer[] arr) {
++        int n = arr.length;
++        System.out.println("Even Numbers: ");
++        for (int num : arr) {
++            if (num % 2 == 0)
++                System.out.print(num + " ");
++        }
++        System.out.println();
++    }
++
++    static void printOdd(Integer[] arr) {
++        int n = arr.length;
++        System.out.println("Odd Numbers: ");
++        for (int num : arr) {
++            if (num % 2 != 0)
++                System.out.print(num + " ");
++        }
++        System.out.println();
++    }
++
++    public static void main(String[] args) {
++        Scanner sc = new Scanner(System.in);
++        ArrayList<Integer> list = new ArrayList<>(10);
++        System.out.println("Enter 10 numbers: ");
++        for (int i = 0; i < 10; i++) {
++            list.add(sc.nextInt());
++        }
++
++        //convert list to array
++        Integer[] arr = list.toArray(new Integer[list.size()]);
++
++        printEven(arr);
++        printOdd(arr);
++    }
++}
+Index: src/oops/ex4/Test2.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/oops/ex4/Test2.java b/src/oops/ex4/Test2.java
+new file mode 100644
+--- /dev/null	(date 1718106740848)
++++ b/src/oops/ex4/Test2.java	(date 1718106740848)
+@@ -0,0 +1,54 @@
++package oops.ex4;
++
++class MovieBooking {
++    int n;
++
++    public MovieBooking (int n) {
++        this.n = n;
++    }
++
++    synchronized void ticketBook() {
++        if (this.n < 1) {
++            System.out.println("Sorry no tickets available!");
++        }
++        else {
++            System.out.println("Available tickets: " + n);
++            System.out.println("Booking Ticket");
++            try {
++                n--;
++                Thread.sleep(500);
++            } catch (Exception e) {
++                System.out.println("Thread is interrupted.");
++            }
++            System.out.println("Ticket booking successful.");
++        }
++
++    }
++}
++
++class CheckMovie implements Runnable {
++    private MovieBooking mb;
++
++    public CheckMovie(MovieBooking mb) {
++        this.mb = mb;
++    }
++    public void run() {
++        mb.ticketBook();
++    }
++
++}
++
++class Test2 {
++    public static void main(String[] args) {
++        MovieBooking mb = new MovieBooking(5);
++        Thread thread1 = new Thread(new CheckMovie(mb), "Thread - 1");
++        Thread thread2 = new Thread(new CheckMovie(mb), "Thread - 2");
++        Thread thread3 = new Thread(new CheckMovie(mb), "Thread - 3");
++        Thread thread4 = new Thread(new CheckMovie(mb), "Thread - 4");
++
++        thread1.start();
++        thread2.start();
++        thread3.start();
++        thread4.start();
++    }
++}
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"f15d687b-b8b6-4f06-a769-73b3bdd09095\" name=\"Changes\" comment=\"OOPS Assigment - 2\">\n      <change afterPath=\"$PROJECT_DIR$/src/oops/ex3/Test1.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/oops/ex3/Test2.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/oops/ex3/Test3.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/oops/ex3/pkg1/Class1.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/oops/ex3/pkg2/Class2.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/oops/ex3/pkg3/Main.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Interface\" />\n        <option value=\"Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"PUSH_AUTO_UPDATE\" value=\"true\" />\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"GitHubPullRequestSearchHistory\">{\n  &quot;lastFilter&quot;: {\n    &quot;state&quot;: &quot;OPEN&quot;,\n    &quot;assignee&quot;: &quot;sai-vatturi&quot;\n  }\n}</component>\n  <component name=\"GithubPullRequestsUISettings\">\n    <option name=\"selectedUrlAndAccountId\">\n      <UrlAndAccount>\n        <option name=\"accountId\" value=\"361a26b4-f984-4a34-b5c3-48b21d2abef3\" />\n        <option name=\"url\" value=\"https://github.com/sai-vatturi/DSA-with-Java-GFG-Self-Paced-Course\" />\n      </UrlAndAccount>\n    </option>\n  </component>\n  <component name=\"HighlightingSettingsPerFile\">\n    <setting file=\"jar://$USER_HOME$/Library/Java/JavaVirtualMachines/openjdk-21.0.2/Contents/Home/lib/src.zip!/java.base/java/nio/CharBuffer.java\" root0=\"SKIP_INSPECTION\" />\n    <setting file=\"jar://$USER_HOME$/Library/Java/JavaVirtualMachines/openjdk-21.0.2/Contents/Home/lib/src.zip!/java.base/java/util/List.java\" root0=\"SKIP_INSPECTION\" />\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProblemsViewState\">\n    <option name=\"selectedTabId\" value=\"QODANA_PROBLEMS_VIEW_TAB\" />\n  </component>\n  <component name=\"ProjectColorInfo\">{\n  &quot;associatedIndex&quot;: 4\n}</component>\n  <component name=\"ProjectId\" id=\"2YejDwqXRJPkRy1g8Ia1Xg5TLHG\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\n  </component>\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"ASKED_ADD_EXTERNAL_FILES\": \"true\",\n    \"Application.ActivitySelection.executor\": \"Run\",\n    \"Application.ApowerB.executor\": \"Run\",\n    \"Application.Area.executor\": \"Run\",\n    \"Application.ArithmeticOperations.executor\": \"Run\",\n    \"Application.Armstrong.executor\": \"Run\",\n    \"Application.ArrayListDemo1.executor\": \"Run\",\n    \"Application.BSRecursion.executor\": \"Debug\",\n    \"Application.BasicArray.executor\": \"Run\",\n    \"Application.BasicArrayInput.executor\": \"Run\",\n    \"Application.BasicArrayStringInput.executor\": \"Run\",\n    \"Application.BinarySearchMyImplementation.executor\": \"Run\",\n    \"Application.BreadthFirstSearch (1).executor\": \"Run\",\n    \"Application.BreadthFirstSearch.executor\": \"Run\",\n    \"Application.BruteTSP.executor\": \"Run\",\n    \"Application.BubbleSort.executor\": \"Run\",\n    \"Application.BubbleSortRecursion.executor\": \"Run\",\n    \"Application.Candies.executor\": \"Run\",\n    \"Application.CeilingBS.executor\": \"Run\",\n    \"Application.CelebrityProblem.executor\": \"Run\",\n    \"Application.Combinations.executor\": \"Run\",\n    \"Application.ConvertFive.executor\": \"Run\",\n    \"Application.CyclicSort.executor\": \"Run\",\n    \"Application.DepthFirstSearch.executor\": \"Run\",\n    \"Application.Dials.executor\": \"Run\",\n    \"Application.DpTSP.executor\": \"Run\",\n    \"Application.DynamicArrays.executor\": \"Run\",\n    \"Application.Eight.executor\": \"Run\",\n    \"Application.EquilibriumSum.executor\": \"Run\",\n    \"Application.EvenOdd.executor\": \"Run\",\n    \"Application.ExampleClass.executor\": \"Run\",\n    \"Application.Factorial.executor\": \"Run\",\n    \"Application.Factors.executor\": \"Run\",\n    \"Application.Fibo.executor\": \"Run\",\n    \"Application.Fibonacci.executor\": \"Run\",\n    \"Application.Fifth.executor\": \"Run\",\n    \"Application.FindElementInArray.executor\": \"Run\",\n    \"Application.FindMin.executor\": \"Run\",\n    \"Application.FindSortedArray.executor\": \"Run\",\n    \"Application.FindUnique.executor\": \"Debug\",\n    \"Application.First.executor\": \"Run\",\n    \"Application.FirstAndLastPositionElement.executor\": \"Run\",\n    \"Application.FloorBS.executor\": \"Run\",\n    \"Application.Floyd.executor\": \"Run\",\n    \"Application.FloydWarshall.executor\": \"Run\",\n    \"Application.Foo.executor\": \"Run\",\n    \"Application.Fourth.executor\": \"Run\",\n    \"Application.FrequenciesInSortedArray.executor\": \"Run\",\n    \"Application.GarbagaCollection.executor\": \"Run\",\n    \"Application.GraphClass (1).executor\": \"Run\",\n    \"Application.GraphClass (2).executor\": \"Run\",\n    \"Application.GraphClass.executor\": \"Run\",\n    \"Application.GraphColoring.executor\": \"Run\",\n    \"Application.Hamiltonian.executor\": \"Run\",\n    \"Application.HamiltonianCircuit.executor\": \"Run\",\n    \"Application.HamiltonianCycle.executor\": \"Run\",\n    \"Application.HashSetDemo1.executor\": \"Run\",\n    \"Application.HashSetDemo2.executor\": \"Run\",\n    \"Application.HashSetDemo3.executor\": \"Run\",\n    \"Application.HelloWorld.executor\": \"Run\",\n    \"Application.InfiniteArrayBS.executor\": \"Run\",\n    \"Application.InsertionSort.executor\": \"Run\",\n    \"Application.IterativeTowerOfHanoi.executor\": \"Run\",\n    \"Application.Josephus.executor\": \"Run\",\n    \"Application.JosephusProblem.executor\": \"Run\",\n    \"Application.KnapSackDP.executor\": \"Run\",\n    \"Application.KnapSackGreedy (1).executor\": \"Run\",\n    \"Application.KnapSackGreedy.executor\": \"Run\",\n    \"Application.Knapsack (1).executor\": \"Run\",\n    \"Application.Knapsack (2).executor\": \"Run\",\n    \"Application.Knapsack.executor\": \"Run\",\n    \"Application.Kruskal.executor\": \"Run\",\n    \"Application.KruskalAlgorithm (1).executor\": \"Run\",\n    \"Application.KruskalAlgorithm (2).executor\": \"Run\",\n    \"Application.KruskalAlgorithm (3).executor\": \"Debug\",\n    \"Application.KruskalAlgorithm (4).executor\": \"Run\",\n    \"Application.KruskalAlgorithm (5).executor\": \"Run\",\n    \"Application.KruskalAlgorithm.executor\": \"Run\",\n    \"Application.LambdaExpressions.executor\": \"Run\",\n    \"Application.LargestTillX.executor\": \"Run\",\n    \"Application.LeadersInArray.executor\": \"Run\",\n    \"Application.LeftRotateByD.executor\": \"Run\",\n    \"Application.LeftRotateByOne.executor\": \"Run\",\n    \"Application.LevelOrderInsertion (1).executor\": \"Run\",\n    \"Application.LevelOrderInsertion (2).executor\": \"Run\",\n    \"Application.LevelOrderInsertion.executor\": \"Run\",\n    \"Application.LinearSearch.executor\": \"Run\",\n    \"Application.LinearSearchInRange.executor\": \"Run\",\n    \"Application.LinearSearchString.executor\": \"Run\",\n    \"Application.LinkedListDemo1.executor\": \"Run\",\n    \"Application.LinkedListDemo2.executor\": \"Run\",\n    \"Application.LinkedListDemo3.executor\": \"Run\",\n    \"Application.MagicNumber.executor\": \"Run\",\n    \"Application.Main (1).executor\": \"Run\",\n    \"Application.Main (2).executor\": \"Run\",\n    \"Application.Main (3).executor\": \"Run\",\n    \"Application.Main.executor\": \"Run\",\n    \"Application.Main2.executor\": \"Run\",\n    \"Application.MainTest.executor\": \"Run\",\n    \"Application.MajorityElement.executor\": \"Run\",\n    \"Application.ManeuveringClass.executor\": \"Run\",\n    \"Application.ManeuveringProblem.executor\": \"Run\",\n    \"Application.MarkingDuplicates.executor\": \"Run\",\n    \"Application.MatrixChain.executor\": \"Run\",\n    \"Application.MatrixChainMultiplication.executor\": \"Run\",\n    \"Application.MaxActivities.executor\": \"Run\",\n    \"Application.MaxDepth.executor\": \"Debug\",\n    \"Application.MaxEquilibriumSum.executor\": \"Run\",\n    \"Application.MaxIn2DArray.executor\": \"Run\",\n    \"Application.MaxInArray.executor\": \"Run\",\n    \"Application.MaxMinTwoNumbers.executor\": \"Run\",\n    \"Application.MaxSelectionSort.executor\": \"Run\",\n    \"Application.MaximumDifference.executor\": \"Run\",\n    \"Application.MaximumSumSubArray.executor\": \"Run\",\n    \"Application.MergeSort.executor\": \"Run\",\n    \"Application.MergeSortInPlace.executor\": \"Run\",\n    \"Application.MergeSortInPlaceOptimized.executor\": \"Run\",\n    \"Application.Methods.executor\": \"Run\",\n    \"Application.MinSelectionSort.executor\": \"Run\",\n    \"Application.MountainArray.executor\": \"Debug\",\n    \"Application.MountainArraySelect.executor\": \"Run\",\n    \"Application.MoveAllZeroesToEnd.executor\": \"Run\",\n    \"Application.MyProgram.executor\": \"Run\",\n    \"Application.NCRnpr.executor\": \"Run\",\n    \"Application.NQueens.executor\": \"Run\",\n    \"Application.NQueens2.executor\": \"Run\",\n    \"Application.Nine.executor\": \"Run\",\n    \"Application.NoOfDigits.executor\": \"Run\",\n    \"Application.NoofSetBits.executor\": \"Run\",\n    \"Application.NumbersExample.executor\": \"Debug\",\n    \"Application.NumbersExampleRecursion.executor\": \"Run\",\n    \"Application.ObjectDemo.executor\": \"Run\",\n    \"Application.OddEven.executor\": \"Run\",\n    \"Application.OddEvenLL.executor\": \"Run\",\n    \"Application.Operators.executor\": \"Run\",\n    \"Application.OptimalBST.executor\": \"Run\",\n    \"Application.OptimizedPrime.executor\": \"Run\",\n    \"Application.OrderAgnosticBS.executor\": \"Run\",\n    \"Application.Output.executor\": \"Run\",\n    \"Application.Palindrome.executor\": \"Run\",\n    \"Application.PeakMountainArray.executor\": \"Run\",\n    \"Application.Performance.executor\": \"Run\",\n    \"Application.Perm.executor\": \"Run\",\n    \"Application.Permutations.executor\": \"Run\",\n    \"Application.PermutationsOfAString.executor\": \"Run\",\n    \"Application.PowerOfTwo.executor\": \"Run\",\n    \"Application.PowerSetSubSet.executor\": \"Run\",\n    \"Application.PrettyPrinting.executor\": \"Run\",\n    \"Application.Prime.executor\": \"Run\",\n    \"Application.PrimeNumbers.executor\": \"Run\",\n    \"Application.Prims (1).executor\": \"Run\",\n    \"Application.Prims.executor\": \"Run\",\n    \"Application.PrimsAlgorithm.executor\": \"Run\",\n    \"Application.PriorityQueueUsingDLL.executor\": \"Run\",\n    \"Application.QuickSort.executor\": \"Run\",\n    \"Application.RatMazeSolving.executor\": \"Run\",\n    \"Application.RearrangeArray.executor\": \"Run\",\n    \"Application.RecoverTheBST.executor\": \"Run\",\n    \"Application.RecursionPatterns.executor\": \"Run\",\n    \"Application.RemoveDuplicates.executor\": \"Run\",\n    \"Application.ReorderList.executor\": \"Run\",\n    \"Application.ReshapeMatrix.executor\": \"Debug\",\n    \"Application.Reverse2DArray.executor\": \"Run\",\n    \"Application.ReverseK.executor\": \"Run\",\n    \"Application.ReverseLinkedList.executor\": \"Run\",\n    \"Application.ReverseString.executor\": \"Run\",\n    \"Application.ReversingArray.executor\": \"Run\",\n    \"Application.RotatedBinarySearch.executor\": \"Run\",\n    \"Application.SB.executor\": \"Run\",\n    \"Application.SE.executor\": \"Run\",\n    \"Application.SearchIn2DArray.executor\": \"Run\",\n    \"Application.SearchInSubArray (1).executor\": \"Run\",\n    \"Application.SearchInSubArray.executor\": \"Run\",\n    \"Application.SearchRotatedSortedArray.executor\": \"Run\",\n    \"Application.Second.executor\": \"Run\",\n    \"Application.SegregateOddEven.executor\": \"Run\",\n    \"Application.SelectInMountain.executor\": \"Run\",\n    \"Application.SelectionSort.executor\": \"Debug\",\n    \"Application.Seventh.executor\": \"Run\",\n    \"Application.ShiftingLetters.executor\": \"Run\",\n    \"Application.SieveOfEratosthenes.executor\": \"Run\",\n    \"Application.SinglyLinkedList.executor\": \"Run\",\n    \"Application.Sixth.executor\": \"Run\",\n    \"Application.SmallestLetter.executor\": \"Debug\",\n    \"Application.Sort.executor\": \"Run\",\n    \"Application.SortTheBitonicDLL (1).executor\": \"Run\",\n    \"Application.SortTheBitonicDLL (2).executor\": \"Run\",\n    \"Application.SortTheBitonicDLL.executor\": \"Run\",\n    \"Application.SortWithoutExtraSpace.executor\": \"Run\",\n    \"Application.SortingTheSentence.executor\": \"Run\",\n    \"Application.StackPermutations.executor\": \"Run\",\n    \"Application.StockBuyAndSell.executor\": \"Run\",\n    \"Application.StockSpan.executor\": \"Run\",\n    \"Application.StockSpanProblem.executor\": \"Run\",\n    \"Application.StronglyConnectedComponents (1).executor\": \"Run\",\n    \"Application.StronglyConnectedComponents.executor\": \"Run\",\n    \"Application.SubClass.executor\": \"Run\",\n    \"Application.SubsetSum.executor\": \"Run\",\n    \"Application.SwappingValuesInArray.executor\": \"Run\",\n    \"Application.TSPbrute.executor\": \"Run\",\n    \"Application.TSPdp.executor\": \"Run\",\n    \"Application.Ten.executor\": \"Run\",\n    \"Application.Test.executor\": \"Run\",\n    \"Application.Test1 (1).executor\": \"Run\",\n    \"Application.Test1 (2).executor\": \"Run\",\n    \"Application.Test1 (3).executor\": \"Run\",\n    \"Application.Test1.executor\": \"Run\",\n    \"Application.Test2 (1).executor\": \"Run\",\n    \"Application.Test2 (2).executor\": \"Run\",\n    \"Application.Test2 (3).executor\": \"Run\",\n    \"Application.Test2 (4).executor\": \"Run\",\n    \"Application.Test2.executor\": \"Run\",\n    \"Application.Test3 (1).executor\": \"Run\",\n    \"Application.Test3.executor\": \"Run\",\n    \"Application.Test4.executor\": \"Run\",\n    \"Application.Test5.executor\": \"Run\",\n    \"Application.Tesy.executor\": \"Run\",\n    \"Application.TheCelebrityProblem.executor\": \"Run\",\n    \"Application.Third.executor\": \"Run\",\n    \"Application.TowerOfHanoi.executor\": \"Run\",\n    \"Application.TrappingRainWater.executor\": \"Run\",\n    \"Application.TwoDArrays.executor\": \"Run\",\n    \"Application.TwoDBinary.executor\": \"Run\",\n    \"Application.TwoDDynamicArray.executor\": \"Run\",\n    \"Application.TwoDSortedBinary.executor\": \"Run\",\n    \"Application.UserInputDynamicArrays.executor\": \"Run\",\n    \"Application.VoteVerify.executor\": \"Run\",\n    \"Application.WrapperClasses.executor\": \"Run\",\n    \"Application.classlectures.daa.HelloWorld.executor\": \"Debug\",\n    \"Application.findFactorial.executor\": \"Run\",\n    \"Application.javakunal.oops.abstractDemo.Main.executor\": \"Run\",\n    \"Application.javakunal.oops.access.Main.executor\": \"Run\",\n    \"Application.javakunal.oops.cloning.Main.executor\": \"Run\",\n    \"Application.javakunal.oops.customarraylist.Main.executor\": \"Run\",\n    \"Application.javakunal.oops.exceptionhandling.Main.executor\": \"Run\",\n    \"Application.javakunal.oops.interfaces.Main.executor\": \"Run\",\n    \"Application.javakunal.oops.polymorphism.Main.executor\": \"Run\",\n    \"Application.javakunalclass.sorting.SelectionSort.executor\": \"Run\",\n    \"Application.oops.ex1.Fibonacci.executor\": \"Run\",\n    \"Application.oops.ex3.Test2.executor\": \"Run\",\n    \"Application.printPrimes.executor\": \"Run\",\n    \"Application.sdot.zaheer.Main (1).executor\": \"Run\",\n    \"Application.sdot.zaheer.Main.executor\": \"Run\",\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\n    \"deletionFromPopupRequiresConfirmation\": \"false\",\n    \"git-widget-placeholder\": \"main\",\n    \"ignore.preview.features.used\": \"true\",\n    \"kotlin-language-version-configured\": \"true\",\n    \"last_opened_file_path\": \"/Users/xsainav/GitHub/DSA-with-Java-GFG-Self-Paced-Course/DSA-with-Java-GFG-Self-Paced-Course\",\n    \"node.js.detected.package.eslint\": \"true\",\n    \"node.js.detected.package.tslint\": \"true\",\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\n    \"nodejs_package_manager_path\": \"npm\",\n    \"settings.editor.selected.configurable\": \"preferences.lookFeel\",\n    \"vue.rearranger.settings.migration\": \"true\"\n  }\n}]]></component>\n  <component name=\"RecentsManager\">\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/src/ChallengeTopCoder/tree\" />\n      <recent name=\"$PROJECT_DIR$/src/ChallengeTopCoder/linkedlist\" />\n      <recent name=\"$PROJECT_DIR$/src/sdot\" />\n      <recent name=\"$PROJECT_DIR$/src/sdot/linkedlist\" />\n    </key>\n    <key name=\"MoveClassesOrPackagesDialog.RECENTS_KEY\">\n      <recent name=\"sdot\" />\n    </key>\n    <key name=\"CopyClassDialog.RECENTS_KEY\">\n      <recent name=\"patterns\" />\n      <recent name=\"javakunalclass.binarysearch\" />\n      <recent name=\"javakunal.oops.customarraylist\" />\n    </key>\n  </component>\n  <component name=\"RunManager\" selected=\"Application.Main\">\n    <configuration name=\"Class1\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"oops.ex3.pkg1.Class1\" />\n      <module name=\"DSA-with-Java-GFG-Self-Paced-Course\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"oops.ex3.pkg1.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"oops.ex3.pkg3.Main\" />\n      <module name=\"DSA-with-Java-GFG-Self-Paced-Course\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"oops.ex3.pkg3.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"Test2 (4)\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"oops.ex3.Test2\" />\n      <module name=\"DSA-with-Java-GFG-Self-Paced-Course\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"oops.ex3.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"Test2\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"oops.ex3.Test2\" />\n      <module name=\"DSA-with-Java-GFG-Self-Paced-Course\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"oops.ex3.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"Test3\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"oops.ex3.Test3\" />\n      <module name=\"DSA-with-Java-GFG-Self-Paced-Course\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"oops.ex3.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <list>\n      <item itemvalue=\"Application.Class1\" />\n      <item itemvalue=\"Application.Main\" />\n      <item itemvalue=\"Application.Test2 (4)\" />\n      <item itemvalue=\"Application.Test2\" />\n      <item itemvalue=\"Application.Test3\" />\n    </list>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"Application.Main\" />\n        <item itemvalue=\"Application.Class1\" />\n        <item itemvalue=\"Application.Test3\" />\n        <item itemvalue=\"Application.Test2\" />\n        <item itemvalue=\"Application.Test2 (4)\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SharedIndexes\">\n    <attachedChunks>\n      <set>\n        <option value=\"jdk-21.0.2-openjdk-21.0.2-4caba194b151-322ed176\" />\n      </set>\n    </attachedChunks>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"f15d687b-b8b6-4f06-a769-73b3bdd09095\" name=\"Changes\" comment=\"\" />\n      <created>1700892823212</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1700892823212</updated>\n      <workItem from=\"1702053043091\" duration=\"91000\" />\n      <workItem from=\"1702137951799\" duration=\"1508000\" />\n      <workItem from=\"1702225933123\" duration=\"4415000\" />\n      <workItem from=\"1702273135540\" duration=\"162000\" />\n      <workItem from=\"1702297592352\" duration=\"21000\" />\n      <workItem from=\"1702394871212\" duration=\"1846000\" />\n      <workItem from=\"1702443849058\" duration=\"3911000\" />\n      <workItem from=\"1702535340659\" duration=\"5216000\" />\n      <workItem from=\"1702550537495\" duration=\"427000\" />\n      <workItem from=\"1702551802445\" duration=\"1229000\" />\n      <workItem from=\"1702654075053\" duration=\"640000\" />\n      <workItem from=\"1702730367971\" duration=\"4644000\" />\n      <workItem from=\"1702965156393\" duration=\"2608000\" />\n      <workItem from=\"1704687377795\" duration=\"7137000\" />\n      <workItem from=\"1704793794530\" duration=\"7000\" />\n      <workItem from=\"1704927019850\" duration=\"3033000\" />\n      <workItem from=\"1705021836165\" duration=\"2475000\" />\n      <workItem from=\"1705162466523\" duration=\"34000\" />\n      <workItem from=\"1705204864224\" duration=\"12866000\" />\n      <workItem from=\"1705293393722\" duration=\"6162000\" />\n      <workItem from=\"1705315798428\" duration=\"616000\" />\n      <workItem from=\"1705393814362\" duration=\"818000\" />\n      <workItem from=\"1705418300880\" duration=\"552000\" />\n      <workItem from=\"1705470776441\" duration=\"3256000\" />\n      <workItem from=\"1705552840879\" duration=\"3478000\" />\n      <workItem from=\"1705567856088\" duration=\"2259000\" />\n      <workItem from=\"1705666997561\" duration=\"2109000\" />\n      <workItem from=\"1705744530766\" duration=\"1696000\" />\n      <workItem from=\"1705749259198\" duration=\"2859000\" />\n      <workItem from=\"1705761175782\" duration=\"753000\" />\n      <workItem from=\"1705763460106\" duration=\"594000\" />\n      <workItem from=\"1705811165400\" duration=\"2813000\" />\n      <workItem from=\"1705819807133\" duration=\"1640000\" />\n      <workItem from=\"1705917617587\" duration=\"754000\" />\n      <workItem from=\"1705922775640\" duration=\"79000\" />\n      <workItem from=\"1705924066889\" duration=\"238000\" />\n      <workItem from=\"1705970764644\" duration=\"2142000\" />\n      <workItem from=\"1705992116150\" duration=\"4873000\" />\n      <workItem from=\"1706058377274\" duration=\"599000\" />\n      <workItem from=\"1706070001177\" duration=\"5651000\" />\n      <workItem from=\"1706098424355\" duration=\"49000\" />\n      <workItem from=\"1706112530737\" duration=\"610000\" />\n      <workItem from=\"1706157280889\" duration=\"2362000\" />\n      <workItem from=\"1706203277672\" duration=\"932000\" />\n      <workItem from=\"1706288128979\" duration=\"52000\" />\n      <workItem from=\"1706292320892\" duration=\"1125000\" />\n      <workItem from=\"1706314293782\" duration=\"4906000\" />\n      <workItem from=\"1706348588180\" duration=\"1244000\" />\n      <workItem from=\"1706376030705\" duration=\"65000\" />\n      <workItem from=\"1706399175598\" duration=\"4739000\" />\n      <workItem from=\"1706455328842\" duration=\"2102000\" />\n      <workItem from=\"1706485100285\" duration=\"667000\" />\n      <workItem from=\"1706485776033\" duration=\"415000\" />\n      <workItem from=\"1706486237197\" duration=\"103000\" />\n      <workItem from=\"1706486385558\" duration=\"14000\" />\n      <workItem from=\"1706486494810\" duration=\"11281000\" />\n      <workItem from=\"1706546145831\" duration=\"65000\" />\n      <workItem from=\"1706571720115\" duration=\"1553000\" />\n      <workItem from=\"1706577402295\" duration=\"1960000\" />\n      <workItem from=\"1706598993478\" duration=\"580000\" />\n      <workItem from=\"1706629423571\" duration=\"959000\" />\n      <workItem from=\"1706848986680\" duration=\"2426000\" />\n      <workItem from=\"1706891046087\" duration=\"341000\" />\n      <workItem from=\"1706896766890\" duration=\"1970000\" />\n      <workItem from=\"1706975171330\" duration=\"639000\" />\n      <workItem from=\"1707152644307\" duration=\"145000\" />\n      <workItem from=\"1707227945697\" duration=\"770000\" />\n      <workItem from=\"1707235236363\" duration=\"23429000\" />\n      <workItem from=\"1707309183143\" duration=\"5981000\" />\n      <workItem from=\"1707321227718\" duration=\"75000\" />\n      <workItem from=\"1707359781289\" duration=\"226000\" />\n      <workItem from=\"1707360010196\" duration=\"801000\" />\n      <workItem from=\"1707407833876\" duration=\"1217000\" />\n      <workItem from=\"1707486276336\" duration=\"10000\" />\n      <workItem from=\"1707630366763\" duration=\"1209000\" />\n      <workItem from=\"1707666743788\" duration=\"331000\" />\n      <workItem from=\"1707723479462\" duration=\"61000\" />\n      <workItem from=\"1707749898494\" duration=\"1794000\" />\n      <workItem from=\"1707871242840\" duration=\"846000\" />\n      <workItem from=\"1707904545310\" duration=\"255000\" />\n      <workItem from=\"1707907886037\" duration=\"1394000\" />\n      <workItem from=\"1707910993359\" duration=\"789000\" />\n      <workItem from=\"1708088069051\" duration=\"2773000\" />\n      <workItem from=\"1708103205722\" duration=\"12000\" />\n      <workItem from=\"1708111005546\" duration=\"2558000\" />\n      <workItem from=\"1708221790298\" duration=\"9731000\" />\n      <workItem from=\"1708443086130\" duration=\"977000\" />\n      <workItem from=\"1708577688261\" duration=\"4301000\" />\n      <workItem from=\"1708665268386\" duration=\"10445000\" />\n      <workItem from=\"1708705151151\" duration=\"605000\" />\n      <workItem from=\"1708752318362\" duration=\"1072000\" />\n      <workItem from=\"1708765900396\" duration=\"1028000\" />\n      <workItem from=\"1708957098120\" duration=\"5777000\" />\n      <workItem from=\"1709053753286\" duration=\"4000\" />\n      <workItem from=\"1709105294053\" duration=\"3893000\" />\n      <workItem from=\"1709197046175\" duration=\"1253000\" />\n      <workItem from=\"1709219655410\" duration=\"2835000\" />\n      <workItem from=\"1709276145310\" duration=\"1926000\" />\n      <workItem from=\"1709292299895\" duration=\"271000\" />\n      <workItem from=\"1709298356014\" duration=\"1383000\" />\n      <workItem from=\"1709307398087\" duration=\"3094000\" />\n      <workItem from=\"1709439433921\" duration=\"636000\" />\n      <workItem from=\"1709458139588\" duration=\"5453000\" />\n      <workItem from=\"1709479414279\" duration=\"3456000\" />\n      <workItem from=\"1709485595118\" duration=\"1214000\" />\n      <workItem from=\"1709526699052\" duration=\"707000\" />\n      <workItem from=\"1709656382420\" duration=\"1373000\" />\n      <workItem from=\"1709684732810\" duration=\"2669000\" />\n      <workItem from=\"1709735740816\" duration=\"405000\" />\n      <workItem from=\"1709740414784\" duration=\"2495000\" />\n      <workItem from=\"1709772325004\" duration=\"2787000\" />\n      <workItem from=\"1709793572617\" duration=\"5900000\" />\n      <workItem from=\"1709859317400\" duration=\"3269000\" />\n      <workItem from=\"1709880355518\" duration=\"2993000\" />\n      <workItem from=\"1709897410659\" duration=\"903000\" />\n      <workItem from=\"1709898421617\" duration=\"1890000\" />\n      <workItem from=\"1709901474211\" duration=\"3294000\" />\n      <workItem from=\"1709915679802\" duration=\"969000\" />\n      <workItem from=\"1709962788208\" duration=\"610000\" />\n      <workItem from=\"1709965958910\" duration=\"3954000\" />\n      <workItem from=\"1710136954815\" duration=\"4035000\" />\n      <workItem from=\"1710152028953\" duration=\"729000\" />\n      <workItem from=\"1710175915928\" duration=\"38000\" />\n      <workItem from=\"1710177877823\" duration=\"6000000\" />\n      <workItem from=\"1710268427431\" duration=\"94000\" />\n      <workItem from=\"1710437947933\" duration=\"28000\" />\n      <workItem from=\"1710502401329\" duration=\"1311000\" />\n      <workItem from=\"1710506115965\" duration=\"4198000\" />\n      <workItem from=\"1710638094217\" duration=\"11366000\" />\n      <workItem from=\"1710676164955\" duration=\"4992000\" />\n      <workItem from=\"1710682627007\" duration=\"302000\" />\n      <workItem from=\"1710781141825\" duration=\"956000\" />\n      <workItem from=\"1710821766483\" duration=\"3770000\" />\n      <workItem from=\"1710906599951\" duration=\"8299000\" />\n      <workItem from=\"1710952183380\" duration=\"2373000\" />\n      <workItem from=\"1711003520087\" duration=\"6321000\" />\n      <workItem from=\"1711043353439\" duration=\"59000\" />\n      <workItem from=\"1711043638199\" duration=\"613000\" />\n      <workItem from=\"1711108053085\" duration=\"915000\" />\n      <workItem from=\"1711257936361\" duration=\"1251000\" />\n      <workItem from=\"1711382653867\" duration=\"76000\" />\n      <workItem from=\"1711433274402\" duration=\"71000\" />\n      <workItem from=\"1711477136544\" duration=\"221000\" />\n      <workItem from=\"1711598651566\" duration=\"1805000\" />\n      <workItem from=\"1711606865148\" duration=\"5553000\" />\n      <workItem from=\"1711641359606\" duration=\"1637000\" />\n      <workItem from=\"1711713798363\" duration=\"668000\" />\n      <workItem from=\"1711735585924\" duration=\"42000\" />\n      <workItem from=\"1711959627057\" duration=\"216000\" />\n      <workItem from=\"1711960213229\" duration=\"1631000\" />\n      <workItem from=\"1711995734982\" duration=\"22000\" />\n      <workItem from=\"1712125370326\" duration=\"69000\" />\n      <workItem from=\"1712160509208\" duration=\"6478000\" />\n      <workItem from=\"1712204846691\" duration=\"3015000\" />\n      <workItem from=\"1712339284848\" duration=\"629000\" />\n      <workItem from=\"1712657167050\" duration=\"5152000\" />\n      <workItem from=\"1712683947689\" duration=\"12373000\" />\n      <workItem from=\"1712772006986\" duration=\"212000\" />\n      <workItem from=\"1712856093798\" duration=\"23000\" />\n      <workItem from=\"1713031332106\" duration=\"602000\" />\n      <workItem from=\"1713160864079\" duration=\"1167000\" />\n      <workItem from=\"1713285333994\" duration=\"1189000\" />\n      <workItem from=\"1713368545874\" duration=\"5111000\" />\n      <workItem from=\"1713422413383\" duration=\"3155000\" />\n      <workItem from=\"1713454795305\" duration=\"2197000\" />\n      <workItem from=\"1713503514401\" duration=\"8778000\" />\n      <workItem from=\"1713547345992\" duration=\"2768000\" />\n      <workItem from=\"1713616892735\" duration=\"706000\" />\n      <workItem from=\"1713628006893\" duration=\"1094000\" />\n      <workItem from=\"1713637740004\" duration=\"137000\" />\n      <workItem from=\"1713980784186\" duration=\"269000\" />\n      <workItem from=\"1714064293992\" duration=\"1469000\" />\n      <workItem from=\"1714135681274\" duration=\"4286000\" />\n      <workItem from=\"1714195770368\" duration=\"4967000\" />\n      <workItem from=\"1714672034977\" duration=\"604000\" />\n      <workItem from=\"1714719829044\" duration=\"4169000\" />\n      <workItem from=\"1714731346803\" duration=\"698000\" />\n      <workItem from=\"1714732132263\" duration=\"14000\" />\n      <workItem from=\"1714733411874\" duration=\"1485000\" />\n      <workItem from=\"1715685635515\" duration=\"2774000\" />\n      <workItem from=\"1715713138134\" duration=\"5893000\" />\n      <workItem from=\"1715794254598\" duration=\"444000\" />\n      <workItem from=\"1716039418867\" duration=\"1193000\" />\n      <workItem from=\"1716089667892\" duration=\"708000\" />\n      <workItem from=\"1716412836889\" duration=\"603000\" />\n      <workItem from=\"1716901469967\" duration=\"3480000\" />\n      <workItem from=\"1716912376291\" duration=\"44000\" />\n      <workItem from=\"1717160838586\" duration=\"1567000\" />\n      <workItem from=\"1717164305062\" duration=\"390000\" />\n      <workItem from=\"1717574596579\" duration=\"625000\" />\n      <workItem from=\"1717753772923\" duration=\"6821000\" />\n    </task>\n    <task id=\"LOCAL-00043\" summary=\"complete bs lecture\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1705298939414</created>\n      <option name=\"number\" value=\"00043\" />\n      <option name=\"presentableId\" value=\"LOCAL-00043\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1705298939414</updated>\n    </task>\n    <task id=\"LOCAL-00044\" summary=\"ceiling problem\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1705418535743</created>\n      <option name=\"number\" value=\"00044\" />\n      <option name=\"presentableId\" value=\"LOCAL-00044\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1705418535743</updated>\n    </task>\n    <task id=\"LOCAL-00045\" summary=\"bs problems\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1705487876853</created>\n      <option name=\"number\" value=\"00045\" />\n      <option name=\"presentableId\" value=\"LOCAL-00045\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1705487876854</updated>\n    </task>\n    <task id=\"LOCAL-00046\" summary=\"BS problems\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1705554226892</created>\n      <option name=\"number\" value=\"00046\" />\n      <option name=\"presentableId\" value=\"LOCAL-00046\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1705554226892</updated>\n    </task>\n    <task id=\"LOCAL-00047\" summary=\"bs infinite array\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1705555717178</created>\n      <option name=\"number\" value=\"00047\" />\n      <option name=\"presentableId\" value=\"LOCAL-00047\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1705555717178</updated>\n    </task>\n    <task id=\"LOCAL-00048\" summary=\"quick sort\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1705590252289</created>\n      <option name=\"number\" value=\"00048\" />\n      <option name=\"presentableId\" value=\"LOCAL-00048\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1705590252289</updated>\n    </task>\n    <task id=\"LOCAL-00049\" summary=\"quick sort mountain array\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1705763484019</created>\n      <option name=\"number\" value=\"00049\" />\n      <option name=\"presentableId\" value=\"LOCAL-00049\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1705763484019</updated>\n    </task>\n    <task id=\"LOCAL-00050\" summary=\"bs medium hard leetcode\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1705821445024</created>\n      <option name=\"number\" value=\"00050\" />\n      <option name=\"presentableId\" value=\"LOCAL-00050\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1705821445024</updated>\n    </task>\n    <task id=\"LOCAL-00051\" summary=\"bubble sort 2d binary search\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1706093424441</created>\n      <option name=\"number\" value=\"00051\" />\n      <option name=\"presentableId\" value=\"LOCAL-00051\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1706093424442</updated>\n    </task>\n    <task id=\"LOCAL-00052\" summary=\"added problems\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1706288170956</created>\n      <option name=\"number\" value=\"00052\" />\n      <option name=\"presentableId\" value=\"LOCAL-00052\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1706288170956</updated>\n    </task>\n    <task id=\"LOCAL-00053\" summary=\"insertion sort\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1706293123120</created>\n      <option name=\"number\" value=\"00053\" />\n      <option name=\"presentableId\" value=\"LOCAL-00053\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1706293123120</updated>\n    </task>\n    <task id=\"LOCAL-00054\" summary=\"cyclic sort\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1706293442500</created>\n      <option name=\"number\" value=\"00054\" />\n      <option name=\"presentableId\" value=\"LOCAL-00054\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1706293442500</updated>\n    </task>\n    <task id=\"LOCAL-00055\" summary=\"cyclic sort\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1706376064761</created>\n      <option name=\"number\" value=\"00055\" />\n      <option name=\"presentableId\" value=\"LOCAL-00055\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1706376064761</updated>\n    </task>\n    <task id=\"LOCAL-00056\" summary=\"cyclic sort\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1706376066964</created>\n      <option name=\"number\" value=\"00056\" />\n      <option name=\"presentableId\" value=\"LOCAL-00056\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1706376066964</updated>\n    </task>\n    <task id=\"LOCAL-00057\" summary=\"cyclic sort\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1706376069156</created>\n      <option name=\"number\" value=\"00057\" />\n      <option name=\"presentableId\" value=\"LOCAL-00057\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1706376069156</updated>\n    </task>\n    <task id=\"LOCAL-00058\" summary=\"Completed Strings Lecture\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1706404915491</created>\n      <option name=\"number\" value=\"00058\" />\n      <option name=\"presentableId\" value=\"LOCAL-00058\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1706404915491</updated>\n    </task>\n    <task id=\"LOCAL-00059\" summary=\"pattern problems\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1706497475680</created>\n      <option name=\"number\" value=\"00059\" />\n      <option name=\"presentableId\" value=\"LOCAL-00059\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1706497475680</updated>\n    </task>\n    <task id=\"LOCAL-00060\" summary=\"rearrange file structure\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1706546183913</created>\n      <option name=\"number\" value=\"00060\" />\n      <option name=\"presentableId\" value=\"LOCAL-00060\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1706546183913</updated>\n    </task>\n    <task id=\"LOCAL-00061\" summary=\"recursion lecture\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1706546202052</created>\n      <option name=\"number\" value=\"00061\" />\n      <option name=\"presentableId\" value=\"LOCAL-00061\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1706546202052</updated>\n    </task>\n    <task id=\"LOCAL-00062\" summary=\"bs using recursion\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1706577190181</created>\n      <option name=\"number\" value=\"00062\" />\n      <option name=\"presentableId\" value=\"LOCAL-00062\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1706577190181</updated>\n    </task>\n    <task id=\"LOCAL-00063\" summary=\"problems\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1706891056567</created>\n      <option name=\"number\" value=\"00063\" />\n      <option name=\"presentableId\" value=\"LOCAL-00063\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1706891056567</updated>\n    </task>\n    <task id=\"LOCAL-00064\" summary=\"problems\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1707228992591</created>\n      <option name=\"number\" value=\"00064\" />\n      <option name=\"presentableId\" value=\"LOCAL-00064\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1707228992592</updated>\n    </task>\n    <task id=\"LOCAL-00065\" summary=\"mid exam preperation\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1707321269422</created>\n      <option name=\"number\" value=\"00065\" />\n      <option name=\"presentableId\" value=\"LOCAL-00065\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1707321269424</updated>\n    </task>\n    <task id=\"LOCAL-00066\" summary=\"bitwise\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1707914356529</created>\n      <option name=\"number\" value=\"00066\" />\n      <option name=\"presentableId\" value=\"LOCAL-00066\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1707914356530</updated>\n    </task>\n    <task id=\"LOCAL-00067\" summary=\"add commit\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1709140163096</created>\n      <option name=\"number\" value=\"00067\" />\n      <option name=\"presentableId\" value=\"LOCAL-00067\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1709140163097</updated>\n    </task>\n    <task id=\"LOCAL-00068\" summary=\"add commit\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1709484871644</created>\n      <option name=\"number\" value=\"00068\" />\n      <option name=\"presentableId\" value=\"LOCAL-00068\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1709484871644</updated>\n    </task>\n    <task id=\"LOCAL-00069\" summary=\"Problems\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1709915826569</created>\n      <option name=\"number\" value=\"00069\" />\n      <option name=\"presentableId\" value=\"LOCAL-00069\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1709915826569</updated>\n    </task>\n    <task id=\"LOCAL-00070\" summary=\"Linkedlist Problems\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1710035118873</created>\n      <option name=\"number\" value=\"00070\" />\n      <option name=\"presentableId\" value=\"LOCAL-00070\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1710035118874</updated>\n    </task>\n    <task id=\"LOCAL-00071\" summary=\"Graphs SDOT Training\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1710175946840</created>\n      <option name=\"number\" value=\"00071\" />\n      <option name=\"presentableId\" value=\"LOCAL-00071\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1710175946840</updated>\n    </task>\n    <task id=\"LOCAL-00072\" summary=\"LinkedList SDOT Training\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1710268510528</created>\n      <option name=\"number\" value=\"00072\" />\n      <option name=\"presentableId\" value=\"LOCAL-00072\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1710268510528</updated>\n    </task>\n    <task id=\"LOCAL-00073\" summary=\"LinkedList SDOT Training\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1710437969353</created>\n      <option name=\"number\" value=\"00073\" />\n      <option name=\"presentableId\" value=\"LOCAL-00073\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1710437969353</updated>\n    </task>\n    <task id=\"LOCAL-00074\" summary=\"Completed GFG Recursion\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1710682501909</created>\n      <option name=\"number\" value=\"00074\" />\n      <option name=\"presentableId\" value=\"LOCAL-00074\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1710682501909</updated>\n    </task>\n    <task id=\"LOCAL-00075\" summary=\"Completed GFG Arrays-1\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1710682514246</created>\n      <option name=\"number\" value=\"00075\" />\n      <option name=\"presentableId\" value=\"LOCAL-00075\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1710682514246</updated>\n    </task>\n    <task id=\"LOCAL-00076\" summary=\"Added Binary Tree SDOT\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1710781384443</created>\n      <option name=\"number\" value=\"00076\" />\n      <option name=\"presentableId\" value=\"LOCAL-00076\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1710781384444</updated>\n    </task>\n    <task id=\"LOCAL-00077\" summary=\"Arrays Problems\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1710952271237</created>\n      <option name=\"number\" value=\"00077\" />\n      <option name=\"presentableId\" value=\"LOCAL-00077\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1710952271237</updated>\n    </task>\n    <task id=\"LOCAL-00078\" summary=\"CAT2 STS Problems\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1711043376268</created>\n      <option name=\"number\" value=\"00078\" />\n      <option name=\"presentableId\" value=\"LOCAL-00078\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1711043376268</updated>\n    </task>\n    <task id=\"LOCAL-00079\" summary=\"Tree problems\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1711382710422</created>\n      <option name=\"number\" value=\"00079\" />\n      <option name=\"presentableId\" value=\"LOCAL-00079\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1711382710423</updated>\n    </task>\n    <task id=\"LOCAL-00080\" summary=\"BST's and LinkedList Problems\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1711735608508</created>\n      <option name=\"number\" value=\"00080\" />\n      <option name=\"presentableId\" value=\"LOCAL-00080\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1711735608508</updated>\n    </task>\n    <task id=\"LOCAL-00081\" summary=\"Recursion Problems\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1712168137420</created>\n      <option name=\"number\" value=\"00081\" />\n      <option name=\"presentableId\" value=\"LOCAL-00081\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1712168137420</updated>\n    </task>\n    <task id=\"LOCAL-00082\" summary=\"Sorting Algo's\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1712710644898</created>\n      <option name=\"number\" value=\"00082\" />\n      <option name=\"presentableId\" value=\"LOCAL-00082\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1712710644898</updated>\n    </task>\n    <task id=\"LOCAL-00083\" summary=\"Merge and Quick Sort\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1712856109522</created>\n      <option name=\"number\" value=\"00083\" />\n      <option name=\"presentableId\" value=\"LOCAL-00083\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1712856109522</updated>\n    </task>\n    <task id=\"LOCAL-00084\" summary=\"DAA Problems\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1713547401674</created>\n      <option name=\"number\" value=\"00084\" />\n      <option name=\"presentableId\" value=\"LOCAL-00084\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1713547401674</updated>\n    </task>\n    <task id=\"LOCAL-00085\" summary=\"Rearranged Structure\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1713617558952</created>\n      <option name=\"number\" value=\"00085\" />\n      <option name=\"presentableId\" value=\"LOCAL-00085\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1713617558952</updated>\n    </task>\n    <task id=\"LOCAL-00086\" summary=\"levelorder insertion\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1714153226747</created>\n      <option name=\"number\" value=\"00086\" />\n      <option name=\"presentableId\" value=\"LOCAL-00086\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1714153226747</updated>\n    </task>\n    <task id=\"LOCAL-00087\" summary=\"DFS and BFS\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1714239371980</created>\n      <option name=\"number\" value=\"00087\" />\n      <option name=\"presentableId\" value=\"LOCAL-00087\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1714239371981</updated>\n    </task>\n    <task id=\"LOCAL-00088\" summary=\"Problems\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1714760512703</created>\n      <option name=\"number\" value=\"00088\" />\n      <option name=\"presentableId\" value=\"LOCAL-00088\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1714760512703</updated>\n    </task>\n    <task id=\"LOCAL-00089\" summary=\"Problems\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1715794389839</created>\n      <option name=\"number\" value=\"00089\" />\n      <option name=\"presentableId\" value=\"LOCAL-00089\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1715794389839</updated>\n    </task>\n    <task id=\"LOCAL-00090\" summary=\"OOPS Assigment - 1\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1716912406188</created>\n      <option name=\"number\" value=\"00090\" />\n      <option name=\"presentableId\" value=\"LOCAL-00090\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1716912406188</updated>\n    </task>\n    <task id=\"LOCAL-00091\" summary=\"OOPS Assigment - 2\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1717164962418</created>\n      <option name=\"number\" value=\"00091\" />\n      <option name=\"presentableId\" value=\"LOCAL-00091\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1717164962418</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"92\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <option name=\"ADD_EXTERNAL_FILES_SILENTLY\" value=\"true\" />\n    <MESSAGE value=\"bs using recursion\" />\n    <MESSAGE value=\"problems\" />\n    <MESSAGE value=\"mid exam preperation\" />\n    <MESSAGE value=\"bitwise\" />\n    <MESSAGE value=\"add commit\" />\n    <MESSAGE value=\"Linkedlist Problems\" />\n    <MESSAGE value=\"Graphs SDOT Training\" />\n    <MESSAGE value=\"LinkedList SDOT Training\" />\n    <MESSAGE value=\"Completed GFG Recursion\" />\n    <MESSAGE value=\"Completed GFG Arrays-1\" />\n    <MESSAGE value=\"Added Binary Tree SDOT\" />\n    <MESSAGE value=\"Arrays Problems\" />\n    <MESSAGE value=\"CAT2 STS Problems\" />\n    <MESSAGE value=\"Tree problems\" />\n    <MESSAGE value=\"BST's and LinkedList Problems\" />\n    <MESSAGE value=\"Recursion Problems\" />\n    <MESSAGE value=\"Sorting Algo's\" />\n    <MESSAGE value=\"Merge and Quick Sort\" />\n    <MESSAGE value=\"DAA Problems\" />\n    <MESSAGE value=\"Rearranged Structure\" />\n    <MESSAGE value=\"levelorder insertion\" />\n    <MESSAGE value=\"DFS and BFS\" />\n    <MESSAGE value=\"Problems\" />\n    <MESSAGE value=\"OOPS Assigment - 1\" />\n    <MESSAGE value=\"OOPS Assigment - 2\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"OOPS Assigment - 2\" />\n  </component>\n  <component name=\"XDebuggerManager\">\n    <breakpoint-manager>\n      <breakpoints>\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\n          <url>file://$PROJECT_DIR$/src/javakunalclass/binarysearch/SmallestLetter.java</url>\n          <line>5</line>\n          <option name=\"timeStamp\" value=\"1\" />\n        </line-breakpoint>\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\n          <url>file://$PROJECT_DIR$/src/javakunalclass/binarysearch/MountainArray.java</url>\n          <line>19</line>\n          <option name=\"timeStamp\" value=\"2\" />\n        </line-breakpoint>\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\n          <url>file://$PROJECT_DIR$/src/javakunalclass/arrays/RearrangeArray.java</url>\n          <line>6</line>\n          <option name=\"timeStamp\" value=\"3\" />\n        </line-breakpoint>\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\n          <url>file://$PROJECT_DIR$/src/javakunalclass/bitwise/ApowerB.java</url>\n          <line>9</line>\n          <option name=\"timeStamp\" value=\"11\" />\n        </line-breakpoint>\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\n          <url>file://$PROJECT_DIR$/src/ChallengeTopCoder/tree/MaxDepth.java</url>\n          <line>29</line>\n          <option name=\"timeStamp\" value=\"13\" />\n        </line-breakpoint>\n        <breakpoint enabled=\"true\" type=\"java-exception\">\n          <properties class=\"java.lang.StackOverflowError\" package=\"java.lang\" />\n          <option name=\"timeStamp\" value=\"10\" />\n        </breakpoint>\n        <line-breakpoint enabled=\"true\" type=\"java-field\">\n          <url>file://$PROJECT_DIR$/src/javakunalclass/oops/ExampleClass.java</url>\n          <line>33</line>\n          <properties field=\"roll\" class=\"javakunal.oops.Student\" />\n          <option name=\"timeStamp\" value=\"12\" />\n        </line-breakpoint>\n      </breakpoints>\n    </breakpoint-manager>\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision da85ba234aeb06de26e190ac790d465ec35af8d3)
++++ b/.idea/workspace.xml	(date 1719078623098)
+@@ -5,12 +5,18 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="f15d687b-b8b6-4f06-a769-73b3bdd09095" name="Changes" comment="OOPS Assigment - 2">
+-      <change afterPath="$PROJECT_DIR$/src/oops/ex3/Test1.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/oops/ex3/Test2.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/oops/ex3/Test3.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/oops/ex3/pkg1/Class1.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/oops/ex3/pkg2/Class2.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/oops/ex3/pkg3/Main.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/oops/comparator_practice/AgeComparator.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/oops/comparator_practice/NameComparator.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/oops/comparator_practice/Simple.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/oops/comparator_practice/Student.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/oops/ex4/Test1.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/oops/ex4/Test2.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/oops/ex4/Test3.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/oops/ex4/Test4.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/oops/ex5/Test1.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/oops/ex5/Test2.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/oops/ex5/Test3.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/oops/threaddd.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+@@ -87,6 +93,7 @@
+     "Application.Candies.executor": "Run",
+     "Application.CeilingBS.executor": "Run",
+     "Application.CelebrityProblem.executor": "Run",
++    "Application.CheckStringPalindrome.executor": "Run",
+     "Application.Combinations.executor": "Run",
+     "Application.ConvertFive.executor": "Run",
+     "Application.CyclicSort.executor": "Run",
+@@ -248,6 +255,7 @@
+     "Application.Seventh.executor": "Run",
+     "Application.ShiftingLetters.executor": "Run",
+     "Application.SieveOfEratosthenes.executor": "Run",
++    "Application.Simple.executor": "Run",
+     "Application.SinglyLinkedList.executor": "Run",
+     "Application.Sixth.executor": "Run",
+     "Application.SmallestLetter.executor": "Debug",
+@@ -280,8 +288,16 @@
+     "Application.Test2 (4).executor": "Run",
+     "Application.Test2.executor": "Run",
+     "Application.Test3 (1).executor": "Run",
++    "Application.Test3 (2).executor": "Run",
++    "Application.Test3 (3).executor": "Run",
++    "Application.Test3 (4).executor": "Run",
++    "Application.Test3 (5).executor": "Run",
+     "Application.Test3.executor": "Run",
++    "Application.Test4 (1).executor": "Run",
++    "Application.Test4 (2).executor": "Run",
++    "Application.Test4 (3).executor": "Run",
+     "Application.Test4.executor": "Run",
++    "Application.Test5 (1).executor": "Run",
+     "Application.Test5.executor": "Run",
+     "Application.Tesy.executor": "Run",
+     "Application.TheCelebrityProblem.executor": "Run",
+@@ -307,9 +323,13 @@
+     "Application.javakunalclass.sorting.SelectionSort.executor": "Run",
+     "Application.oops.ex1.Fibonacci.executor": "Run",
+     "Application.oops.ex3.Test2.executor": "Run",
++    "Application.oops.ex5.Test1.executor": "Run",
+     "Application.printPrimes.executor": "Run",
+     "Application.sdot.zaheer.Main (1).executor": "Run",
+     "Application.sdot.zaheer.Main.executor": "Run",
++    "Application.threaddd (1).executor": "Run",
++    "Application.threaddd (2).executor": "Run",
++    "Application.threaddd.executor": "Run",
+     "RunOnceActivity.OpenProjectViewOnStart": "true",
+     "RunOnceActivity.ShowReadmeOnStart": "true",
+     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+@@ -343,13 +363,13 @@
+       <recent name="javakunal.oops.customarraylist" />
+     </key>
+   </component>
+-  <component name="RunManager" selected="Application.Main">
+-    <configuration name="Class1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="oops.ex3.pkg1.Class1" />
++  <component name="RunManager" selected="Application.threaddd (2)">
++    <configuration name="CheckStringPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="oops.ex5.CheckStringPalindrome" />
+       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="oops.ex3.pkg1.*" />
++          <option name="PATTERN" value="oops.ex5.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+@@ -357,12 +377,13 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="oops.ex3.pkg3.Main" />
++    <configuration name="Test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="ALTERNATIVE_JRE_PATH" value="16" />
++      <option name="MAIN_CLASS_NAME" value="oops.ex5.Test3" />
+       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="oops.ex3.pkg3.*" />
++          <option name="PATTERN" value="oops.ex5.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+@@ -370,12 +391,12 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="Test2 (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="oops.ex3.Test2" />
++    <configuration name="threaddd (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="oops.threaddd" />
+       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="oops.ex3.*" />
++          <option name="PATTERN" value="oops.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+@@ -383,12 +404,12 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="oops.ex3.Test2" />
++    <configuration name="threaddd (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="oops.threaddd" />
+       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="oops.ex3.*" />
++          <option name="PATTERN" value="oops.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+@@ -396,12 +417,12 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="Test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="oops.ex3.Test3" />
++    <configuration name="threaddd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="oops.threaddd" />
+       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="oops.ex3.*" />
++          <option name="PATTERN" value="oops.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+@@ -410,19 +431,19 @@
+       </method>
+     </configuration>
+     <list>
+-      <item itemvalue="Application.Class1" />
+-      <item itemvalue="Application.Main" />
+-      <item itemvalue="Application.Test2 (4)" />
+-      <item itemvalue="Application.Test2" />
++      <item itemvalue="Application.threaddd" />
++      <item itemvalue="Application.threaddd (1)" />
++      <item itemvalue="Application.threaddd (2)" />
++      <item itemvalue="Application.CheckStringPalindrome" />
+       <item itemvalue="Application.Test3" />
+     </list>
+     <recent_temporary>
+       <list>
+-        <item itemvalue="Application.Main" />
+-        <item itemvalue="Application.Class1" />
++        <item itemvalue="Application.threaddd (2)" />
++        <item itemvalue="Application.threaddd (1)" />
++        <item itemvalue="Application.threaddd" />
+         <item itemvalue="Application.Test3" />
+-        <item itemvalue="Application.Test2" />
+-        <item itemvalue="Application.Test2 (4)" />
++        <item itemvalue="Application.CheckStringPalindrome" />
+       </list>
+     </recent_temporary>
+   </component>
+@@ -631,15 +652,11 @@
+       <workItem from="1717160838586" duration="1567000" />
+       <workItem from="1717164305062" duration="390000" />
+       <workItem from="1717574596579" duration="625000" />
+-      <workItem from="1717753772923" duration="6821000" />
+-    </task>
+-    <task id="LOCAL-00043" summary="complete bs lecture">
+-      <option name="closed" value="true" />
+-      <created>1705298939414</created>
+-      <option name="number" value="00043" />
+-      <option name="presentableId" value="LOCAL-00043" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1705298939414</updated>
++      <workItem from="1717753772923" duration="8025000" />
++      <workItem from="1718102014378" duration="6881000" />
++      <workItem from="1718361274188" duration="5306000" />
++      <workItem from="1718969407407" duration="2303000" />
++      <workItem from="1719024506328" duration="2258000" />
+     </task>
+     <task id="LOCAL-00044" summary="ceiling problem">
+       <option name="closed" value="true" />
+@@ -1025,7 +1042,15 @@
+       <option name="project" value="LOCAL" />
+       <updated>1717164962418</updated>
+     </task>
+-    <option name="localTasksCounter" value="92" />
++    <task id="LOCAL-00092" summary="OOPS Assigment - 2">
++      <option name="closed" value="true" />
++      <created>1717778074520</created>
++      <option name="number" value="00092" />
++      <option name="presentableId" value="LOCAL-00092" />
++      <option name="project" value="LOCAL" />
++      <updated>1717778074520</updated>
++    </task>
++    <option name="localTasksCounter" value="93" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+Index: src/oops/ex4/Test1.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/oops/ex4/Test1.java b/src/oops/ex4/Test1.java
+new file mode 100644
+--- /dev/null	(date 1718106552899)
++++ b/src/oops/ex4/Test1.java	(date 1718106552899)
+@@ -0,0 +1,73 @@
++package oops.ex4;
++
++class EmployeeStaff {
++    double Basic_Salary;
++    double HRA;
++    double DA;
++    public EmployeeStaff (double Basic_Salary, double HRA, double DA) {
++        this.Basic_Salary = Basic_Salary;
++        this.HRA = HRA;
++        this.DA = DA;
++    }
++}
++
++class EmployeeFaculty {
++    double Basic_Salary;
++    double HRA;
++    double DA;
++    public EmployeeFaculty (double Basic_Salary, double HRA, double DA) {
++        this.Basic_Salary = Basic_Salary;
++        this.HRA = HRA;
++        this.DA = DA;
++    }
++}
++
++class ComputeSalary{
++    double salaryCalculation(double Basic_Salary, double HRA, double DA) {
++        double Gross_Salary = Basic_Salary + HRA + DA;
++        return Gross_Salary;
++    }
++}
++
++class Thread1 extends Thread {
++    ComputeSalary cs;
++    EmployeeStaff es;
++
++    public Thread1(ComputeSalary cs, EmployeeStaff es) {
++        this.cs = cs;
++        this.es = es;
++    }
++    public void run() {
++        System.out.println("Gross Salary of Staff is: " + cs.salaryCalculation(es.Basic_Salary, es.HRA, es.DA));
++    }
++}
++
++class Thread2 extends Thread {
++    ComputeSalary cs;
++    EmployeeFaculty ef;
++
++    public Thread2(ComputeSalary cs, EmployeeFaculty es) {
++        this.cs = cs;
++        this.ef = es;
++    }
++    public void run() {
++        System.out.println("Gross Salary of Faculty is: " + cs.salaryCalculation(ef.Basic_Salary, ef.HRA, ef.DA));
++    }
++}
++
++public class Test1 {
++    public static void main(String[] args) {
++        ComputeSalary cs = new ComputeSalary();
++
++        EmployeeStaff staff = new EmployeeStaff(50000, 10000, 20000);
++        EmployeeFaculty faculty = new EmployeeFaculty(70000, 15000, 25000);
++
++        Thread1 thread1 = new Thread1(cs, staff);
++        Thread2 thread2 = new Thread2(cs, faculty);
++
++        thread1.run();
++        thread2.run();
++
++    }
++}
++

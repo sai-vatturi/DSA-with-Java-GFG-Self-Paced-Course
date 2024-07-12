@@ -4,19 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f15d687b-b8b6-4f06-a769-73b3bdd09095" name="Changes" comment="OOPS Assigment - 2">
-      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion/l1/NoOfZeroes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion/l1/PrintOneToN.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion/l1/ProductOfDigits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion/l1/ProductOfNto1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion/l1/ReduceToZeros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion/l1/ReverseNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion/l1/SumOfDigits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion/l1/SumOfNtoOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion/l2/CheckArrayIsSorted.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion/l2/LinearSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion/l2/LinearSearchMultipleOccurences.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion/l2/RotatedBinarySearch.java" afterDir="false" />
+    <list default="true" id="f15d687b-b8b6-4f06-a769-73b3bdd09095" name="Changes" comment="recursion playlist l1 l2">
+      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion/l3/BubbleSortRecursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion/l3/RecursivePatterns.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion/l3/SelectionSortRecursion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -244,6 +235,7 @@
     "Application.RearrangeArray.executor": "Run",
     "Application.RecoverTheBST.executor": "Run",
     "Application.RecursionPatterns.executor": "Run",
+    "Application.RecursivePatterns.executor": "Run",
     "Application.RemoveDuplicates.executor": "Run",
     "Application.ReorderList.executor": "Run",
     "Application.ReshapeMatrix.executor": "Debug",
@@ -265,6 +257,7 @@
     "Application.SegregateOddEven.executor": "Run",
     "Application.SelectInMountain.executor": "Run",
     "Application.SelectionSort.executor": "Debug",
+    "Application.SelectionSortRecursion.executor": "Run",
     "Application.Seventh.executor": "Run",
     "Application.ShiftingLetters.executor": "Run",
     "Application.SieveOfEratosthenes.executor": "Run",
@@ -367,26 +360,13 @@
       <recent name="javakunal.oops.customarraylist" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RotatedBinarySearch">
-    <configuration name="CheckArrayIsSorted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunalclass.recursion.l2.CheckArrayIsSorted" />
+  <component name="RunManager" selected="Application.RecursivePatterns">
+    <configuration name="BubbleSortRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javakunalclass.recursion.l3.BubbleSortRecursion" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javakunalclass.recursion.l2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LinearSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunalclass.recursion.l2.LinearSearch" />
-      <module name="DSA-with-Java-GFG-Self-Paced-Course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="javakunalclass.recursion.l2.*" />
+          <option name="PATTERN" value="javakunalclass.recursion.l3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -399,7 +379,7 @@
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javakunalclass.recursion.l2.*" />
+          <option name="PATTERN" value="javakunalclass.recursion.l3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -407,12 +387,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintOneToN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunalclass.recursion.l1.PrintOneToN" />
+    <configuration name="RecursivePatterns" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javakunalclass.recursion.l3.RecursivePatterns" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javakunalclass.recursion.l1.*" />
+          <option name="PATTERN" value="javakunalclass.recursion.l3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -425,7 +405,20 @@
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javakunalclass.recursion.l2.*" />
+          <option name="PATTERN" value="javakunalclass.recursion.l3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelectionSortRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javakunalclass.recursion.l3.SelectionSortRecursion" />
+      <module name="DSA-with-Java-GFG-Self-Paced-Course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javakunalclass.recursion.l3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -434,19 +427,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CheckArrayIsSorted" />
-      <item itemvalue="Application.LinearSearch" />
+      <item itemvalue="Application.BubbleSortRecursion" />
       <item itemvalue="Application.LinearSearchMultipleOccurences" />
+      <item itemvalue="Application.RecursivePatterns" />
       <item itemvalue="Application.RotatedBinarySearch" />
-      <item itemvalue="Application.PrintOneToN" />
+      <item itemvalue="Application.SelectionSortRecursion" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RecursivePatterns" />
+        <item itemvalue="Application.SelectionSortRecursion" />
+        <item itemvalue="Application.BubbleSortRecursion" />
         <item itemvalue="Application.RotatedBinarySearch" />
         <item itemvalue="Application.LinearSearchMultipleOccurences" />
-        <item itemvalue="Application.LinearSearch" />
-        <item itemvalue="Application.CheckArrayIsSorted" />
-        <item itemvalue="Application.PrintOneToN" />
       </list>
     </recent_temporary>
   </component>
@@ -659,15 +652,7 @@
       <workItem from="1720460218892" duration="92000" />
       <workItem from="1720514156093" duration="1836000" />
       <workItem from="1720675079470" duration="1832000" />
-      <workItem from="1720743994207" duration="1383000" />
-    </task>
-    <task id="LOCAL-00044" summary="ceiling problem">
-      <option name="closed" value="true" />
-      <created>1705418535743</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1705418535743</updated>
+      <workItem from="1720743994207" duration="3401000" />
     </task>
     <task id="LOCAL-00045" summary="bs problems">
       <option name="closed" value="true" />
@@ -1053,7 +1038,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720444566065</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="recursion playlist l1 l2">
+      <option name="closed" value="true" />
+      <created>1720745399729</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1720745399729</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1072,7 +1065,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="bs using recursion" />
     <MESSAGE value="problems" />
     <MESSAGE value="mid exam preperation" />
     <MESSAGE value="bitwise" />
@@ -1097,7 +1089,8 @@
     <MESSAGE value="Problems" />
     <MESSAGE value="OOPS Assigment - 1" />
     <MESSAGE value="OOPS Assigment - 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="OOPS Assigment - 2" />
+    <MESSAGE value="recursion playlist l1 l2" />
+    <option name="LAST_COMMIT_MESSAGE" value="recursion playlist l1 l2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
