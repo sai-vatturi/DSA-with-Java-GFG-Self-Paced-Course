@@ -5,26 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f15d687b-b8b6-4f06-a769-73b3bdd09095" name="Changes" comment="OOPS Assigment - 2">
-      <change afterPath="$PROJECT_DIR$/src/oops/comparator_practice/AgeComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oops/comparator_practice/NameComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oops/comparator_practice/Simple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oops/comparator_practice/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oops/ex4/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oops/ex4/Test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oops/ex4/Test3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oops/ex4/Test4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oops/ex5/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oops/ex5/Test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oops/ex5/Test3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oops/threaddd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pat_training/FindFactors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pat_training/HolidaysAcceptance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pat_training/MaxMulProd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pat_training/NStonesSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pat_training/ProductOfTwoDistinct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pat_training/ReverseStringWithoutNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pat_training/ThiefRobbingHouse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion/l1/NoOfZeroes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion/l1/PrintOneToN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion/l1/ProductOfDigits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion/l1/ProductOfNto1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion/l1/ReduceToZeros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion/l1/ReverseNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion/l1/SumOfDigits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion/l1/SumOfNtoOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion/l2/CheckArrayIsSorted.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion/l2/LinearSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion/l2/LinearSearchMultipleOccurences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion/l2/RotatedBinarySearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,6 +94,7 @@
     "Application.Candies.executor": "Run",
     "Application.CeilingBS.executor": "Run",
     "Application.CelebrityProblem.executor": "Run",
+    "Application.CheckArrayIsSorted.executor": "Run",
     "Application.Combinations.executor": "Run",
     "Application.ConvertFive.executor": "Run",
     "Application.CyclicSort.executor": "Run",
@@ -172,6 +165,7 @@
     "Application.LevelOrderInsertion.executor": "Run",
     "Application.LinearSearch.executor": "Run",
     "Application.LinearSearchInRange.executor": "Run",
+    "Application.LinearSearchMultipleOccurences.executor": "Run",
     "Application.LinearSearchString.executor": "Run",
     "Application.LinkedListDemo1.executor": "Run",
     "Application.LinkedListDemo2.executor": "Run",
@@ -214,6 +208,7 @@
     "Application.NStonesSum.executor": "Run",
     "Application.Nine.executor": "Run",
     "Application.NoOfDigits.executor": "Run",
+    "Application.NoOfZeroes.executor": "Run",
     "Application.NoofSetBits.executor": "Run",
     "Application.NumbersExample.executor": "Debug",
     "Application.NumbersExampleRecursion.executor": "Run",
@@ -239,7 +234,10 @@
     "Application.Prims (1).executor": "Run",
     "Application.Prims.executor": "Run",
     "Application.PrimsAlgorithm.executor": "Run",
+    "Application.PrintOneToN.executor": "Run",
     "Application.PriorityQueueUsingDLL.executor": "Run",
+    "Application.ProductOfDigits.executor": "Run",
+    "Application.ProductOfNto1.executor": "Run",
     "Application.ProductOfTwoDistinct.executor": "Run",
     "Application.QuickSort.executor": "Run",
     "Application.RatMazeSolving.executor": "Run",
@@ -252,6 +250,7 @@
     "Application.Reverse2DArray.executor": "Run",
     "Application.ReverseK.executor": "Run",
     "Application.ReverseLinkedList.executor": "Run",
+    "Application.ReverseNumber.executor": "Run",
     "Application.ReverseString.executor": "Run",
     "Application.ReverseStringWithoutNumbers.executor": "Run",
     "Application.ReversingArray.executor": "Run",
@@ -286,6 +285,8 @@
     "Application.StronglyConnectedComponents.executor": "Run",
     "Application.SubClass.executor": "Run",
     "Application.SubsetSum.executor": "Run",
+    "Application.SumOfDigits.executor": "Run",
+    "Application.SumOfNtoOne.executor": "Run",
     "Application.SwappingValuesInArray.executor": "Run",
     "Application.TSPbrute.executor": "Run",
     "Application.TSPdp.executor": "Run",
@@ -330,6 +331,7 @@
     "Application.oops.ex1.Fibonacci.executor": "Run",
     "Application.oops.ex3.Test2.executor": "Run",
     "Application.printPrimes.executor": "Run",
+    "Application.reduceToZeros.executor": "Run",
     "Application.sdot.zaheer.Main (1).executor": "Run",
     "Application.sdot.zaheer.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -365,13 +367,13 @@
       <recent name="javakunal.oops.customarraylist" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HolidaysAcceptance">
-    <configuration name="FindFactors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pat_training.FindFactors" />
+  <component name="RunManager" selected="Application.RotatedBinarySearch">
+    <configuration name="CheckArrayIsSorted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javakunalclass.recursion.l2.CheckArrayIsSorted" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pat_training.*" />
+          <option name="PATTERN" value="javakunalclass.recursion.l2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -379,12 +381,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HolidaysAcceptance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pat_training.HolidaysAcceptance" />
+    <configuration name="LinearSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javakunalclass.recursion.l2.LinearSearch" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pat_training.*" />
+          <option name="PATTERN" value="javakunalclass.recursion.l2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -392,12 +394,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxMulProd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pat_training.MaxMulProd" />
+    <configuration name="LinearSearchMultipleOccurences" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javakunalclass.recursion.l2.LinearSearchMultipleOccurences" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pat_training.*" />
+          <option name="PATTERN" value="javakunalclass.recursion.l2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -405,12 +407,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductOfTwoDistinct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pat_training.ProductOfTwoDistinct" />
+    <configuration name="PrintOneToN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javakunalclass.recursion.l1.PrintOneToN" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pat_training.*" />
+          <option name="PATTERN" value="javakunalclass.recursion.l1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -418,12 +420,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThiefRobbingHouse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pat_training.ThiefRobbingHouse" />
+    <configuration name="RotatedBinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javakunalclass.recursion.l2.RotatedBinarySearch" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pat_training.*" />
+          <option name="PATTERN" value="javakunalclass.recursion.l2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -432,19 +434,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FindFactors" />
-      <item itemvalue="Application.HolidaysAcceptance" />
-      <item itemvalue="Application.MaxMulProd" />
-      <item itemvalue="Application.ProductOfTwoDistinct" />
-      <item itemvalue="Application.ThiefRobbingHouse" />
+      <item itemvalue="Application.CheckArrayIsSorted" />
+      <item itemvalue="Application.LinearSearch" />
+      <item itemvalue="Application.LinearSearchMultipleOccurences" />
+      <item itemvalue="Application.RotatedBinarySearch" />
+      <item itemvalue="Application.PrintOneToN" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HolidaysAcceptance" />
-        <item itemvalue="Application.MaxMulProd" />
-        <item itemvalue="Application.ProductOfTwoDistinct" />
-        <item itemvalue="Application.FindFactors" />
-        <item itemvalue="Application.ThiefRobbingHouse" />
+        <item itemvalue="Application.RotatedBinarySearch" />
+        <item itemvalue="Application.LinearSearchMultipleOccurences" />
+        <item itemvalue="Application.LinearSearch" />
+        <item itemvalue="Application.CheckArrayIsSorted" />
+        <item itemvalue="Application.PrintOneToN" />
       </list>
     </recent_temporary>
   </component>
@@ -654,14 +656,10 @@
       <workItem from="1717164305062" duration="390000" />
       <workItem from="1717574596579" duration="625000" />
       <workItem from="1717753772923" duration="6821000" />
-    </task>
-    <task id="LOCAL-00043" summary="complete bs lecture">
-      <option name="closed" value="true" />
-      <created>1705298939414</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1705298939414</updated>
+      <workItem from="1720460218892" duration="92000" />
+      <workItem from="1720514156093" duration="1836000" />
+      <workItem from="1720675079470" duration="1832000" />
+      <workItem from="1720743994207" duration="1383000" />
     </task>
     <task id="LOCAL-00044" summary="ceiling problem">
       <option name="closed" value="true" />
@@ -1047,7 +1045,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717164962418</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="OOPS Assigment - 2">
+      <option name="closed" value="true" />
+      <created>1720444566064</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1720444566065</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
