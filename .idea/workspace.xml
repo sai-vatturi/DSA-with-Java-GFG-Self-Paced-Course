@@ -4,25 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f15d687b-b8b6-4f06-a769-73b3bdd09095" name="Changes" comment="recursion l4, l5">
-      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion/l6/SkipACharacter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion/l6/SkipString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion/l6/SubSeqWithDuplicates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion/l6/SubSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion/l6/SubSequenceIterative.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion/l6/SubsetsUsingPowerSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion/l7/StringPermutations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion/l8/Dice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion/l8/DiceCustomN.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion/l8/NumpadCombinations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion/l8/NumpadCombinationsCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion/l9/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion/l9/MazeAllPaths.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion/l9/MazePaths.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion/l9/MazePathsDiagonal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion/l9/MazePathsPrint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion/l9/MazePathsRestrictions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunalquestions/recursion/CombinationSum1.java" afterDir="false" />
+    <list default="true" id="f15d687b-b8b6-4f06-a769-73b3bdd09095" name="Changes" comment="Recurson l8 l9">
+      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion/l10/NKnights.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion/l10/NQueens.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion/l10/SudokuSolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion/l9/MazePathsBTPrint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion/l9/MazePathsBacktracking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_08_07_24,_9_13 am_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_08_07_24__9_13am__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -151,6 +140,7 @@
     "Application.IterativeTowerOfHanoi.executor": "Run",
     "Application.Josephus.executor": "Run",
     "Application.JosephusProblem.executor": "Run",
+    "Application.KQueens.executor": "Run",
     "Application.KnapSackDP.executor": "Run",
     "Application.KnapSackGreedy (1).executor": "Run",
     "Application.KnapSackGreedy.executor": "Run",
@@ -203,6 +193,8 @@
     "Application.MaximumDifference.executor": "Run",
     "Application.MaximumSumSubArray.executor": "Run",
     "Application.MazeAllPaths.executor": "Run",
+    "Application.MazePathsBTPrint.executor": "Run",
+    "Application.MazePathsBacktracking.executor": "Run",
     "Application.MazePathsDiagonal.executor": "Run",
     "Application.MazePathsPrint.executor": "Run",
     "Application.MazePathsRestrictions.executor": "Run",
@@ -217,6 +209,7 @@
     "Application.MoveAllZeroesToEnd.executor": "Run",
     "Application.MyProgram.executor": "Run",
     "Application.NCRnpr.executor": "Run",
+    "Application.NKnights.executor": "Run",
     "Application.NQueens.executor": "Run",
     "Application.NQueens2.executor": "Run",
     "Application.NStonesSum.executor": "Run",
@@ -318,6 +311,7 @@
     "Application.SubSequenceIterative.executor": "Run",
     "Application.SubsetSum.executor": "Run",
     "Application.SubsetsUsingPowerSet.executor": "Run",
+    "Application.SudokuSolver.executor": "Run",
     "Application.SumOfDigits.executor": "Run",
     "Application.SumOfNtoOne.executor": "Run",
     "Application.SwappingValuesInArray.executor": "Run",
@@ -403,9 +397,9 @@
       <recent name="javakunal.oops.customarraylist" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunalclass.recursion.l9.Main" />
+  <component name="RunManager" selected="Application.SubSequenceIterative">
+    <configuration name="MazePathsBTPrint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javakunalclass.recursion.l9.MazePathsBTPrint" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
@@ -417,12 +411,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MazeAllPaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunalclass.recursion.l9.MazeAllPaths" />
+    <configuration name="NKnights" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javakunalclass.recursion.l10.NKnights" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javakunalclass.recursion.l9.*" />
+          <option name="PATTERN" value="javakunalclass.recursion.l10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -430,12 +424,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MazePathsDiagonal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunalclass.recursion.l9.MazePathsDiagonal" />
+    <configuration name="NQueens" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javakunalclass.recursion.l10.NQueens" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javakunalclass.recursion.l9.*" />
+          <option name="PATTERN" value="javakunalclass.recursion.l10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -443,12 +437,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MazePathsPrint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunalclass.recursion.l9.MazePathsPrint" />
+    <configuration name="SubSequenceIterative" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javakunalclass.recursion.l6.SubSequenceIterative" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javakunalclass.recursion.l9.*" />
+          <option name="PATTERN" value="javakunalclass.recursion.l6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -456,12 +450,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MazePathsRestrictions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunalclass.recursion.l9.MazePathsRestrictions" />
+    <configuration name="SudokuSolver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javakunalclass.recursion.l10.SudokuSolver" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javakunalclass.recursion.l9.*" />
+          <option name="PATTERN" value="javakunalclass.recursion.l10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -470,19 +464,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.MazeAllPaths" />
-      <item itemvalue="Application.MazePathsDiagonal" />
-      <item itemvalue="Application.MazePathsPrint" />
-      <item itemvalue="Application.MazePathsRestrictions" />
+      <item itemvalue="Application.MazePathsBTPrint" />
+      <item itemvalue="Application.NKnights" />
+      <item itemvalue="Application.NQueens" />
+      <item itemvalue="Application.SubSequenceIterative" />
+      <item itemvalue="Application.SudokuSolver" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.MazeAllPaths" />
-        <item itemvalue="Application.MazePathsRestrictions" />
-        <item itemvalue="Application.MazePathsDiagonal" />
-        <item itemvalue="Application.MazePathsPrint" />
+        <item itemvalue="Application.SubSequenceIterative" />
+        <item itemvalue="Application.SudokuSolver" />
+        <item itemvalue="Application.NKnights" />
+        <item itemvalue="Application.NQueens" />
+        <item itemvalue="Application.MazePathsBTPrint" />
       </list>
     </recent_temporary>
   </component>
@@ -697,15 +691,8 @@
       <workItem from="1720675079470" duration="1832000" />
       <workItem from="1720743994207" duration="12936000" />
       <workItem from="1720828187119" duration="7793000" />
-      <workItem from="1720938069193" duration="8856000" />
-    </task>
-    <task id="LOCAL-00047" summary="bs infinite array">
-      <option name="closed" value="true" />
-      <created>1705555717178</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1705555717178</updated>
+      <workItem from="1720938069193" duration="8965000" />
+      <workItem from="1721020903009" duration="11017000" />
     </task>
     <task id="LOCAL-00048" summary="quick sort">
       <option name="closed" value="true" />
@@ -1091,7 +1078,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720774535829</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="Recurson l8 l9">
+      <option name="closed" value="true" />
+      <created>1720955442637</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1720955442637</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1110,7 +1105,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="bitwise" />
     <MESSAGE value="add commit" />
     <MESSAGE value="Linkedlist Problems" />
     <MESSAGE value="Graphs SDOT Training" />
@@ -1135,7 +1129,8 @@
     <MESSAGE value="recursion playlist l1 l2" />
     <MESSAGE value="recursion l3" />
     <MESSAGE value="recursion l4, l5" />
-    <option name="LAST_COMMIT_MESSAGE" value="recursion l4, l5" />
+    <MESSAGE value="Recurson l8 l9" />
+    <option name="LAST_COMMIT_MESSAGE" value="Recurson l8 l9" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
