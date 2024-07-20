@@ -4,15 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f15d687b-b8b6-4f06-a769-73b3bdd09095" name="Changes" comment="Recurson l8 l9">
-      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion/l10/NKnights.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion/l10/NQueens.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion/l10/SudokuSolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion/l9/MazePathsBTPrint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javakunalclass/recursion/l9/MazePathsBacktracking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_08_07_24,_9_13 am_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_08_07_24__9_13am__Changes_.xml" beforeDir="false" />
+    <list default="true" id="f15d687b-b8b6-4f06-a769-73b3bdd09095" name="Changes" comment="backtracking complete">
+      <change afterPath="$PROJECT_DIR$/src/oops/comparator_practice/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/striver/sdesheet/backtracking/Permutations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/striver/sdesheet/backtracking/PermutationsOptimized.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/striver/sdesheet/greedy/JobSequencingProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/striver/sdesheet/greedy/MinimumPlatforms.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/striver/sdesheet/greedy/NMeetings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/comparator_practice/AgeComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/comparator_practice/NameComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/comparator_practice/Simple.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oops/comparator_practice/Student.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,6 +142,11 @@
     "Application.InfiniteArrayBS.executor": "Run",
     "Application.InsertionSort.executor": "Run",
     "Application.IterativeTowerOfHanoi.executor": "Run",
+    "Application.JobSequencingProblem (1).executor": "Run",
+    "Application.JobSequencingProblem (2).executor": "Run",
+    "Application.JobSequencingProblem (3).executor": "Run",
+    "Application.JobSequencingProblem (4).executor": "Run",
+    "Application.JobSequencingProblem.executor": "Run",
     "Application.Josephus.executor": "Run",
     "Application.JosephusProblem.executor": "Run",
     "Application.KQueens.executor": "Run",
@@ -198,18 +207,23 @@
     "Application.MazePathsDiagonal.executor": "Run",
     "Application.MazePathsPrint.executor": "Run",
     "Application.MazePathsRestrictions.executor": "Run",
+    "Application.Meeting (1).executor": "Run",
+    "Application.Meeting.executor": "Run",
     "Application.MergeSort.executor": "Run",
     "Application.MergeSortInPlace.executor": "Run",
     "Application.MergeSortInPlaceOptimized.executor": "Run",
     "Application.MergeSortRecursive.executor": "Run",
     "Application.Methods.executor": "Run",
     "Application.MinSelectionSort.executor": "Run",
+    "Application.MinimumPlatforms.executor": "Run",
     "Application.MountainArray.executor": "Debug",
     "Application.MountainArraySelect.executor": "Run",
     "Application.MoveAllZeroesToEnd.executor": "Run",
     "Application.MyProgram.executor": "Run",
     "Application.NCRnpr.executor": "Run",
     "Application.NKnights.executor": "Run",
+    "Application.NMeetings (1).executor": "Run",
+    "Application.NMeetings.executor": "Run",
     "Application.NQueens.executor": "Run",
     "Application.NQueens2.executor": "Run",
     "Application.NStonesSum.executor": "Run",
@@ -241,6 +255,7 @@
     "Application.Perm.executor": "Run",
     "Application.Permutations.executor": "Run",
     "Application.PermutationsOfAString.executor": "Run",
+    "Application.PermutationsOptimized.executor": "Run",
     "Application.PowerOfTwo.executor": "Run",
     "Application.PowerSetSubSet.executor": "Run",
     "Application.PrettyPrinting.executor": "Run",
@@ -397,13 +412,13 @@
       <recent name="javakunal.oops.customarraylist" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SubSequenceIterative">
-    <configuration name="MazePathsBTPrint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunalclass.recursion.l9.MazePathsBTPrint" />
+  <component name="RunManager" selected="Application.PermutationsOptimized">
+    <configuration name="JobSequencingProblem (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="striver.sdesheet.greedy.JobSequencingProblem" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javakunalclass.recursion.l9.*" />
+          <option name="PATTERN" value="striver.sdesheet.greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -411,12 +426,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NKnights" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunalclass.recursion.l10.NKnights" />
+    <configuration name="JobSequencingProblem (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="striver.sdesheet.greedy.JobSequencingProblem" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javakunalclass.recursion.l10.*" />
+          <option name="PATTERN" value="striver.sdesheet.greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -424,12 +439,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NQueens" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunalclass.recursion.l10.NQueens" />
+    <configuration name="Permutations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="striver.sdesheet.backtracking.Permutations" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javakunalclass.recursion.l10.*" />
+          <option name="PATTERN" value="striver.sdesheet.backtracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -437,12 +452,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubSequenceIterative" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunalclass.recursion.l6.SubSequenceIterative" />
+    <configuration name="PermutationsOptimized" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="striver.sdesheet.backtracking.PermutationsOptimized" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javakunalclass.recursion.l6.*" />
+          <option name="PATTERN" value="striver.sdesheet.backtracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -450,12 +465,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SudokuSolver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javakunalclass.recursion.l10.SudokuSolver" />
+    <configuration name="StringPermutations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javakunalclass.recursion.l7.StringPermutations" />
       <module name="DSA-with-Java-GFG-Self-Paced-Course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javakunalclass.recursion.l10.*" />
+          <option name="PATTERN" value="javakunalclass.recursion.l7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -464,19 +479,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MazePathsBTPrint" />
-      <item itemvalue="Application.NKnights" />
-      <item itemvalue="Application.NQueens" />
-      <item itemvalue="Application.SubSequenceIterative" />
-      <item itemvalue="Application.SudokuSolver" />
+      <item itemvalue="Application.Permutations" />
+      <item itemvalue="Application.PermutationsOptimized" />
+      <item itemvalue="Application.StringPermutations" />
+      <item itemvalue="Application.JobSequencingProblem (2)" />
+      <item itemvalue="Application.JobSequencingProblem (4)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SubSequenceIterative" />
-        <item itemvalue="Application.SudokuSolver" />
-        <item itemvalue="Application.NKnights" />
-        <item itemvalue="Application.NQueens" />
-        <item itemvalue="Application.MazePathsBTPrint" />
+        <item itemvalue="Application.PermutationsOptimized" />
+        <item itemvalue="Application.Permutations" />
+        <item itemvalue="Application.StringPermutations" />
+        <item itemvalue="Application.JobSequencingProblem (2)" />
+        <item itemvalue="Application.JobSequencingProblem (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -692,15 +707,12 @@
       <workItem from="1720743994207" duration="12936000" />
       <workItem from="1720828187119" duration="7793000" />
       <workItem from="1720938069193" duration="8965000" />
-      <workItem from="1721020903009" duration="11017000" />
-    </task>
-    <task id="LOCAL-00048" summary="quick sort">
-      <option name="closed" value="true" />
-      <created>1705590252289</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1705590252289</updated>
+      <workItem from="1721020903009" duration="11216000" />
+      <workItem from="1721053124358" duration="14000" />
+      <workItem from="1721108192527" duration="6850000" />
+      <workItem from="1721134570966" duration="1046000" />
+      <workItem from="1721258961851" duration="1820000" />
+      <workItem from="1721363713751" duration="1871000" />
     </task>
     <task id="LOCAL-00049" summary="quick sort mountain array">
       <option name="closed" value="true" />
@@ -1086,7 +1098,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720955442637</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="backtracking complete">
+      <option name="closed" value="true" />
+      <created>1721053115199</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1721053115199</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1105,7 +1125,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add commit" />
     <MESSAGE value="Linkedlist Problems" />
     <MESSAGE value="Graphs SDOT Training" />
     <MESSAGE value="LinkedList SDOT Training" />
@@ -1130,7 +1149,8 @@
     <MESSAGE value="recursion l3" />
     <MESSAGE value="recursion l4, l5" />
     <MESSAGE value="Recurson l8 l9" />
-    <option name="LAST_COMMIT_MESSAGE" value="Recurson l8 l9" />
+    <MESSAGE value="backtracking complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="backtracking complete" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1159,6 +1179,11 @@
           <url>file://$PROJECT_DIR$/src/ChallengeTopCoder/tree/MaxDepth.java</url>
           <line>29</line>
           <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/striver/sdesheet/greedy/MinimumPlatforms.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.StackOverflowError" package="java.lang" />

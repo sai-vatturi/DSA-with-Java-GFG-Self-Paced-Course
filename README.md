@@ -1,13 +1,13 @@
-# Welcome to my Data Structures and Algorithms Journey 🗺️🚀
+# Welcome to my striver.sdesheet.greedy.Data Structures and Algorithms Journey 🗺️🚀
 
 ## Hey there! 👋
 
 
-Welcome to my coding journey repository! 🤗 Here, i will be sharing my daily progress 🗓️, codes and adventures 🕹️ with Data Structures and Algothims . I've been doing DSA from Dr. Sandeep Jain Sir's 🛐 Geeks for Geeks Self-Paced Course and Kunal Kushawaha's Youtube Channl. 💙 Join me on this exciting journey 🗾 and conquer the unravel algorithmic mysteries! 🙌🏻
+Welcome to my coding journey repository! 🤗 Here, i will be sharing my daily progress 🗓️, codes and adventures 🕹️ with striver.sdesheet.greedy.Data Structures and Algothims . I've been doing DSA from Dr. Sandeep Jain Sir's 🛐 Geeks for Geeks Self-Paced Course and Kunal Kushawaha's Youtube Channl. 💙 Join me on this exciting journey 🗾 and conquer the unravel algorithmic mysteries! 🙌🏻
 
 ## Courses Overview
 ### 🎓 Course Highlights:
-**Course Name 1:** Geeks for Geeks Self-paced Course on Data Structures and Algorithms
+**Course Name 1:** Geeks for Geeks Self-paced Course on striver.sdesheet.greedy.Data Structures and Algorithms
 
 **Platform:** [GeeksforGeeks](https://www.geeksforgeeks.org)
 
